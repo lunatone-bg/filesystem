@@ -1,0 +1,12 @@
+Package: findutils
+Version: 4.5.5-r3.0.5
+Description: find, locate, and xargs binaries.
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv3
+Architecture: armv7a
+OE: findutils
+Homepage: unknown
+Depends: libgcc1, libc6
+Source: ftp://alpha.gnu.org/gnu/findutils/findutils-4.5.5.tar.gz;name=archive

@@ -1,0 +1,12 @@
+Package: xst
+Version: 0.15-r1.6
+Description: GPE configuration utility
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: xst
+Homepage: unknown
+Depends: libglib-2.0-0, libxsettings-client0, libx11-6, libc6
+Source: http://gpe.linuxtogo.org/download/source/xst-0.15.tar.gz file://makefile-fix.patch

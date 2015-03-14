@@ -1,0 +1,12 @@
+Package: libcrypto0.9.8
+Version: 0.9.8j-r11.0.3
+Description: Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: openssl
+Architecture: armv7a
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Source: http://www.openssl.org/source/openssl-0.9.8j.tar.gz file://configure-targets.patch;patch=1 file://shared-libs.patch;patch=1 file://debian.patch;patch=1 file://oe-ldflags.patch;patch=1

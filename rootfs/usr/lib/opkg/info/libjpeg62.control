@@ -1,0 +1,13 @@
+Package: libjpeg62
+Version: 6b-r8.3
+Description: libjpeg is a library for handling the JPEG (JFIF) image format.
+Section: libs
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: jpeg
+Architecture: armv7a
+OE: jpeg
+Homepage: unknown
+Depends: libc6 (>= 2.9)
+Provides: libjpeg62
+Source: http://www.ijg.org/files/jpegsrc.v6b.tar.gz file://debian.patch;patch=1 file://ldflags.patch;patch=1 file://paths.patch;patch=1 file://libtool_tweak.patch;patch=1

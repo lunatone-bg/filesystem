@@ -1,0 +1,1 @@
+console=ttyS2,115200n8 omapfb.vrfb=y vram=5M omapfb.rotate=2 noinitrd root=/dev/nfs rw nfsroot=192.168.5.182://var/lib/tftpboot/rootfs/test/test2/f18/rootfs_yaffs2_e2 ip=192.168.5.187:192.168.5.182:192.168.5.181:255.255.255.0::eth0:off ethaddr=f8:dc:7a:00:44:d9

@@ -1,0 +1,7 @@
+/sbin/runlevel
+/usr/bin/wall.sysvinit
+/usr/bin/utmpdump
+/sbin/shutdown.sysvinit
+/usr/bin/mesg.sysvinit
+/usr/bin/lastb
+/usr/bin/last.sysvinit

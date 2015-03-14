@@ -1,0 +1,12 @@
+Package: angstrom-x11vnc-xinit
+Version: 1.0-r1.6
+Description: Script to start a passwordless vnc of the current X session
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: all
+OE: angstrom-x11vnc-xinit
+Homepage: unknown
+Depends: x11vnc
+Source: file:///OE/org.openembedded.dev/recipes/angstrom/angstrom-x11vnc-xinit.bb

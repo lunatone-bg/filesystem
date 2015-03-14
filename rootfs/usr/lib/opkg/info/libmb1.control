@@ -1,0 +1,12 @@
+Package: libmb1
+Version: 1.9-r6.3
+Description: Matchbox window manager core library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: libmatchbox
+Homepage: unknown
+Depends: libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libexpat1 (>= 2.0.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libjpeg62 (>= 6b), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3)
+Source: http://projects.o-hand.com/matchbox/sources/libmatchbox/1.9/libmatchbox-1.9.tar.gz file://16bppfixes.patch;patch=1 file://configure_fixes.patch;patch=1 file://reset-sigchld.patch;patch=1 file://check.m4

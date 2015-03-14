@@ -1,0 +1,12 @@
+Package: libfontenc1
+Version: 1:1.1.0-r9.0.6
+Description: X11 font encoding library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: libfontenc
+Homepage: http://www.x.org
+Depends: libz1, libc6
+Source: http://xorg.freedesktop.org/releases/individual/lib/libfontenc-1.1.0.tar.bz2;name=archive

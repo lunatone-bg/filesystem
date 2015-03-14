@@ -1,0 +1,12 @@
+Package: xkbd
+Version: 0.8.15-r4.3
+Description: Version 0.8.15-r4 of package xkbd
+Section: x11
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: xkbd
+Homepage: unknown
+Depends: libxtst6 (>= 1.0.3), libxext6 (>= 1.0.5), libxpm4 (>= 3.5.7), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Source: http://www.angstrom-distribution.org/unstable/sources/xkbd-0.8.15-CVS.tar.gz file://libtool-lossage.patch;patch=1;pnum=1 file://fix-equalsign.patch;patch=1 file://fix-circumkey.patch;patch=1 file://add-default-common-slides.patch;patch=1 file://differentiate-desktop-name.patch;patch=1 file://xkbd.png

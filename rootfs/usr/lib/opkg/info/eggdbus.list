@@ -1,0 +1,4 @@
+/usr/bin/eggdbus-glib-genmarshal
+/usr/bin/eggdbus-binding-tool
+/usr/lib/libeggdbus-1.so.0.0.0
+/usr/lib/libeggdbus-1.so.0

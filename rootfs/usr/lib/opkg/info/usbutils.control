@@ -1,0 +1,12 @@
+Package: usbutils
+Version: 0.86-r0.5
+Description: Host side USB console utilities.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: usbutils
+Homepage: unknown
+Depends: libusb-0.1-4 (>= 0.1.2), libz1 (>= 1.2.3), libc6 (>= 2.9)
+Source: http://downloads.sourceforge.net/linux-usb/usbutils-0.86.tar.gz

@@ -1,0 +1,12 @@
+Package: libxi6
+Version: 1:1.2.0-r1.3
+Description: X11 Input extension library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libxi
+Homepage: http://www.x.org
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXi-1.2.0.tar.bz2

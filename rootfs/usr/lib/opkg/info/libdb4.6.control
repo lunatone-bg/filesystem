@@ -1,0 +1,15 @@
+Package: libdb4.6
+Source: db4.6
+Version: 4.6.21-12
+Architecture: armel
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Berkeley DB Maintainers <pkg-db-devel@lists.alioth.debian.org>
+Installed-Size: 1132
+Depends: libc6 (>= 2.4)
+Conflicts: libdb2 (<< 2:2.7.7-3)
+Section: libs
+Priority: standard
+Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
+Description: Berkeley v4.6 Database Libraries [runtime]
+ This is the runtime package for programs that use the v4.6 Berkeley
+ database library.

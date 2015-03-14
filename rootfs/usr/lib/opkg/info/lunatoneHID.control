@@ -1,0 +1,11 @@
+Package: lunatoneHID
+Source: lunatoneHID
+Version: 0.1
+Architecture: armel
+Maintainer: Lunatone BG <lunatone@lunatone.com>
+Installed-Size: 111
+Depends: libusb-1.0-0 (>= 1.0.1)
+Priority: optional
+Homepage: http://www.lunatone.com
+Description: HID Driver for Lunatone USB Devices.
+Original-Maintainer: Lunatone

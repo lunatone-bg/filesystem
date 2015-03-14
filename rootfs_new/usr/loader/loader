@@ -1,0 +1,19 @@
+#!/bin/sh
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/lib:/lib
+exec 1>/dev/null 2>/dev/null
+
+while [ $(ps -ef |grep upload.cgi | grep -v grep) ];
+do
+echo "waiting to process to end..."
+sleep 1
+done
+
+sleep 2
+sync
+echo 1 > /proc/sys/vm/drop_caches
+
+
+/usr/loader/loader_lan.sh
+rm -rf /temp;
+/usr/loader/reboot.sh
+

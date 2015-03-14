@@ -1,0 +1,12 @@
+Package: update-alternatives-cworth
+Version: 0.99.154-r1.3
+Description: Version 0.99.154-r1 of package update-alternatives-cworth
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: all
+OE: update-alternatives-cworth
+Homepage: unknown
+Provides: update-alternatives
+Source: cvs://anoncvs:anoncvs@anoncvs.handhelds.org/cvs;module=familiar/dist/ipkg;tag=V0-99-154

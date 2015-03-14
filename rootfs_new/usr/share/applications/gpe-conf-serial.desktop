@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Serial Ports
+Comment=Serial Port Settings
+Exec=gpe-conf serial
+Terminal=false
+Type=Application
+Icon=gpe-config-serial.png
+Categories=Application;SystemSettings;GPE;
+StartupNotify=true
+X-SingleInstance=true

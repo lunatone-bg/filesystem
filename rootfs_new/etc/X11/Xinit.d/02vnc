@@ -1,0 +1,2 @@
+#!/bin/sh
+x11vnc -bg -display :0 -forever -avahi -shared 

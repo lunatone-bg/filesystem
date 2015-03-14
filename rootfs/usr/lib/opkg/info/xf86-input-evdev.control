@@ -1,0 +1,12 @@
+Package: xf86-input-evdev
+Version: 1:2.2.5-r7.3
+Description: X.Org X server -- evdev input driver
+Section: x11/drivers
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xf86-input-evdev
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-input-evdev-2.2.5.tar.bz2

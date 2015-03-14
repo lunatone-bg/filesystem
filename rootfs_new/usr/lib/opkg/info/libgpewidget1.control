@@ -1,0 +1,12 @@
+Package: libgpewidget1
+Version: 0.117-r0.6
+Description: libgpewidget contains a collection of widgets and other common code shared by many GPE applications.
+Section: gpe/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: LGPL
+Architecture: armv7a
+OE: libgpewidget
+Homepage: unknown
+Depends: gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0, libcairo2, libpixman-1-0, libfontconfig1, libexpat1, libfreetype6, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libz1
+Source: http://gpe.linuxtogo.org/download/source/libgpewidget-0.117.tar.bz2 file://pkgconfig.patch;striplevel=0

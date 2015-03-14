@@ -1,0 +1,17 @@
+Package: netplug
+Version: 1.2.9.1-2ubuntu1
+Architecture: armel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 128
+Depends: libc6 (>= 2.4), iproute
+Section: net
+Priority: optional
+Homepage: http://www.red-bean.com/~bos/
+Description: network link monitor daemon
+ This daemon monitors the link status of network cards and configures
+ the network on plug- and un-plug-events.
+ .
+ It's similar to ifplugd, but uses NETLINK instead of regularly polling
+ the link status. This improves power-consumption with laptops, but does
+ not work with all network card.
+Original-Maintainer: Philipp Matthias Hahn <pmhahn@debian.org>

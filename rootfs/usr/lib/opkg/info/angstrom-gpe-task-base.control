@@ -1,0 +1,13 @@
+Package: angstrom-gpe-task-base
+Version: 1.0-r40.3
+Description: Task packages for the Angstrom distribution
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: beagleboard
+OE: angstrom-gpe-task-base
+Homepage: unknown
+Depends: gpe-scap, matchbox, matchbox-panel-hacks, matchbox-applet-startup-monitor, rxvt-unicode, gpe-terminal, matchbox-keyboard, xkbd, xkbd-layout-ru, xst, xhost, xrdb, gpe-soundserver, gpe-dm, gpe-login, gpe-session-scripts, gpe-icons, gpe-confd, gpe-autostarter, suspend-desktop, teleport, xauth, gdk-pixbuf-loader-png, gdk-pixbuf-loader-xpm, gdk-pixbuf-loader-jpeg, pango-module-basic-x, pango-module-basic-fc
+Recommends: gpe-theme-clearlooks, xcursor-transparent-theme
+Source: file:///OE/org.openembedded.dev/recipes/angstrom/angstrom-gpe-task-base.bb

@@ -1,0 +1,2 @@
+# usb lunatone
+SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="17b5", ATTR{idProduct}=="0010", GROUP="adm", MODE="0666"

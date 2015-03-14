@@ -1,0 +1,12 @@
+Package: libgif4
+Version: 4.1.6-r2.6
+Description: shared library for GIF images
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: giflib
+Homepage: unknown
+Depends: libsm6, libuuid1, libice6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Source: http://downloads.sourceforge.net/giflib/giflib-4.1.6.tar.bz2

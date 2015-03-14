@@ -1,0 +1,12 @@
+Package: matchbox-applet-startup-monitor
+Version: 0.1-r6.6
+Description: Matchbox Startup monitor applet
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: matchbox-applet-startup-monitor
+Homepage: unknown
+Depends: libstartup-notification-1-0, libsm6, libuuid1, libice6, libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libc6, libxft2, libfontconfig1, libexpat1, libfreetype6, libz1, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6
+Source: http://projects.o-hand.com/matchbox/sources/mb-applet-startup-monitor/0.1/mb-applet-startup-monitor-0.1.tar.gz file://85mb-applet-startup-monitor

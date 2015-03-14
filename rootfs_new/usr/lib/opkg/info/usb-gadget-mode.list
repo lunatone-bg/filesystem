@@ -1,0 +1,3 @@
+/etc/init.d/usb-gadget
+/usr/bin/usb-gadget
+/etc/default/usb-gadget

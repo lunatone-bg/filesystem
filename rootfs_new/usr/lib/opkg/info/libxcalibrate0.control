@@ -1,0 +1,12 @@
+Package: libxcalibrate0
+Version: 3:0.0+r9.0+gitr0+209d83af61ed38a002c8096377deac292b3e396c-r9.0.6
+Description: Touchscreen calibration client library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: libxcalibrate
+Homepage: http://www.x.org
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Source: git://anongit.freedesktop.org/git/xorg/lib/libXCalibrate;protocol=git

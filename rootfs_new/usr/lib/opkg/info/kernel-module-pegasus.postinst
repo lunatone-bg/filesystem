@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ -n "$D" ]; then
+	arm-angstrom-linux-gnueabi-depmod-2.6 -A -b $D -F /OE/angstrom-dev/sysroots/omap3evm-angstrom-linux-gnueabi/kernel/System.map-2.6.32 2.6.32
+else
+	depmod -a 2.6.32
+	update-modules || true
+fi
+

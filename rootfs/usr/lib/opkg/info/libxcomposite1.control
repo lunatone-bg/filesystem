@@ -1,0 +1,12 @@
+Package: libxcomposite1
+Version: 1:0.4.0-r0.3
+Description: X Composite extension library.
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: libxcomposite
+Homepage: http://www.x.org
+Depends: libxfixes3 (>= 4.0.3), libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXcomposite-0.4.0.tar.bz2 file://change-include-order.patch;patch=1

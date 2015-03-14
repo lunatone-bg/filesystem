@@ -1,0 +1,25 @@
+#!/bin/sh
+
+#XRES=`xdpyinfo | awk '/dimensions/ { print $2 }' | cut -dx -f1`
+
+#matchbox-desktop &
+#matchbox-panel --no-flip --orientation south &
+#exec matchbox-window-manager -use_cursor yes $@ 
+
+#matchbox_present=$(fw_printenv matchbox)
+application=$(fw_printenv application)
+
+echo "matchbox ..."
+if [[ -n "$application" ]] ; then
+
+exec matchbox-window-manager -use_cursor yes $@
+
+else
+
+matchbox-desktop &
+matchbox-panel --no-flip --orientation south &
+
+exec matchbox-window-manager -use_cursor yes $@ 
+fi
+
+

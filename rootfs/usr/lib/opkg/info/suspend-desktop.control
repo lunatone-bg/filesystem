@@ -1,0 +1,13 @@
+Package: suspend-desktop
+Version: 1.0-r1.3
+Description: Suspend feature for the application launcher menu.
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: all
+OE: suspend-desktop
+Homepage: unknown
+Depends: gpe-conf
+Recommends: apm
+Source: file://suspend.desktop file://suspend.sh

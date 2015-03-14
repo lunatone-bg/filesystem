@@ -1,0 +1,12 @@
+Package: matchbox-desktop
+Version: 0.9.1-r3.3
+Description: Matchbox Window Manager Desktop
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: matchbox-desktop
+Homepage: unknown
+Depends: libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libc6 (>= 2.9), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libexpat1 (>= 2.0.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libz1 (>= 1.2.3), libstartup-notification-1-0 (>= 0.9), libsm6 (>= 1.1.0), libuuid1 (>= 1.41.5), libice6 (>= 1.0.4)
+Source: http://projects.o-hand.com/matchbox/sources/matchbox-desktop/0.9/matchbox-desktop-0.9.1.tar.bz2 file://pkgconfig_fix.patch;patch=1 file://mb-desktop-multi-category-matching.patch;patch=1

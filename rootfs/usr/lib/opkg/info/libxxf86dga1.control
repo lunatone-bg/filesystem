@@ -1,0 +1,12 @@
+Package: libxxf86dga1
+Version: 1:1.0.2-r1.3
+Description: X11 Direct Graphics Access extension library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libxxf86dga
+Homepage: http://www.x.org
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXxf86dga-1.0.2.tar.bz2

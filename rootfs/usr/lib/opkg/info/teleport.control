@@ -1,0 +1,12 @@
+Package: teleport
+Version: 0.34-r0.3
+Description: Teleport app
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: teleport
+Homepage: unknown
+Depends: libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libsqlite0 (>= 2.8.17), libc6 (>= 2.9), libx11-6 (>= 1.2)
+Source: http://gpe.linuxtogo.org/download/source/teleport-0.34.tar.gz file://makefile-fix.patch;patch=1

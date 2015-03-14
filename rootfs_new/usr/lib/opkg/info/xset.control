@@ -1,0 +1,12 @@
+Package: xset
+Version: 1:1.2.1-r5.0.6
+Description: user preference utility for X
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: xset
+Homepage: http://www.x.org/
+Depends: libxmuu1, libx11-6, libxext6, libxxf86misc1, libxfontcache1, libc6
+Source: http://xorg.freedesktop.org/releases/individual/app/xset-1.2.1.tar.bz2;name=archive

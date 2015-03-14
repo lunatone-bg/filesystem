@@ -1,0 +1,13 @@
+Package: libcairo2
+Version: 1.10.0-r2.6
+Description: Cairo graphics library
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MPL LGPL
+Architecture: armv7a
+OE: cairo
+Homepage: unknown
+Build: 2011.03-maintenance/53b31b4
+Depends: libc6 (>= 2.9), libpixman-1-0 (>= 0.21.4), libfontconfig1 (>= 2.8.0), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.4.3), libpng12-0 (>= 1.2.44), libxrender1 (>= 0.9.6), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Source: http://cairographics.org/releases/cairo-1.10.0.tar.gz;name=cairo

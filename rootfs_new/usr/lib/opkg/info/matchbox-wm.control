@@ -1,0 +1,12 @@
+Package: matchbox-wm
+Version: 1.2-r7.6
+Description: Matchbox window manager
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: matchbox-wm
+Homepage: unknown
+Depends: libmb1, libjpeg8, libxsettings-client0, libx11-6, libxext6, libpng12-0, libxft2, libc6, libstartup-notification-1-0, gconf, libglib-2.0-0, libxfixes3, libxcursor1, libgobject-2.0-0
+Source: http://matchbox-project.org/sources/matchbox-window-manager/1.2/matchbox-window-manager-1.2.tar.bz2 file://configure_fix.patch file://select-client-crash.patch file://gconf-2.m4 file://kbdconfig

@@ -1,0 +1,13 @@
+Package: task-base-ext2
+Version: 1.0-r93.6
+Description: Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: omap3evm
+OE: task-base
+Homepage: unknown
+Build: 2011.03-maintenance/bdb967b
+Depends: hdparm, e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Source: file:///OE/angstrom-2008/sources/openembedded/recipes/tasks/task-base.bb

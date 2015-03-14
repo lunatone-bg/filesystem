@@ -1,0 +1,16 @@
+Package: libnss3-0d
+Source: nss
+Version: 3.12.3.1-0ubuntu2
+Architecture: armel
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 68
+Depends: libnss3-1d
+Section: libs
+Priority: optional
+Homepage: http://www.mozilla.org/projects/security/pki/nss/
+Description: Transition package for Network Security Service libraries
+ This is a set of libraries designed to support cross-platform development
+ of security-enabled client and server applications. It can support SSLv2
+ and  v4, TLS, PKCS #5, #7, #11, #12, S/MIME, X.509 v3 certificates and
+ other security standards.
+Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>

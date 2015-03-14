@@ -1,0 +1,12 @@
+Package: matchbox-panel
+Version: 0.9.3-r6.6
+Description: Matchbox Window Manager Panel
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: omap3evm
+OE: matchbox-panel
+Homepage: unknown
+Depends: libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libxft2, libxrender1, libfontconfig1, libfreetype6, libx11-6, libstartup-notification-1-0, libc6, libapm1, libiw29, libgcc1
+Source: http://projects.o-hand.com/matchbox/sources/matchbox-panel/0.9/matchbox-panel-0.9.3.tar.gz file://mb-applet-battery-repaint-093.patch file://mb-applet-system-monitor-crash.patch file://matchbox-panel-uninitialised-crash.patch

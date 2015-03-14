@@ -1,0 +1,13 @@
+/usr/lib/mime/debian-view
+/usr/bin/print
+/usr/bin/edit
+/usr/bin/see
+/etc/mailcap.order
+/usr/sbin/update-mime
+/usr/lib/mime/mailcap
+/usr/lib/mime/packages/mime-support
+/usr/bin/compose
+/etc/mime.types
+/usr/lib/mime/playaudio
+/usr/lib/mime/playdsp
+/usr/bin/run-mailcap

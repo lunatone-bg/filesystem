@@ -1,0 +1,11 @@
+/usr/share/doc/netplug/TODO
+/usr/share/doc/netplug/NEWS.gz
+/etc/init.d/netplug
+/usr/share/doc/netplug/copyright
+/usr/share/doc/netplug/changelog.Debian.gz
+/usr/share/man/man8/netplugd.8.gz
+/usr/share/doc/netplug/README
+/etc/netplug/netplugd.conf
+/usr/share/doc/netplug/changelog.gz
+/etc/netplug/netplug
+/sbin/netplugd

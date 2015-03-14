@@ -1,0 +1,12 @@
+Package: libgmp10
+Version: 5.0.1-r1.1.6
+Description: GNU multiprecision arithmetic library
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv3 LGPLv3
+Architecture: armv7a
+OE: gmp
+Homepage: http://www.swox.com/gmp/
+Depends: libc6
+Source: ftp://ftp.gnu.org/gnu/gmp/gmp-5.0.1.tar.bz2;name=gmp file://configure.patch file://amd64.patch

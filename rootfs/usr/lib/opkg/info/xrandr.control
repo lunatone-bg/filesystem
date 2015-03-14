@@ -1,0 +1,12 @@
+Package: xrandr
+Version: 1:1.2.3-r0.3
+Description: X Resize and Rotate extension command.
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: xrandr
+Homepage: http://www.x.org/
+Depends: libxrandr2 (>= 1.2.3), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/app/xrandr-1.2.3.tar.bz2 file://resolve_symbol_clash.patch;patch=1

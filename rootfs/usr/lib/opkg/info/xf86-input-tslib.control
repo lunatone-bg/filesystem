@@ -1,0 +1,13 @@
+Package: xf86-input-tslib
+Version: 0.0.6-r7.4
+Description: X.Org X server -- tslib input driver
+Section: x11/drivers
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xf86-input-tslib
+Homepage: http://www.x.org
+Depends: libts-1.0-0 (>= 1.0), libc6 (>= 2.9)
+Recommends: hal, tslib-calibrate
+Source: http://www.pengutronix.de/software/xf86-input-tslib/download/xf86-input-tslib-0.0.6.tar.bz2 file://10-x11-input-tslib.fdi

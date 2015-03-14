@@ -1,0 +1,8 @@
+#!/bin/sh
+update-alternatives --remove psplash /usr/bin/psplash.psplash
+if test "x$D" != "x"; then
+	OPT="-r $D"
+else
+	OPT=""
+fi
+update-rc.d $OPT psplash remove

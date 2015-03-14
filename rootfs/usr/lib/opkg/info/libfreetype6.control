@@ -1,0 +1,12 @@
+Package: libfreetype6
+Version: 2.3.11-r0.5
+Description: Freetype font rendering library
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: freetype
+Architecture: armv7a
+OE: freetype
+Homepage: unknown
+Depends: libc6
+Source: http://downloads.sourceforge.net/freetype/freetype-2.3.11.tar.bz2 file://no-hardcode.patch;patch=1 file://fix-configure.patch;patch=1 file://libtool-tag.patch;patch=1

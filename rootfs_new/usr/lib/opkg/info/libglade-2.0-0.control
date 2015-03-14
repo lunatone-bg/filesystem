@@ -1,0 +1,12 @@
+Package: libglade-2.0-0
+Version: 2.6.4-r0.6
+Description: Runtime support for GTK interface builder
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: LGPL
+Architecture: armv7a
+OE: libglade
+Homepage: http://glade.gnome.org/
+Depends: hicolor-icon-theme, gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libz1, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Source: http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/libglade-2.6.4.tar.bz2;name=archive file://glade-cruft.patch file://no-xml2.patch

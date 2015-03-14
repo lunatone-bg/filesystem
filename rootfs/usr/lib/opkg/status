@@ -1,0 +1,1638 @@
+Package: bzip2
+Version: 1.0.2-r2.5
+Depends: libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: libnss-db
+Version: 2.2.3pre1-3ubuntu3
+Depends: make, libc6 (>= 2.4), libdb4.6, libselinux1 (>= 2.0.59)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1257336576
+
+Package: psplash-angstrom
+Version: 0.0+svnr249-r23.5
+Depends: psplash-support, update-rc.d, libc6 (>= 2.9)
+Provides: virtual-psplash
+Conflicts: exquisite
+Status: install user installed
+Architecture: armv7a
+
+Package: busybox-mountall
+Version: 1.13.2-r22.1.3
+Recommends: libgcc1
+Status: install ok installed
+Architecture: armv7a
+
+Package: matchbox
+Version: 0.9.1-r1.3
+Depends: matchbox-common, matchbox-wm, matchbox-panel, matchbox-desktop
+Status: install ok installed
+Architecture: armv7a
+
+Package: xserver-common
+Version: 1.25-r3.3
+Depends: xmodmap, xrandr, xdpyinfo
+Status: install ok installed
+Architecture: all
+
+Package: xcursor-transparent-theme
+Version: 0.1.1-r2.3
+Status: install ok installed
+Architecture: all
+
+Package: libxkbfile1
+Version: 1:1.0.5-r1.3
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xrandr
+Version: 1:1.2.3-r0.3
+Depends: libxrandr2 (>= 1.2.3), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxmuu1
+Version: 1:1.0.4-r1.3
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libcurl4
+Version: 7.19.5-r1.3
+Depends: libc6 (>= 2.9), libz1 (>= 1.2.3), libgnutls26 (>= 2.4.2), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libgcc1 (>= 4.3.3)
+Recommends: curl-certs
+Status: install ok installed
+Architecture: armv7a
+
+Package: avahi-daemon
+Version: 0.6.25-r1.4
+Depends: sysvinit-pidof, update-rc.d, libavahi-common3 (>= 0.6.25), libavahi-core6 (>= 0.6.25), libdaemon0 (>= 0.13), libexpat1 (>= 2.0.0), libc6 (>= 2.9), libdbus-1-3 (>= 1.2.3)
+Recommends: libnss-mdns
+Status: install user installed
+Architecture: armv7a
+
+Package: gpe-conf
+Version: 0.2.8-r0.3
+Depends: xst, gpe-confd, xset, ntpdate, gpe-icons, tzdata, xrandr, libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libxrandr2 (>= 1.2.3), libxsettings-client0 (>= 0.17), libx11-6 (>= 1.2), libesd0 (>= 0.2.36), libaudiofile0 (>= 0.2.6), libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Provides: bl
+Conflicts: bl
+Status: install ok installed
+Architecture: armv7a
+
+Package: libsm6
+Version: 1:1.1.0-r0.3
+Depends: libice6 (>= 1.0.4), libuuid1 (>= 1.41.5), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libnss-mdns
+Version: 0.10-r0.4
+Depends: libc6 (>= 2.9)
+Recommends: zeroconf
+Status: install ok installed
+Architecture: armv7a
+
+Package: gdk-pixbuf-loader-png
+Version: 2.18.0-r6.0.3
+Depends: libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3), gtk+ (>= 2.18.0), libgio-2.0-0 (>= 2.22.0), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.22.0), libgmodule-2.0-0 (>= 2.22.0), libglib-2.0-0 (>= 2.22.0)
+Status: install ok installed
+Architecture: armv7a
+
+Package: angstrom-feed-configs
+Version: 1.0-r8.3
+Recommends: opkg-nogpg
+Status: install user installed
+Architecture: beagleboard
+
+Package: xkeyboard-config
+Version: 1.4-r3.3
+Depends: xkbcomp
+Status: install ok installed
+Architecture: armv7a
+
+Package: pango-module-basic-fc
+Version: 1.24.4-r0.3
+Depends: pango, pango (>= 1.24.4), libgobject-2.0-0 (>= 2.20.4), libgmodule-2.0-0 (>= 2.20.4), libc6 (>= 2.9), libglib-2.0-0 (>= 2.20.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0)
+Status: install ok installed
+Architecture: armv7a
+
+Package: angstrom-version
+Version: 1:2009.X-test-20091023-r2.3
+Status: install user installed
+Architecture: beagleboard
+
+Package: nss
+Version: 3.12.6-r2.5
+Depends: nspr, libc6, libz1, libgcc1, libsqlite3-0
+Status: install ok installed
+Architecture: armv7a
+
+Package: openssh-ssh
+Version: 5.2p1-r8.0.4
+Depends: libcrypto0.9.8 (>= 0.9.8j), libc6 (>= 2.9), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: kernel-2.6.29-omap1
+Version: 2.6.29-r47.3
+Depends: kernel-image-2.6.29-omap1
+Status: install ok installed
+Architecture: beagleboard
+
+Package: xsetroot
+Version: 1:1.0.2-r0
+Depends: libxmuu1 (>= 1.0.3), libx11-6 (>= 1.1.3), libc6 (>= 2.6.1)
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1273164040
+
+Package: libgcrypt11
+Version: 1.4.1-r0.3
+Depends: libgpg-error0 (>= 1.4), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: angstrom-x11-base-depends
+Version: 1.0-r43.3
+Depends: xserver-xorg, xf86-input-evdev, xf86-input-mouse, xf86-video-omapfb, xf86-input-keyboard, dbus-x11, ttf-dejavu-sans, ttf-dejavu-sans-mono
+Status: install user installed
+Architecture: beagleboard
+
+Package: libc6
+Version: 2.9-r36.3.5
+Depends: update-rc.d, libcidn1
+Status: install user installed
+Architecture: armv7a
+
+Package: modutils-initscripts
+Version: 1.0-r3.3
+Depends: update-rc.d
+Status: install ok installed
+Architecture: armv7a
+
+Package: xrdb
+Version: 1:1.0.5-r0.3
+Depends: libxmuu1 (>= 1.0.4), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libdaemon0
+Version: 0.13-r0.4
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libjpeg62
+Version: 6b-r8.3
+Depends: libc6 (>= 2.9)
+Provides: libjpeg62
+Status: install ok installed
+Architecture: armv7a
+
+Package: angstrom-locale-en-feed-config
+Version: 1.0-r8.3
+Status: install user installed
+Architecture: beagleboard
+Installed-Time: 1256733390
+
+Package: libmb1
+Version: 1.9-r6.3
+Depends: libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libexpat1 (>= 2.0.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libjpeg62 (>= 6b), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: procps
+Version: 3.2.8-r10.1.5
+Depends: update-rc.d, libc6, libgcc1, ncurses
+Status: install user installed
+Architecture: armv7a
+
+Package: libx11-6
+Version: 1:1.3.4-r8.0.5
+Depends: libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: ncurses-bin
+Version: 5.7+20090803-2ubuntu2
+Provides: tput
+Conflicts: ncurses, tput
+Status: install prefer,user not-installed
+Essential: yes
+Architecture: armel
+
+Package: hotplug-dbus
+Version: 0.9-r1.3
+Depends: hotplug
+Status: install ok installed
+Architecture: armv7a
+
+Package: libfontenc1
+Version: 1:1.0.4-r1.3
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxsettings-client0
+Version: 0.17-r2.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libcidn1
+Version: 2.9-r36.3.5
+Depends: libc6
+Status: install ok installed
+Architecture: armv7a
+
+Package: matchbox-common
+Version: 0.9.1-r5.3
+Status: install ok installed
+Architecture: all
+
+Package: xserver-xorg-conf
+Version: 0.1-r11.3
+Status: install ok installed
+Architecture: beagleboard
+
+Package: libblkid1
+Version: 2.16-r8.3.3
+Depends: libuuid1 (>= 2.16), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libthread-db1
+Version: 2.9-r36.3.5
+Depends: libc6
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxss1
+Version: 1:1.1.3-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Replaces: libxss
+Status: install ok installed
+Architecture: armv7a
+
+Package: libavahi-common3
+Version: 0.6.25-r1.4
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: ttf-dejavu-common
+Version: 2.23-r2.3
+Depends: ttf-dejavu-common
+Recommends: font-update-common
+Status: install ok installed
+Architecture: all
+
+Package: matchbox-applet-inputmanager
+Version: 0.6-r4.3
+Depends: libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3), libc6 (>= 2.9), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libexpat1 (>= 2.0.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xauth
+Version: 1:1.0.3-r0.3
+Depends: libxau6 (>= 1.0.4), libxext6 (>= 1.0.5), libxmuu1 (>= 1.0.4), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: tzdata
+Version: 2009o-r4.0.3
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install ok installed
+Architecture: armv7a
+
+Package: make
+Version: 3.81-r0.4
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: make
+Version: 3.81-r0.3
+Depends: libc6 (>= 2.9)
+Status: install prefer,user not-installed
+Architecture: armv7a
+
+Package: udev
+Version: 141-r12.3
+Depends: udev-utils, update-rc.d, libc6 (>= 2.9), libvolume-id1 (>= 141)
+Provides: hotplug
+Status: install user installed
+Architecture: armv7a
+
+Package: opkg-nogpg
+Version: 0.1.6+svnr219-r15.3
+Depends: libopkg0 (>= 0.1.6+svnr219), libcurl4 (>= 7.19.5), libc6 (>= 2.9), libz1 (>= 1.2.3), libgnutls26 (>= 2.4.2), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4)
+Status: install user installed
+Architecture: armv7a
+
+Package: gpe-session-scripts
+Version: 0.68-r0.6
+Depends: matchbox-panel, matchbox-desktop, matchbox-common, gpe-session-starter, xtscal, gpe-question, matchbox-applet-inputmanager, xmodmap, xdpyinfo, xserver-common, ipaq-sleep
+Status: install user installed
+Architecture: beagleboard
+
+Package: xkbcomp
+Version: 1.0.5-r0.3
+Depends: libx11-6 (>= 1.2), libxkbfile1 (>= 1.0.5), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: alsa-conf-base
+Version: 1.0.20-r0.4
+Status: install ok installed
+Architecture: armv7a
+
+Package: alsa-conf-base
+Version: 1.0.20-r0.3
+Status: install prefer,user not-installed
+Architecture: armv7a
+
+Package: eggdbus
+Version: 0.6-r0.5
+Depends: libdbus-1-3 (>= 1.2.3), libgobject-2.0-0 (>= 2.22.4), libglib-2.0-0 (>= 2.22.4), libc6 (>= 2.9), libgio-2.0-0 (>= 2.22.4), libgmodule-2.0-0 (>= 2.22.4), libdbus-glib-1-2 (>= 0.82)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-autostarter
+Version: 0.12-r0.3
+Depends: hotplug-dbus, libglib-2.0-0 (>= 2.20.0), libdbus-glib-1-2 (>= 0.78), libdbus-1-3 (>= 1.2.1), libgobject-2.0-0 (>= 2.20.0), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: matchbox-keyboard
+Version: 0.0+svnr1910-r7.3
+Depends: libfakekey0 (>= 0.2+svnr1455), libxtst6 (>= 1.0.3), libxext6 (>= 1.0.5), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libexpat1 (>= 2.0.0), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3)
+Provides: matchbox-keyboard-inputmethod
+Conflicts: matchbox-keyboard-inputmethod
+Status: install ok installed
+Architecture: armv7a
+
+Package: openssh-scp
+Version: 5.2p1-r8.0.4
+Depends: libcrypto0.9.8 (>= 0.9.8j), libc6 (>= 2.9), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxxf86dga1
+Version: 1:1.0.2-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: openssh-sshd
+Version: 5.2p1-r8.0.4
+Depends: update-rc.d, openssh-keygen, libcrypto0.9.8 (>= 0.9.8j), libc6 (>= 2.9), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Conflicts: dropbear
+Status: install ok installed
+Architecture: armv7a
+
+Package: rgb
+Version: 1:1.0.3-r0.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libnss3-0d
+Version: 3.12.3.1-0ubuntu2
+Depends: libnss3-1d
+Status: install user installed
+Architecture: armel
+Installed-Time: 1264575297
+
+Package: xf86-input-mouse
+Version: 1:1.4.0-r7.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libiw29
+Version: 29-r4.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-scap
+Version: 1.4-r0.3
+Depends: gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libgthread-2.0-0 (>= 2.20.0), libc6 (>= 2.9), libsoup-2.2-8 (>= 2.2.100), libglib-2.0-0 (>= 2.20.0), libxml2 (>= 2.7.2), libgnutls26 (>= 2.4.2), libglade-2.0-0 (>= 2.6.2), libx11-6 (>= 1.2)
+Replaces: gpe-screenshot
+Status: install ok installed
+Architecture: armv7a
+
+Package: udev-utils
+Version: 141-r12.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-question
+Version: 0.04-r0.3
+Depends: gpe-icons, libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: findutils
+Version: 4.5.5-r3.0.5
+Depends: libgcc1, libc6
+Status: install ok installed
+Architecture: armv7a
+
+Package: xst
+Version: 0.15-r0.3
+Depends: libglib-2.0-0 (>= 2.20.0), libxsettings-client0 (>= 0.17), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libnss3-1d
+Version: 3.12.6-0ubuntu2
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0), libnspr4-0d (>= 4.7.3-0ubuntu1~), libsqlite3-0 (>= 3.6.22), zlib1g (>= 1:1.1.4)
+Replaces: libnss3, libnss3-0d (<< 3.12.0~1.9b1), libnss3-dev (<< 3.12.0.3)
+Conflicts: libnss3, libnss3-dev (<< 3.12.0.3)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1270730495
+
+Package: xset
+Version: 1:1.2.0-r5.0.6
+Depends: libxmuu1, libx11-6, libxext6, libxxf86misc1, libxfontcache1, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: libopkg0
+Version: 0.1.6+svnr219-r15.3
+Depends: libcurl4 (>= 7.19.5), libc6 (>= 2.9), libz1 (>= 1.2.3), libgnutls26 (>= 2.4.2), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xf86-input-keyboard
+Version: 1:1.3.2-r7.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: tslib-tests
+Version: 1.0-r28.6.9
+Depends: libts-1.0-0, libc6
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1274519376
+
+Package: libdbus-1-3
+Version: 1.2.24-r0.5
+Depends: libc6
+Recommends: dbus
+Status: install user installed
+Architecture: armv7a
+
+Package: libselinux1
+Version: 2.0.65-5
+Depends: libc6 (>= 2.7-1)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1257336575
+Auto-Installed: yes
+
+Package: usbutils
+Version: 0.86-r0.5
+Depends: libusb-0.1-4 (>= 0.1.2), libz1 (>= 1.2.3), libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: tslib
+Version: 1.0-r22.3.4
+Depends: tslib-conf, libc6 (>= 2.9), libgcc (>= 4.3.3)
+Recommends: pointercal
+Status: install user not-installed
+Architecture: armv7a
+
+Package: portmap
+Version: 6.0-r4.5
+Depends: update-rc.d, libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: chromium
+Version: 0.1+svnr34027-r1.5
+Depends: libx11-6, libxrender1, libxext6, libc6, gtk+, libatk-1.0-0, libgio-2.0-0, pango, libcairo2, libfreetype6, libfontconfig1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0, nss, nspr, gconf, libasound2, libexpat1, libstdc++6, libgcc1
+Status: install user not-installed
+Architecture: armv7a
+
+Package: libfakekey0
+Version: 0.2+svnr1455-r1.3
+Depends: libxtst6 (>= 1.0.3), libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: netbase
+Version: 4.21-r38.3
+Depends: update-rc.d
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxtst6
+Version: 1:1.0.3-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xhost
+Version: 1:1.0.2-r0.3
+Depends: libxmuu1 (>= 1.0.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: glibc-gconv
+Version: 2.9-r35.2.3
+Status: install ok installed
+Architecture: armv7a
+
+Package: xinput
+Version: 1.5.3-r5.0.9
+Depends: libx11-6, libxext6, libxi6, libc6
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1274520967
+Auto-Installed: yes
+
+Package: ttf-dejavu-sans-mono
+Version: 2.23-r2.3
+Depends: ttf-dejavu-common
+Recommends: font-update-common
+Status: install ok installed
+Architecture: all
+
+Package: libaudiofile0
+Version: 0.2.6-r8.3
+Depends: libc6 (>= 2.9)
+Provides: libaudiofile0
+Status: install ok installed
+Architecture: armv7a
+
+Package: libgcc
+Version: 4.3.3-r7.1.4
+Depends: libc6 (>= 2.9)
+Status: install ok not-installed
+Architecture: armv7a
+
+Package: libglade-2.0-0
+Version: 2.6.4-r0.3
+Depends: hicolor-icon-theme, gtk+ (>= 2.16.4), libxcursor1 (>= 1.1.9), libxcomposite1 (>= 0.4.0), libxext6 (>= 1.0.5), libxdamage1 (>= 1.1.1), libxfixes3 (>= 4.0.3), libatk-1.0-0 (>= 1.27.90), libgio-2.0-0 (>= 2.21.4), libc6 (>= 2.9), pango (>= 1.24.4), libcairo2 (>= 1.8.0), libpixman-1-0 (>= 0.17.1), libpng12-0 (>= 1.2.35), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libz1 (>= 1.2.3), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0), libgobject-2.0-0 (>= 2.21.4), libgmodule-2.0-0 (>= 2.21.4), libglib-2.0-0 (>= 2.21.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: orbit2
+Version: 2.14.17-r0.5
+Depends: libgobject-2.0-0 (>= 2.22.1), libgthread-2.0-0 (>= 2.22.1), libc6 (>= 2.9), libgmodule-2.0-0 (>= 2.22.1), libglib-2.0-0 (>= 2.22.1), libidl-2-0 (>= 0.8.13), libgcc1 (>= 4.3.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxext6
+Version: 1:1.1.2-r8.0.5
+Depends: libx11-6, libxau6, libxdmcp6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: libz1
+Version: 1.2.3-r5.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xf86-video-omapfb
+Version: 1:0.1.1+r9a+gitr5317aae587a2bf48f07a8c06bfaf7bcbfd23bafc-r9a.5
+Depends: libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: gpe-terminal
+Version: 1.1-r1.3
+Recommends: rxvt-unicode
+Status: install ok installed
+Architecture: armv7a
+
+Package: libice6
+Version: 1:1.0.4-r1.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libsqlite0
+Version: 2.8.17-r4.3
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: hicolor-icon-theme
+Version: 0.10-r0.3
+Depends: hicolor-icon-theme
+Status: install ok installed
+Architecture: all
+
+Package: gpe-theme-clearlooks
+Version: 0.3-r0.3
+Depends: gtk-engine-clearlooks
+Status: install ok installed
+Architecture: armv7a
+
+Package: zeroconf
+Version: 0.9-r2.4
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libdb4.8
+Version: 4.8.24-1ubuntu1
+Depends: libc6 (>= 2.4)
+Conflicts: libdb2 (<< 2:2.7.7-3)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1276761111
+
+Package: libdb4.6
+Version: 4.6.21-12
+Depends: libc6 (>= 2.4)
+Conflicts: libdb2 (<< 2:2.7.7-3)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1257336548
+
+Package: libstdc++6
+Version: 4.3.3-r13.1.5
+Depends: libc6, libgcc1
+Status: install user installed
+Architecture: armv7a
+
+Package: xmodmap
+Version: 1:1.0.4-r5.0.6
+Depends: libx11-6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: avahi-utils
+Version: 0.6.25-r1.4
+Depends: libavahi-client3 (>= 0.6.25), libdbus-1-3 (>= 1.2.3), libavahi-common3 (>= 0.6.25), libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: update-alternatives-cworth
+Version: 0.99.154-r1.3
+Provides: update-alternatives
+Status: install ok installed
+Architecture: all
+
+Package: xorg-minimal-fonts
+Version: 1.0-r1.3
+Status: install ok installed
+Architecture: all
+
+Package: matchbox-wm
+Version: 1.2-r5.3
+Depends: libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libstartup-notification-1-0 (>= 0.9), gconf-dbus (>= 2.16.0+svnr641), libdbus-glib-1-2 (>= 0.82), libdbus-1-3 (>= 1.2.1), libgobject-2.0-0 (>= 2.21.4), libglib-2.0-0 (>= 2.21.4), libxfixes3 (>= 4.0.3), libxcursor1 (>= 1.1.9), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xserver-xorg
+Version: 2:1.6.1-r12.1.5
+Depends: hal, libc6 (>= 2.9), libpciaccess0 (>= 0.10.3), libxfont1 (>= 1.3.3), libfreetype6 (>= 2.3.6), libxau6 (>= 1.0.4), libfontenc1 (>= 1.0.4), libz1 (>= 1.2.3), libpixman-1-0 (>= 0.17.3), hal (>= 0.5.13), libdbus-1-3 (>= 1.2.3), libxdmcp6 (>= 1.0.2), libssl0.9.8 (>= 0.9.8j), libcrypto0.9.8 (>= 0.9.8j), libgcc1 (>= 4.3.3), libdrm2 (>= 2.4.11)
+Recommends: xserver-security-policy, xkeyboard-config, xorg-minimal-fonts, rgb, xserver-xorg-conf
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1260958425
+
+Package: matchbox-panel-hacks
+Version: 0.3-1-r7.3
+Status: install ok installed
+Architecture: all
+
+Package: libpthread-stubs0
+Version: 0.2-r0.5
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libgthread-2.0-0
+Version: 2.24.0-r5.5
+Depends: libc6, libglib-2.0-0
+Status: install user installed
+Architecture: armv7a
+
+Package: xinput-calibrator
+Version: 0.6.1-r0.5
+Depends: xinput, libxi6, libxext6, libx11-6, libxau6, libxdmcp6, libc6, libstdc++6, libgcc1
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1274520969
+
+Package: gconf-dbus
+Version: 2.16.0+svnr641-r0.1
+Depends: libgmodule-2.0-0 (>= 2.20.0), libc6 (>= 2.6.1), libdbus-glib-1-2 (>= 0.76), libdbus-1-3 (>= 1.2.1), libgobject-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libxml2 (>= 2.7.2), libz1 (>= 1.2.3)
+Provides: gconf
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1273233530
+
+Package: libnspr4-0d
+Version: 4.7.3-0ubuntu2
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.3)
+Replaces: libnspr4 (<< 2:4), libnspr4-dev (<< 4.7.1+1.9-0ubuntu2)
+Conflicts: libnspr4 (<< 2:4), libnspr4-dev (<< 4.7.1+1.9-0ubuntu2)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1272382435
+
+Package: xkbd-layout-ru
+Version: 0.1.1-r1.3
+Depends: xkbd
+Status: install ok installed
+Architecture: all
+
+Package: lunatoneHID
+Version: 0.1
+Depends: libusb-1.0-0 (>= 1.0.1)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1270110359
+
+Package: libgmodule-2.0-0
+Version: 2.24.0-r5.5
+Depends: libc6, libglib-2.0-0
+Status: install ok installed
+Architecture: armv7a
+
+Package: font-update-common
+Version: 0.1-r0.5
+Status: install user installed
+Architecture: all
+
+Package: libgpewidget1
+Version: 0.117-r0.3
+Depends: gtk+ (>= 2.16.0), libxcursor1 (>= 1.1.9), libxcomposite1 (>= 0.4.0), libxext6 (>= 1.0.5), libxdamage1 (>= 1.1.1), libxfixes3 (>= 4.0.3), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libcairo2 (>= 1.8.0), libpixman-1-0 (>= 0.13.2), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0), libpng12-0 (>= 1.2.35), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libz1 (>= 1.2.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxcb1
+Version: 1.6-r0.5
+Depends: libpthread-stubs0, libxau6, libxdmcp6, libc6
+Status: install ok installed
+Architecture: armv7a
+
+Package: libts-1.0-0
+Version: 1.0-r22.3.4
+Depends: tslib-conf, libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Recommends: pointercal
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1258659343
+Auto-Installed: yes
+
+Package: module-init-tools-depmod
+Version: 3.4-r5.5
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1272387125
+Auto-Installed: yes
+
+Package: tslib-calibrate
+Version: 1.0-r22.3.4
+Depends: libts-1.0-0 (>= 1.0), libc6 (>= 2.9)
+Recommends: pointercal
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1258659342
+Auto-Installed: yes
+
+Package: gpe-dm
+Version: 0.52-r0.3
+Depends: xserver-common, update-rc.d, libglib-2.0-0 (>= 2.20.0), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libgpg-error0
+Version: 1.4-r6.1.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: tslib-conf
+Version: 1.0-r22.3.4
+Recommends: pointercal
+Provides: libts-0.0-conf
+Status: install ok installed
+Architecture: armv7a
+
+Package: libpython2.6-1.0
+Version: 2.6.4-ml9.1.5
+Depends: libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: gtk-theme-clearlooks
+Version: 2.18.1-r1.3
+Depends: gtk-engine-clearlooks
+Replaces: gpe-theme-clearlooks
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1257336716
+
+Package: kernel
+Version: 2.6.29-r47.3
+Depends: kernel-2.6.29-omap1
+Status: install ok installed
+Architecture: beagleboard
+
+Package: libpixman-1-0
+Version: 0.17.3-r4+gitrc97b1e803fc214e9880eaeff98410c8fa37f9ddc.5
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: sysvinit-inittab
+Version: 2.86-r57.3
+Status: install ok installed
+Architecture: beagleboard
+
+Package: psplash-support
+Version: 0.0+svnr249-r23.5
+Depends: initscripts, libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxsettings0
+Version: 0.11-r1.3
+Depends: libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: base-passwd
+Version: 3.5.20-r1.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: strace
+Version: 4.5.14-r9.5
+Depends: libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: libdirectfb-1.2-0
+Version: 1.2.7-2ubuntu1
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libsysfs2, libts-0.0-0 (>= 1.0)
+Status: install prefer,user not-installed
+Architecture: armel
+
+Package: sysvinit-pidof
+Version: 2.86-r57.3
+Depends: sysvinit
+Status: install user installed
+Architecture: armv7a
+
+Package: zlib1g
+Version: 1:1.2.3.3.dfsg-12ubuntu2
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.3)
+Provides: libz1
+Conflicts: zlib1 (<= 1:1.0.4-7)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1257336554
+Auto-Installed: yes
+
+Package: apm
+Version: 3.2.2-r11.01.3
+Depends: libapm1 (>= 3.2.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxxf86vm1
+Version: 1:1.0.2-r0.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gtk-engine-clearlooks
+Version: 2.18.1-r1.3
+Depends: hicolor-icon-theme, gtk+ (>= 2.16.0), libxcursor1 (>= 1.1.9), libxcomposite1 (>= 0.4.0), libxext6 (>= 1.0.5), libxdamage1 (>= 1.1.1), libxfixes3 (>= 4.0.3), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libpixman-1-0 (>= 0.13.2), libpng12-0 (>= 1.2.35), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libz1 (>= 1.2.3), libc6 (>= 2.9), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libtinfo5
+Version: 5.7+20110115-r16.6
+Depends: libc6
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Status: install ok installed
+Architecture: armv7a
+
+Package: libfreetype6
+Version: 2.3.11-r0.5
+Depends: libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: libuuid1
+Version: 2.16-r8.3.3
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gtk+
+Version: 2.20.0-r8.0.5
+Depends: hicolor-icon-theme, libxrandr2, libxcursor1, pango, libxcomposite1, libxext6, libxdamage1, libxfixes3, libatk-1.0-0, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxau6, libxdmcp6, libgio-2.0-0, libc6, libz1, libfontconfig1, libfreetype6, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0, libgcc1
+Recommends: ttf-dejavu-sans, gdk-pixbuf-loader-png, gdk-pixbuf-loader-jpeg, gdk-pixbuf-loader-gif, gdk-pixbuf-loader-xpm, glibc-gconv-iso8859-1
+Provides: libgailutil18
+Replaces: libgailutil18
+Conflicts: libgailutil18
+Status: install user installed
+Architecture: armv7a
+
+Package: update-rc.d
+Version: 0.7-r1.3
+Status: install ok installed
+Architecture: all
+
+Package: libidl-2-0
+Version: 0.8.13-r0.5
+Depends: libglib-2.0-0 (>= 2.22.1), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gdb
+Version: 7.1-r4.6
+Depends: libncurses5, libtinfo5, libz1, libc6, libpython2.6-1.0, libgcc1
+Recommends: libthread-db1
+Status: install user not-installed
+Architecture: armv7a
+
+Package: libasound2
+Version: 1.0.23-r0.5
+Depends: alsa-conf-base, libc6, libgcc1
+Status: install user installed
+Architecture: armv7a
+
+Package: libasound2
+Version: 1.0.18-1ubuntu9
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.3)
+Suggests: libasound2-plugins (>= 1.0.18)
+Conflicts: libasound2-plugins (<< 1.0.18)
+Status: install prefer not-installed
+Architecture: armel
+Installed-Time: 1257336234
+
+Package: libasound2
+Version: 1.0.20-r0.3
+Depends: alsa-conf-base, libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Status: install prefer,user not-installed
+Architecture: armv7a
+
+Package: libgio-2.0-0
+Version: 2.24.0-r5.5
+Depends: libgobject-2.0-0, libgthread-2.0-0, libc6, libgmodule-2.0-0, libglib-2.0-0, libz1, libgcc1
+Status: install user installed
+Architecture: armv7a
+
+Package: glibc-gconv-iso8859-1
+Version: 2.9-r35.2.3
+Depends: glibc-gconv, libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: mtd-utils
+Version: 1.3.1-r0.5
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Status: install user installed
+Architecture: armv7a
+
+Package: libcrypto0.9.8
+Version: 0.9.8j-r11.0.3
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libdbus-glib-1-2
+Version: 0.86-r1.0.5
+Depends: libdbus-1-3, libgobject-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0
+Status: install user installed
+Architecture: armv7a
+
+Package: makedevs
+Version: 1.0.0-r8.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxi6
+Version: 1:1.2.0-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: rxvt-unicode
+Version: 7.9-r1.3
+Depends: libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxpm4 (>= 3.5.7), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-login
+Version: 0.95-r2.3
+Depends: xkbd, libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libc6 (>= 2.9), libx11-6 (>= 1.2)
+Recommends: gpe-theme-clearlooks
+Provides: gpe-session-starter
+Status: install ok installed
+Architecture: armv7a
+
+Package: ncurses-terminfo-base
+Version: 5.7+20110115-r16.6
+Status: install ok not-installed
+Architecture: armv7a
+
+Package: ntpdate
+Version: 4.2.4p7-r0.3
+Depends: libc6 (>= 2.9)
+Suggests: iana-etc
+Status: install ok installed
+Architecture: armv7a
+
+Package: gdk-pixbuf-loader-xpm
+Version: 2.18.0-r6.0.3
+Depends: gtk+ (>= 2.18.0), libgio-2.0-0 (>= 2.22.0), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.22.0), libgmodule-2.0-0 (>= 2.22.0), libglib-2.0-0 (>= 2.22.0)
+Status: install ok installed
+Architecture: armv7a
+
+Package: busybox
+Version: 1.13.2-r22.1.3
+Depends: busybox-mountall, update-rc.d, libc6 (>= 2.9)
+Recommends: libgcc1, busybox-syslog
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxfontcache1
+Version: 1:1.0.5-r8.0.5
+Depends: libxcb1, libpthread-stubs0, libxext6, libx11-6, libxau6, libxdmcp6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: initscripts
+Version: 1.0-r115.3
+Depends: makedevs
+Status: install user installed
+Architecture: armv7a
+
+Package: sysvinit-utils
+Version: 2.86-r57.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxpm4
+Version: 1:3.5.7-r3.3
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: pango
+Version: 1.24.4-r0.5
+Depends: hicolor-icon-theme, libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.22.1), libgmodule-2.0-0 (>= 2.22.1), libglib-2.0-0 (>= 2.22.1), libcairo2 (>= 1.8.8), libpixman-1-0 (>= 0.17.3), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Recommends: pango-module-basic-x, pango-module-basic-fc
+Status: install user installed
+Architecture: armv7a
+
+Package: libatk-1.0-0
+Version: 1.30.0-r0.5
+Depends: hicolor-icon-theme, libgobject-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0
+Status: install user installed
+Architecture: armv7a
+
+Package: libxxf86misc1
+Version: 1:1.0.1-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libglib-2.0-0
+Version: 2.24.0-r5.5
+Depends: libgcc1, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: busybox-syslog
+Version: 1.13.2-r22.1.3
+Depends: busybox
+Recommends: libgcc1
+Status: install ok installed
+Architecture: armv7a
+
+Package: libssl0.9.8
+Version: 0.9.8j-r11.0.3
+Depends: libcrypto0.9.8 (>= 0.9.8j), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-soundserver
+Version: 0.4-1-r0.3
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: setxkbmap
+Version: 1:1.0.4-r0
+Depends: libxkbfile1 (>= 1.0.4), libx11-6 (>= 1.1.3), libc6 (>= 2.6.1)
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1300785358
+
+Package: ncurses
+Version: 5.4-r20.5
+Depends: libc6
+Suggests: ncurses-terminfo
+Provides: libncurses5
+Replaces: libncurses5
+Conflicts: libncurses5
+Status: install user installed
+Architecture: armv7a
+
+Package: libcairo2
+Version: 1.8.10-r3.5
+Depends: libpixman-1-0, libfontconfig1, libfreetype6, libexpat1, libpng12-0, libxrender1, libx11-6, libxau6, libxdmcp6, libc6, libz1, libgcc1
+Status: install user installed
+Architecture: armv7a
+
+Package: update-modules
+Version: 1.0-r10.5
+Depends: module-init-tools-depmod
+Status: install ok installed
+Architecture: all
+Installed-Time: 1272387123
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.7.3-r0.3
+Depends: libc6 (>= 2.9), libz1 (>= 1.2.3)
+Status: install ok installed
+Architecture: armv7a
+
+Package: pango-module-basic-x
+Version: 1.24.4-r0.3
+Depends: pango, pango (>= 1.24.4), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.20.4), libgmodule-2.0-0 (>= 2.20.4), libglib-2.0-0 (>= 2.20.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxau6
+Version: 1:1.0.4-r0.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxp6
+Version: 1:1.0.0-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libapm1
+Version: 3.2.2-r11.01.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libdrm2
+Version: 2.4.11-r1.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xtscal
+Version: 0.6.3-r7.3
+Depends: libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxext6 (>= 1.0.5), libxcalibrate0 (>= 0.0+gitr209d83af61ed38a002c8096377deac292b3e396c), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libavahi-core6
+Version: 0.6.25-r1.4
+Depends: libavahi-common3 (>= 0.6.25), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxrender1
+Version: 1:0.9.6-r8.0.5
+Depends: libx11-6, libxau6, libxdmcp6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: libusb-0.1-4
+Version: 1:0.1.2-r0.3
+Depends: libusb-1.0-0 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: iproute
+Version: 20091226-1
+Depends: libc6 (>= 2.11~20100104-0ubuntu5), libdb4.8, libgcc1 (>= 1:4.4.0)
+Recommends: libatm1
+Suggests: iproute-doc
+Provides: arpd
+Conflicts: arpd
+Status: install user installed
+Architecture: armel
+Installed-Time: 1276761131
+Auto-Installed: yes
+
+Package: libxfixes3
+Version: 1:4.0.3-r0.3
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: db
+Version: 5.0.21-r0.5
+Depends: libc6
+Status: install ok installed
+Architecture: armv7a
+
+Package: xf86-input-evdev
+Version: 1:2.2.5-r7.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libpciaccess0
+Version: 0.10.3-r0.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxinerama1
+Version: 1:1.0.3-r3.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-confd
+Version: 0.16-r1.3
+Depends: libsqlite0 (>= 2.8.17), libglib-2.0-0 (>= 2.20.0), libxsettings0 (>= 0.11), libc6 (>= 2.9), libx11-6 (>= 1.2)
+Status: install ok installed
+Architecture: armv7a
+
+Package: ttf-dejavu-sans
+Version: 2.23-r2.3
+Depends: ttf-dejavu-common
+Recommends: font-update-common
+Status: install ok installed
+Architecture: all
+
+Package: teleport
+Version: 0.34-r0.3
+Depends: libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libsqlite0 (>= 2.8.17), libc6 (>= 2.9), libx11-6 (>= 1.2)
+Status: install ok installed
+Architecture: armv7a
+
+Package: base-files
+Version: 3.0.14-r88.3
+Status: install ok installed
+Architecture: beagleboard
+
+Package: libxcomposite1
+Version: 1:0.4.0-r0.3
+Depends: libxfixes3 (>= 4.0.3), libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: dbus
+Version: 1.2.24-r0.5
+Depends: update-rc.d, libexpat1, libc6, libdbus-1-3
+Provides: dbus-1
+Replaces: dbus-1
+Conflicts: dbus-1
+Status: install user installed
+Architecture: armv7a
+
+Package: gconf
+Version: 2.28.0-r2.5
+Depends: dbus-x11, gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libexpat1, libxml2, libz1, orbit2, libgmodule-2.0-0, libdbus-glib-1-2, libdbus-1-3, libgobject-2.0-0, libgthread-2.0-0, libglib-2.0-0, policykit, eggdbus
+Status: install user not-installed
+Architecture: armv7a
+
+Package: dbus-x11
+Version: 1.2.24-r0.5
+Depends: dbus, libsm6, libuuid1, libice6, libx11-6, libxau6, libxdmcp6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: sysvinit
+Version: 2.86-r57.3
+Depends: sysvinit-inittab, libc6 (>= 2.9)
+Recommends: sysvinit-utils
+Status: install user installed
+Architecture: armv7a
+
+Package: libsoup-2.2-8
+Version: 2.2.100-r1.2
+Depends: libgobject-2.0-0 (>= 2.20.0), libgthread-2.0-0 (>= 2.20.0), libc6 (>= 2.6.1), libglib-2.0-0 (>= 2.20.0), libxml2 (>= 2.7.2), libz1 (>= 1.2.3), libgnutls26 (>= 2.4.2), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: openssh-sftp-server
+Version: 5.6p1-r9.0.6
+Depends: libgcc1, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: gdk-pixbuf-loader-jpeg
+Version: 2.18.0-r6.0.3
+Depends: libjpeg62 (>= 6b), gtk+ (>= 2.18.0), libgio-2.0-0 (>= 2.22.0), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.22.0), libgmodule-2.0-0 (>= 2.22.0), libglib-2.0-0 (>= 2.22.0)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxfont1
+Version: 1:1.4.1-r8.0.5
+Depends: libfreetype6, libc6, libfontenc1, libz1
+Status: install user installed
+Architecture: armv7a
+
+Package: libxrandr2
+Version: 1:1.3.0-r0.3
+Depends: libxext6 (>= 1.0.5), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: gcc-4.4-base
+Version: 4.4.3-1ubuntu1
+Status: install user installed
+Architecture: armel
+Installed-Time: 1264575207
+
+Package: gdk-pixbuf-loader-gif
+Version: 2.18.0-r6.0.3
+Depends: gtk+ (>= 2.18.0), libgio-2.0-0 (>= 2.22.0), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.22.0), libgmodule-2.0-0 (>= 2.22.0), libglib-2.0-0 (>= 2.22.0)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxft2
+Version: 1:2.1.14-r8.0.5
+Depends: libfontconfig1, libexpat1, libfreetype6, libxrender1, libx11-6, libxau6, libxdmcp6, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: libxdmcp6
+Version: 1:1.0.2-r1.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libfontconfig1
+Version: 2.8.0-r0.5
+Depends: libfreetype6, libexpat1, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: xserver-security-policy
+Version: 1:1.4.2-r3.2
+Depends: hal
+Status: install ok installed
+Architecture: armv7a
+
+Package: matchbox-applet-startup-monitor
+Version: 0.1-r5.3
+Depends: libstartup-notification-1-0 (>= 0.9), libsm6 (>= 1.1.0), libuuid1 (>= 1.41.5), libice6 (>= 1.0.4), libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3), libc6 (>= 2.9), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libexpat1 (>= 2.0.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xf86-input-tslib
+Version: 0.0.6-r7.4
+Depends: libts-1.0-0 (>= 1.0), libc6 (>= 2.9)
+Recommends: hal, tslib-calibrate
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1258659344
+
+Package: libsqlite3-0
+Version: 3.6.13-r0.3
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Status: install prefer,user not-installed
+Architecture: armv7a
+
+Package: libsqlite3-0
+Version: 3.6.22-1
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1270730447
+Auto-Installed: yes
+
+Package: xkbd
+Version: 0.8.15-r4.3
+Depends: libxtst6 (>= 1.0.3), libxext6 (>= 1.0.5), libxpm4 (>= 3.5.7), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: tinylogin
+Version: 1.4-r6.3
+Depends: libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: libavahi-client3
+Version: 0.6.25-r1.4
+Depends: libdbus-1-3 (>= 1.2.3), libavahi-common3 (>= 0.6.25), libc6 (>= 2.9)
+Status: install user installed
+Architecture: armv7a
+
+Package: ipaq-sleep
+Version: 0.9-r8.6
+Depends: apm, libx11-6, libxext6, libapm1, libxss1, libc6
+Status: install ok installed
+Architecture: armv7a
+
+Package: gpe-icons
+Version: 0.25-r1.3
+Depends: gdk-pixbuf-loader-png
+Status: install ok installed
+Architecture: all
+
+Package: pointercal
+Version: 0.0-r18.4
+Status: install ok installed
+Architecture: beagleboard
+
+Package: openssh
+Version: 5.6p1-r9.0.6
+Depends: openssh-scp, openssh-ssh, openssh-sshd, openssh-keygen
+Conflicts: dropbear
+Status: install user installed
+Architecture: armv7a
+
+Package: libdmx1
+Version: 1:1.0.2-r1.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libvolume-id1
+Version: 141-r12.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xkbevd
+Version: 1:1.0.2-r0.2
+Depends: libxkbfile1 (>= 1.0.5), libx11-6 (>= 1.2), libc6 (>= 2.6.1)
+Status: install user installed
+Architecture: armv7a
+
+Package: libgnutls26
+Version: 2.4.2-r4.3
+Depends: libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: kernel-image-2.6.29-omap1
+Version: 2.6.29-r47.3
+Status: install ok installed
+Architecture: beagleboard
+
+Package: angstrom-gpe-task-base
+Version: 1.0-r40.3
+Depends: gpe-scap, matchbox, matchbox-panel-hacks, matchbox-applet-startup-monitor, rxvt-unicode, gpe-terminal, matchbox-keyboard, xkbd, xkbd-layout-ru, xst, xhost, xrdb, gpe-soundserver, gpe-dm, gpe-login, gpe-session-scripts, gpe-icons, gpe-confd, gpe-autostarter, suspend-desktop, teleport, xauth, gdk-pixbuf-loader-png, gdk-pixbuf-loader-xpm, gdk-pixbuf-loader-jpeg, pango-module-basic-x, pango-module-basic-fc
+Recommends: gpe-theme-clearlooks, xcursor-transparent-theme
+Status: install user installed
+Architecture: beagleboard
+
+Package: libexpat1
+Version: 2.0.1-r3.5
+Depends: libgcc1, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: libxdamage1
+Version: 1:1.1.1-r1.3
+Depends: libxfixes3 (>= 4.0.3), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: xdpyinfo
+Version: 1:1.0.3-r0.3
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxtst6 (>= 1.0.3), libxxf86vm1 (>= 1.0.2), libxxf86dga1 (>= 1.0.2), libxxf86misc1 (>= 1.0.1), libxi6 (>= 1.2.0), libxrender1 (>= 0.9.4), libxinerama1 (>= 1.0.3), libdmx1 (>= 1.0.2), libxp6 (>= 1.0.0), libxau6 (>= 1.0.4), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: eject
+Version: 2.1.5-r0.3
+Depends: libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libncurses5
+Version: 5.7+20090803-2ubuntu2
+Depends: libc6 (>= 2.4)
+Recommends: libgpm2
+Status: install prefer not-installed
+Architecture: armel
+
+Package: openssh-keygen
+Version: 5.2p1-r8.0.4
+Depends: libcrypto0.9.8 (>= 0.9.8j), libc6 (>= 2.9), libz1 (>= 1.2.3)
+Conflicts: ssh-keygen
+Status: install ok installed
+Architecture: armv7a
+
+Package: libxcursor1
+Version: 1:1.1.9-r2.3
+Depends: libxrender1 (>= 0.9.4), libxfixes3 (>= 4.0.3), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libesd0
+Version: 1:0.2.36-r3.3
+Depends: hicolor-icon-theme, libaudiofile0 (>= 0.2.6), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: matchbox-panel
+Version: 0.9.3-r5.3
+Depends: libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libstartup-notification-1-0 (>= 0.9), libc6 (>= 2.9), libapm1 (>= 3.2.2), libgcc1 (>= 4.3.3), libiw29 (>= 29)
+Status: install ok installed
+Architecture: beagleboard
+
+Package: hal-info
+Version: 20090414-r0.3
+Status: install ok installed
+Architecture: all
+
+Package: task-boot
+Version: 1.0-r49.3
+Depends: kernel, base-files, base-passwd, busybox, modutils-initscripts, netbase, update-alternatives
+Status: install user installed
+Architecture: beagleboard
+
+Package: libusb-1.0-0
+Version: 2:1.0.6-1
+Depends: libc6 (>= 2.8)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1270110358
+
+Package: libstartup-notification-1-0
+Version: 0.9-r0.3
+Depends: libsm6 (>= 1.1.0), libuuid1 (>= 1.41.5), libice6 (>= 1.0.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: netplug
+Version: 1.2.9.1-2ubuntu1
+Depends: libc6 (>= 2.4), iproute
+Status: install user installed
+Architecture: armel
+Installed-Time: 1276761135
+
+Package: matchbox-desktop
+Version: 0.9.1-r3.3
+Depends: libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libc6 (>= 2.9), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libexpat1 (>= 2.0.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libz1 (>= 1.2.3), libstartup-notification-1-0 (>= 0.9), libsm6 (>= 1.1.0), libuuid1 (>= 1.41.5), libice6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libpng12-0
+Version: 1.2.35-r0.3
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.9)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libgobject-2.0-0
+Version: 2.24.0-r5.5
+Depends: libgthread-2.0-0, libc6, libglib-2.0-0
+Status: install user installed
+Architecture: armv7a
+
+Package: libxcalibrate0
+Version: 1:0.0-oe1-209d83af61ed38a002c8096377deac292b3e396c-r0.2
+Depends: libxext6 (>= 1.0.4), libx11-6 (>= 1.1.5), libxdmcp6 (>= 1.0.2), libc6 (>= 2.6.1), libxau6 (>= 1.0.4)
+Status: install ok installed
+Architecture: armv7a
+
+Package: libgcc1
+Version: 1:4.4.3-1ubuntu1
+Depends: gcc-4.4-base (= 4.4.3-1ubuntu1), libc6 (>= 2.4)
+Status: install user installed
+Architecture: armel
+Installed-Time: 1264575211
+Auto-Installed: yes
+
+Package: xserver-xorg-extension-dri
+Version: 2:1.7.4-r18.2.6
+Depends: libdrm2, libc6
+Status: install user installed
+Architecture: armv7a
+
+Package: hal
+Version: 0.5.13-r0.3
+Depends: hal-info, udev-utils, libdbus-glib-1-2 (>= 0.78), libgobject-2.0-0 (>= 2.20.4), libglib-2.0-0 (>= 2.20.4), libdbus-1-3 (>= 1.2.1), libc6 (>= 2.9), libgcc1 (>= 4.3.3), libblkid1 (>= 2.16), libexpat1 (>= 2.0.0), libusb-0.1-4 (>= 0.1.2)
+Recommends: eject
+Status: install ok installed
+Architecture: armv7a
+

@@ -1,0 +1,148 @@
+_XSERVTransSocketOpenCOTSServer: Unable to open socket for inet6
+_XSERVTransOpen: transport open failed for inet6/192.168.10.182:0
+_XSERVTransMakeAllCOTSServerListeners: failed to open listener for inet6
+(WW) Failed to open protocol names file /usr/lib/xorg/protocol.txt
+X.Org X Server 1.6.4
+Release Date: 2009-9-27
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 2.6.28-14-lange51 armv7l Ubuntu
+Current Operating System: Linux 192.168.10.182 2.6.29-rc3-omap1 #105 PREEMPT Mon May 24 22:04:22 EEST 2010 armv7l
+Kernel command line: mem=256M console=ttyS2,115200n8 vram=20M omapfb.vram=20M omapfb.rotate=2 omapfb.rotate_type=1 noinitrd root=/dev/nfs rw nfsroot=192.168.10.21:/var/lib/tftpboot/rootfs/OMAP/rootfs ip=192.168.10.182:192.168.10.21:192.168.10.1:255.255.255.0::eth0:off
+Build Date: 26 October 2009  05:21:20PM
+xorg-server 2:1.6.4-2ubuntu4 (buildd@) 
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 24 20:05:37 2010
+(==) Using config file: "/etc/X11/xorg.conf"
+(==) ServerLayout "Builtin Default Layout"
+(**) |-->Screen "Builtin Default fbdev Screen 0" (0)
+(**) |   |-->Monitor "Builtin Default Monitor"
+(**) |   |-->Device "Builtin Default fbdev Device 0"
+(**) Option "IgnoreABI" "True"
+(**) Ignoring ABI Version
+(==) Automatically adding devices
+(==) Automatically enabling devices
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+	Entry deleted from font path.
+(==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	built-ins
+(==) ModulePath set to "/usr/lib/xorg/modules"
+(II) Cannot locate a core pointer device.
+(II) Cannot locate a core keyboard device.
+(II) The server relies on HAL to provide the list of input devices.
+	If no devices become available, reconfigure HAL or disable AllowEmptyInput.
+(II) Loader magic: 0xd80
+(II) Module ABI versions:
+	X.Org ANSI C Emulation: 0.4
+	X.Org Video Driver: 5.0
+	X.Org XInput driver : 4.0
+	X.Org Server Extension : 2.0
+(II) Loader running on linux
+(--) using VT number 1
+
+(II) No APM support in BIOS or kernel
+(II) System resource ranges:
+(II) "extmod" will be loaded. This was enabled by default and also specified in the config file.
+(II) "dbe" will be loaded. This was enabled by default and also specified in the config file.
+(II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+(II) "record" will be loaded. This was enabled by default and also specified in the config file.
+(II) "dri" will be loaded. This was enabled by default and also specified in the config file.
+(II) "dri2" will be loaded by default.
+(II) LoadModule: "extmod"
+(II) Loading /usr/lib/xorg/modules/extensions//libextmod.so
+(II) Module extmod: vendor="X.Org Foundation"
+	compiled for 1.6.1, module version = 1.0.0
+	Module class: X.Org Server Extension
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension MIT-SCREEN-SAVER
+(II) Loading extension XFree86-VidModeExtension
+(II) Loading extension XFree86-DGA
+(II) Loading extension DPMS
+(II) Loading extension XVideo
+(II) Loading extension XVideo-MotionCompensation
+(II) Loading extension X-Resource
+(II) LoadModule: "dbe"
+(II) Loading /usr/lib/xorg/modules/extensions//libdbe.so
+(II) Module dbe: vendor="X.Org Foundation"
+	compiled for 1.6.1, module version = 1.0.0
+	Module class: X.Org Server Extension
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DOUBLE-BUFFER
+(II) LoadModule: "glx"
+(WW) Warning, couldn't open module glx
+(II) UnloadModule: "glx"
+(EE) Failed to load module "glx" (module does not exist, 0)
+(II) LoadModule: "freetype"
+(WW) Warning, couldn't open module freetype
+(II) UnloadModule: "freetype"
+(EE) Failed to load module "freetype" (module does not exist, 0)
+(II) LoadModule: "type1"
+(WW) Warning, couldn't open module type1
+(II) UnloadModule: "type1"
+(EE) Failed to load module "type1" (module does not exist, 0)
+(II) LoadModule: "record"
+(WW) Warning, couldn't open module record
+(II) UnloadModule: "record"
+(EE) Failed to load module "record" (module does not exist, 0)
+(II) LoadModule: "dri"
+(WW) Warning, couldn't open module dri
+(II) UnloadModule: "dri"
+(EE) Failed to load module "dri" (module does not exist, 0)
+(II) LoadModule: "dri2"
+(II) Loading /usr/lib/xorg/modules/extensions//libdri2.so
+(II) Module dri2: vendor="X.Org Foundation"
+	compiled for 1.6.1, module version = 1.0.0
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DRI2
+(II) LoadModule: "fbdev"
+(II) Loading /usr/lib/xorg/modules/drivers//fbdev_drv.so
+(II) Module fbdev: vendor="X.Org Foundation"
+	compiled for 1.6.0, module version = 0.4.0
+	ABI class: X.Org Video Driver, version 5.0
+(II) FBDEV: driver for framebuffer: fbdev
+(WW) Falling back to old probe method for fbdev
+(II) Loading sub module "fbdevhw"
+(II) LoadModule: "fbdevhw"
+(II) Loading /usr/lib/xorg/modules/linux//libfbdevhw.so
+(II) Module fbdevhw: vendor="X.Org Foundation"
+	compiled for 1.6.1, module version = 0.0.2
+	ABI class: X.Org Video Driver, version 5.0
+(II) FBDEV(0): using default device
+(II) Running in FRAMEBUFFER Mode
+(II) FBDEV(0): Creating default Display subsection in Screen section
+	"Builtin Default fbdev Screen 0" for depth/fbbpp 24/32
+(==) FBDEV(0): Depth 24, (==) framebuffer bpp 32
+(==) FBDEV(0): RGB weight 888
+(==) FBDEV(0): Default visual is TrueColor
+(==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+(II) FBDEV(0): hardware: omapfb (video memory: 20480kB)
+(**) FBDEV(0): Option "ShadowFB" "false"
+(II) FBDEV(0): checking modes against framebuffer device...
+(II) FBDEV(0): checking modes against monitor...
+(--) FBDEV(0): Virtual size is 800x480 (pitch 800)
+(**) FBDEV(0):  Built-in mode "current": 36.0 MHz, 41.3 kHz, 83.6 Hz
+(II) FBDEV(0): Modeline "current"x0.0   36.00  800 816 864 872  480 488 489 494 -hsync -vsync -csync (41.3 kHz)
+(==) FBDEV(0): DPI set to (96, 96)
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules//libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+	compiled for 1.6.1, module version = 1.0.0
+	ABI class: X.Org ANSI C Emulation, version 0.4
+(==) Depth 24 pixmap format is 32 bpp

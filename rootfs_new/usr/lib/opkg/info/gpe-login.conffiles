@@ -1,0 +1,10 @@
+/etc/apm/suspend.d/S98lock-display
+/etc/gpe/gpe-login.conf
+/etc/gpe/locale.alias
+/etc/sysconfig/gpelogin
+/etc/X11/gpe-login.keylaunchrc
+/etc/X11/gpe-login.gtkrc
+/etc/X11/gpe-login.setup
+/etc/X11/gpe-login.pre-session
+/etc/X11/Xinit.d/99gpe-login
+/etc/X11/Xsession.d/50autolock

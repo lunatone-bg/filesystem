@@ -1,0 +1,12 @@
+Package: libxsettings0
+Version: 0.11-r1.3
+Description: Common code for XSETTINGS
+Section: gpe/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: libxsettings
+Homepage: unknown
+Depends: libx11-6 (>= 1.2), libc6 (>= 2.9)
+Source: http://gpe.linuxtogo.org/download/source/libxsettings-0.11.tar.gz

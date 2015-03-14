@@ -1,0 +1,12 @@
+Package: libpciaccess0
+Version: 0.10.3-r0.3
+Description: Version 0.10.3-r0 of package libpciaccess
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libpciaccess
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libpciaccess-0.10.3.tar.bz2 file://fix-mtrr-check.patch;patch=1

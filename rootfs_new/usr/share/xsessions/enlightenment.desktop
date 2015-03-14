@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Enlightenment
+Name[el]=Enlightenment
+Name[eo]=Enlightenment
+Comment=Log in using Enlightenment (Version 0.16.999.0)
+Comment[el]=Είσοδος με το Enlightenment (Έκδοση 0.16.999.0)
+Comment[eo]=Ensaluti pere de Enlightenment (Versio 0.16.999.0)
+Comment[fr]=Ouvrir une session Enlightenment (Version 0.16.999.0)
+Comment[it]=Accedi con Enlightenment (Versione 0.16.999.0)
+Comment[pt]=Inicie a sessão com o Enlightenment (Versão 0.16.999.0)
+Type=XSession
+Icon=/usr/share/enlightenment/data/images/enlightenment.png
+Exec=/usr/bin/enlightenment_start
+TryExec=/usr/bin/enlightenment_start

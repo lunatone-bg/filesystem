@@ -1,0 +1,12 @@
+Package: libsoup-2.2-8
+Version: 2.2.100-r1.2
+Description: An HTTP library implementation in C
+Section: x11/gnome/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: libsoup
+Homepage: unknown
+Depends: libgobject-2.0-0 (>= 2.20.0), libgthread-2.0-0 (>= 2.20.0), libc6 (>= 2.6.1), libglib-2.0-0 (>= 2.20.0), libxml2 (>= 2.7.2), libz1 (>= 1.2.3), libgnutls26 (>= 2.4.2), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4)
+Source: http://ftp.gnome.org/pub/GNOME/sources/libsoup/2.2/libsoup-2.2.100.tar.bz2

@@ -1,0 +1,15 @@
+Package: evas
+Version: 2:1.0.0-r1.0.6
+Description: Evas is the Enlightenment canvas API
+Section: e/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: armv7a
+OE: evas
+Homepage: http://www.enlightenment.org
+Build: org.openembedded.dev/1fca8dc
+Depends: libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0), libgcc1 (>= 4.3.3)
+Recommends: evas-engine-buffer, evas-engine-fb, evas-engine-software-generic, evas-engine-software-x11, evas-engine-software-16, evas-engine-software-16-x11, evas-engine-xrender-x11, evas-loader-png, evas-loader-jpeg, evas-loader-eet, evas-loader-gif
+Replaces: libevas-ver-pre-svn-00-0, libevas-ver-pre-svn-01-0
+Source: http://download.enlightenment.org/releases/evas-1.0.0.tar.gz

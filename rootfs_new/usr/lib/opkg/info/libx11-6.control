@@ -1,0 +1,13 @@
+Package: libx11-6
+Version: 1:1.4.1-r9.0.6
+Description: Base X libs.
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libx11
+Homepage: http://www.x.org
+Build: org.openembedded.dev/325bbf9
+Depends: libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Source: http://xorg.freedesktop.org/releases/individual/lib/libX11-1.4.1.tar.bz2;name=archive file://keysymdef_include.patch file://x11_disable_makekeys.patch

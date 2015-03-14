@@ -1,0 +1,6 @@
+# Aliases extracted from modules themselves.
+alias can-proto-6 can_isotp
+alias can-proto-2 can_bcm
+alias can-proto-1 can_raw
+alias tty-ldisc-17 slcan
+alias net-pf-29 can

@@ -1,0 +1,21 @@
+Package: iproute
+Version: 20091226-1
+Architecture: armel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian iproute maintainers <ah-iproute@debian.org>
+Installed-Size: 840
+Depends: libc6 (>= 2.11~20100104-0ubuntu5), libdb4.8, libgcc1 (>= 1:4.4.0)
+Recommends: libatm1
+Suggests: iproute-doc
+Conflicts: arpd
+Provides: arpd
+Section: net
+Priority: important
+Homepage: http://www.linux-foundation.org/en/Net:Iproute2
+Description: networking and traffic control tools
+ The iproute suite, also known as iproute2, is a collection of
+ utilities for networking and traffic control.
+ .
+ These tools communicate with the Linux kernel via the (rt)netlink
+ interface, providing advanced features not available through the
+ legacy net-tools commands 'ifconfig' and 'route'.

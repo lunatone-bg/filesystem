@@ -1,0 +1,11 @@
+Package: xcursor-transparent-theme
+Version: 0.1.1-r2.3
+Description: Transparent xcursor theme for handheld systems
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: all
+OE: xcursor-transparent-theme
+Homepage: unknown
+Source: http://matchbox-project.org/sources/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch;patch=1 file://fix_watch_cursor.patch;patch=1

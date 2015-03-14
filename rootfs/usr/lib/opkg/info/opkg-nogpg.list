@@ -1,0 +1,7 @@
+/usr/share/opkg/intercept/update-modules
+/usr/bin/opkg-key
+/usr/share/opkg/intercept/depmod
+/usr/share/opkg/intercept/ldconfig
+/usr/bin/opkg-cl
+/usr/bin/update-alternatives
+/etc/rcS.d/S98configure

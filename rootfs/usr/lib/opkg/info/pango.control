@@ -1,0 +1,13 @@
+Package: pango
+Version: 1.24.4-r0.5
+Description: The goal of the Pango project is to provide an Open Source framework for the layout and rendering of internationalized text.
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: LGPL
+Architecture: armv7a
+OE: pango
+Homepage: unknown
+Depends: hicolor-icon-theme, libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0), libc6 (>= 2.9), libgobject-2.0-0 (>= 2.22.1), libgmodule-2.0-0 (>= 2.22.1), libglib-2.0-0 (>= 2.22.1), libcairo2 (>= 1.8.8), libpixman-1-0 (>= 0.17.3), libpng12-0 (>= 1.2.35), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Recommends: pango-module-basic-x, pango-module-basic-fc
+Source: http://ftp.gnome.org/pub/GNOME/sources/pango/1.24/pango-1.24.4.tar.bz2 file://no-tests.patch;patch=1

@@ -1,0 +1,2 @@
+	test -n "$D" && opt="-r $D"
+	update-rc.d $opt usb-gadget defaults 50

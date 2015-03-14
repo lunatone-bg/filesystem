@@ -1,0 +1,12 @@
+Package: matchbox-applet-inputmanager
+Version: 0.6-r5.6
+Description: Matchbox input manager
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: matchbox-applet-inputmanager
+Homepage: unknown
+Depends: libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libc6, libxft2, libfontconfig1, libexpat1, libfreetype6, libz1, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6
+Source: http://projects.o-hand.com/matchbox/sources/mb-applet-input-manager/0.6/mb-applet-input-manager-0.6.tar.gz file://update-to-svn.diff file://mbinputmgr-libgtkinput.patch file://visibility-protocol.patch

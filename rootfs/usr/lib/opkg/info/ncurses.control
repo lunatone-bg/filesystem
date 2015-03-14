@@ -1,0 +1,16 @@
+Package: ncurses
+Version: 5.4-r20.5
+Description: Ncurses library
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6
+Suggests: ncurses-terminfo
+Provides: libncurses5
+Replaces: libncurses5
+Conflicts: libncurses5
+Source: ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.4.tar.gz file://makefile_tweak.patch file://use_ldflags.patch file://visibility.patch

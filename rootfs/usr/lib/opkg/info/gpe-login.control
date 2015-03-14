@@ -1,0 +1,14 @@
+Package: gpe-login
+Version: 0.95-r2.3
+Description: GPE user login screen
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-login
+Homepage: unknown
+Depends: xkbd, libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libc6 (>= 2.9), libx11-6 (>= 1.2)
+Recommends: gpe-theme-clearlooks
+Provides: gpe-session-starter
+Source: http://gpe.linuxtogo.org/download/source/gpe-login-0.95.tar.bz2 file://removeblue-fontsize8.patch;patch=1 file://chvt-keylaunch.patch;patch=1 file://c-locale.patch;patch=1 file://no-deprecated-sysfs.patch;patch=1

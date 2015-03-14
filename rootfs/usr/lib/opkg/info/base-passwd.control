@@ -1,0 +1,12 @@
+Package: base-passwd
+Version: 3.5.20-r1.3
+Description: Base system password/group files.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: base-passwd
+Homepage: unknown
+Depends: libc6 (>= 2.9)
+Source: ftp://ftp.debian.org/debian/pool/main/b/base-passwd/base-passwd_3.5.20.tar.gz file://nobash.patch;patch=1 file://root-home.patch;patch=1 file://mysql.patch;patch=1

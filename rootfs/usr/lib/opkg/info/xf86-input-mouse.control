@@ -1,0 +1,12 @@
+Package: xf86-input-mouse
+Version: 1:1.4.0-r7.3
+Description: X.Org X server -- mouse input driver
+Section: x11/drivers
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xf86-input-mouse
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-input-mouse-1.4.0.tar.bz2

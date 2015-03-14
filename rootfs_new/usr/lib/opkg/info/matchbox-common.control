@@ -1,0 +1,12 @@
+Package: matchbox-common
+Version: 0.9.1-r7.6
+Description: Matchbox window manager common files
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: all
+OE: matchbox-common
+Homepage: unknown
+Depends: matchbox-panel
+Source: http://projects.o-hand.com/matchbox/sources/matchbox-common/0.9/matchbox-common-0.9.1.tar.gz file://no-utilities-category.patch file://add-media-category.patch

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#matchbox_present=$(fw_printenv matchbox)
+application=$(fw_printenv application)
+if [[ -n "$application" ]] ; then
+
+DISPLAY=:0.0 
+export DISPLAY
+export USER=root
+#export PATH=/sbin:/bin:/usr/sbin:/usr/bin:usr/chrome
+export HOME=/home/root
+#matchbox-remote -exit
+. /etc/profile
+exec 1>/dev/null 2>/dev/null
+matchbox-desktop &
+matchbox-panel --no-flip --orientation south &
+
+exec matchbox-window-manager -use_cursor yes $@ 
+
+fi
+

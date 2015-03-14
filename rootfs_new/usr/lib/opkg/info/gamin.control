@@ -1,0 +1,12 @@
+Package: gamin
+Version: 0.1.10-r0.6
+Description: Gamin is a file and directory monitoring system defined to be a subset of the FAM (File Alteration Monitor) system.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: LGPL
+Architecture: armv7a
+OE: gamin
+Homepage: unknown
+Depends: libglib-2.0-0, libc6
+Source: http://www.gnome.org/~veillard/gamin/sources/gamin-0.1.10.tar.gz file://no-abstract-sockets.patch

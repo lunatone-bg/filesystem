@@ -1,0 +1,4180 @@
+Package: angstrom-gpe-task-base
+Version: 1.0-r40.6
+Depends: gpe-scap, matchbox, matchbox-panel-hacks, matchbox-applet-startup-monitor, rxvt-unicode, gpe-terminal, matchbox-keyboard, xkbd, xkbd-layout-ru, xst, xhost, xrdb, gpe-soundserver, gpe-dm, gpe-login, gpe-session-scripts, gpe-icons, gpe-confd, gpe-autostarter, libgtkstylus, suspend-desktop, teleport, xauth, gdk-pixbuf-loader-png, gdk-pixbuf-loader-xpm, gdk-pixbuf-loader-jpeg, pango-module-basic-x, pango-module-basic-fc
+Recommends: gpe-theme-clearlooks, xcursor-transparent-theme
+Provides:
+Status: install user installed
+Architecture: omap3evm
+Installed-Time: 1317907461
+
+Package: x11vnc
+Version: 0.9.11-r1.6
+Depends: libssl1.0.0, libcrypto1.0.0, libc6, libxtst6, libxext6, libxinerama1, libxrandr2, libxfixes3, libxdamage1, libx11-6, libavahi-common3, libavahi-client3, libz1, libjpeg8, libgcc1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1322421175
+Auto-Installed: yes
+
+Package: task-base-smbfs
+Version: 1.0-r93.6
+Recommends: kernel-module-cifs, kernel-module-smbfs
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: busybox-mountall
+Version: 1.13.2-r42.4.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: pam-plugin-mail
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: module-init-tools-depmod
+Version: 3.12-r6.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: pam-plugin-filter
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: openssh-sftp-server
+Version: 5.6p1-r9.0.6
+Depends: libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: evas-saver-jpeg
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-saver-jpeg, libevas-ver-pre-svn-00-saver-jpeg
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: evas-engine-software-x11
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0), libxext6 (>= 1.2.0), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-engine-software-x11, libevas-ver-pre-svn-00-engine-software-x11
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: xserver-security-policy
+Version: 1:1.4.2-r3.2
+Depends: hal
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907448
+Auto-Installed: yes
+
+Package: util-linux-ng-umount
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libc6 (>= 2.9)
+Provides: util-linux-umount
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: xf86-input-tslib
+Version: 0.0.6-r15.1.6
+Depends: libts-1.0-0, libc6
+Recommends: tslib-calibrate
+Suggests: hal
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: libpam
+Version: 1.1.1-r2.6
+Depends: libc6
+Recommends: libpam-meta, libpam-base-files
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: busybox-syslog
+Version: 1.13.2-r42.4.6
+Depends: busybox
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/default/busybox-syslog a6ca0459d1639b4cad15efc04d6c2f93
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: pam-plugin-wheel
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: libxdmcp6
+Version: 1:1.1.0-r9.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: libxfontcache1
+Version: 1:1.0.5-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: kernel-module-slhc
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: kernel-module-usb-storage
+Version: 2.6.32-r83+gitra6bad4464f985fdd3bed72e1b82dcbfc004d7869.5
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: libc6
+Version: 2.9-r37.4.6
+Depends: update-rc.d, libcidn1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: libgio-2.0-0
+Version: 2.24.1-r2.6
+Depends: libgobject-2.0-0, libgthread-2.0-0, libc6, libgmodule-2.0-0, libglib-2.0-0, libz1, libgcc1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907442
+Auto-Installed: yes
+
+Package: perl-module-extutils-makemaker
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-exporter, perl-module-extutils-makemaker-config, perl-module-file-path, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643275
+Auto-Installed: yes
+
+Package: opkg
+Version: 0.1.8+svnr609-r5.6
+Depends: libopkg0 (>= 0.1.8+svnr609), libc6 (>= 2.9)
+Provides: update-alternatives
+Replaces: opkg-nogpg, opkg-nogpg-nocurl
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: perl-module-extutils-makemaker-config
+Version: 5.10.1-r22.6
+Depends: perl-module-config, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643276
+Auto-Installed: yes
+
+Package: kernel-2.6.32
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: kernel-image-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: task-base-vfat
+Version: 1.0-r93.6
+Recommends: kernel-module-msdos, kernel-module-vfat, kernel-module-nls-iso8859-1, kernel-module-nls-cp437
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: libcom-err2
+Version: 1.41.14-r29.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: xf86-input-keyboard
+Version: 1:1.5.0-r15.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: gpe-soundserver
+Version: 0.4-1-r0.6
+Depends: libx11-6, libxau6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: perl-module-file-spec
+Version: 5.10.1-r22.6
+Depends: perl-module-file-spec-unix, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643261
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.13.2-r42.4.6
+Depends: busybox-mountall, update-rc.d, libc6 (>= 2.9)
+Recommends: libgcc1, libgcc1, busybox-syslog
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: matchbox-common
+Version: 0.9.1-r7.6
+Depends: matchbox-panel
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: gconf
+Version: 2.28.0-r2.6
+Depends: dbus-x11, gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libexpat1, libxml2, libz1, orbit2, libgmodule-2.0-0, libdbus-glib-1-2, libdbus-1-3, libgobject-2.0-0, libgthread-2.0-0, libglib-2.0-0, policykit, eggdbus
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: libglade-2.0-0
+Version: 2.6.4-r0.6
+Depends: hicolor-icon-theme, gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libz1, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: xtscal
+Version: 0.6.3-r7.6
+Depends: libx11-6, libxft2, libxext6, libxcalibrate0, libc6, libxrender1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: libatk-1.0-0
+Version: 1.30.0-r1.6
+Depends: hicolor-icon-theme, libgobject-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: makedevs
+Version: 1.0.0-r10.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907443
+Auto-Installed: yes
+
+Package: tslib-conf
+Version: 1.0-r28.6.6
+Provides: libts-0.0-conf
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: libfontenc1
+Version: 1:1.1.0-r9.0.6
+Depends: libz1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.0d-r14.0.6
+Depends: libcrypto1.0.0 (>= 1.0.0d), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907448
+Auto-Installed: yes
+
+Package: util-linux-ng-mountall
+Version: 2.18-r36.0.6
+Provides:
+Replaces: busybox-mountall
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: libice6
+Version: 1:1.0.7-r9.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: task-base-usbgadget
+Version: 1.0-r93.6
+Recommends: kernel-module-pxa27x_udc, kernel-module-gadgetfs, kernel-module-g-file-storage, kernel-module-g-serial, kernel-module-g-ether, usb-gadget-mode
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: ppp-dialin
+Version: 0.1-r7.6
+Depends: ppp
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: libgcrypt11
+Version: 1.4.1-r0.6
+Depends: libgpg-error0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: pam-plugin-group
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: usb-gadget-mode
+Version: 0.0.2-r8.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: perl-module-cpan
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-config, perl-module-cpan-author, perl-module-cpan-bundle, perl-module-cpan-cachemgr, perl-module-cpan-complete, perl-module-cpan-debug, perl-module-cpan-deferredcode, perl-module-cpan-distribution, perl-module-cpan-distrostatus, perl-module-cpan-exception-recursivedependency, perl-module-cpan-exception-yaml-not-installed, perl-module-cpan-ftp, perl-module-cpan-handleconfig, perl-module-cpan-infoobj, perl-module-cpan-lwp-useragent, perl-module-cpan-module, perl-module-cpan-prompt, perl-module-cpan-queue, perl-module-cpan-shell, perl-module-cpan-tarzip, perl-module-cpan-url, perl-module-cpan-version, perl-module-cwd, perl-module-dirhandle, perl-module-exporter, perl-module-fcntl, perl-module-file-basename, perl-module-file-copy, perl-module-file-find, perl-module-filehandle, perl-module-file-path, perl-module-file-spec, perl-module-safe, perl-module-strict, perl-module-sys-hostname, perl-module-text-parsewords, perl-module-text-wrap, perl
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1350643345
+
+Package: libxmuu1
+Version: 1:1.1.0-r9.0.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: util-linux-ng-readprofile
+Version: 2.18-r36.0.6
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: util-linux-readprofile
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: pam-plugin-access
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: openssh-ssh
+Version: 5.6p1-r9.0.6
+Depends: libcrypto1.0.0, libc6, libz1, libgcc1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/ssh/ssh_config 9fe60f33aaf449c355194b367234230c
+Installed-Time: 1318411844
+Auto-Installed: yes
+
+Package: perl-module-cpan-complete
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643264
+Auto-Installed: yes
+
+Package: kernel-module-ppp-async
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32, kernel-module-ppp-generic, kernel-module-slhc
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: task-machine-base
+Version: 1.0-r93.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907431
+Auto-Installed: yes
+
+Package: libusb-0.1-4
+Version: 1:0.1.3-r0.6
+Depends: libusb-1.0-0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: openssh
+Version: 5.6p1-r9.0.6
+Depends: openssh-scp, openssh-ssh, openssh-sshd, openssh-keygen
+Provides:
+Conflicts: dropbear
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1318411853
+
+Package: eggdbus
+Version: 0.6-r0.6
+Depends: libgio-2.0-0, libc6, libz1, libgmodule-2.0-0, libdbus-glib-1-2, libdbus-1-3, libgobject-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: gpe-question
+Version: 0.04-r1.6
+Depends: gpe-icons, libgpewidget1, gtk+, libatk-1.0-0, libgio-2.0-0, pango, libcairo2, libfreetype6, libfontconfig1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: strace
+Version: 4.5.20-r1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: task-base-ext2
+Version: 1.0-r93.6
+Depends: hdparm, e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: task-base-nfs
+Version: 1.0-r93.6
+Depends: portmap
+Recommends: kernel-module-nfs
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: modutils-initscripts
+Version: 1.0-r3.6
+Depends: update-rc.d
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: perl-module-file-basename
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl-module-warnings, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643259
+Auto-Installed: yes
+
+Package: util-linux-ng-mount
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: util-linux-mount
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: libgmodule-2.0-0
+Version: 2.24.1-r2.6
+Depends: libc6, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907442
+Auto-Installed: yes
+
+Package: xst
+Version: 0.15-r1.6
+Depends: libglib-2.0-0, libxsettings-client0, libx11-6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: libpthread-stubs0
+Version: 0.2-r2.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: util-linux-ng-sfdisk
+Version: 2.18-r36.0.6
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: util-linux-sfdisk
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: evas
+Version: 2:1.0.0-r1.0.6
+Depends: libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0), libgcc1 (>= 4.3.3)
+Recommends: evas-engine-buffer, evas-engine-fb, evas-engine-software-generic, evas-engine-software-x11, evas-engine-software-16, evas-engine-software-16-x11, evas-engine-xrender-x11, evas-loader-png, evas-loader-jpeg, evas-loader-eet, evas-loader-gif
+Provides:
+Replaces: libevas-ver-pre-svn-00-0, libevas-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: pam-plugin-securetty
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: teleport
+Version: 0.34-r0.6
+Depends: libgpewidget1, gtk+, libatk-1.0-0, libgio-2.0-0, pango, libcairo2, libfreetype6, libfontconfig1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0, libgcrypt11, libgpg-error0, libsqlite0, libx11-6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907461
+Auto-Installed: yes
+
+Package: angstrom-x11vnc-xinit
+Version: 1.0-r1.6
+Depends: x11vnc
+Provides:
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/X11/Xinit.d/02vnc 17e8a4abd920f085a4f79e5307159c57
+Installed-Time: 1322421178
+
+Package: e-wm-input-methods
+Version: 0.16.999.060+svnr56372-r18.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907469
+Auto-Installed: yes
+
+Package: xkbcomp
+Version: 1.2.1-r5.0.6
+Depends: libx11-6 (>= 1.4.1), libxkbfile1 (>= 1.0.7), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: libjpeg8
+Version: 8b-r1.6
+Depends: libc6
+Provides: libjpeg8
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: evas-loader-gif
+Version: 2:1.0.0-r1.0.6
+Depends: libgif4 (>= 4.1.6), libsm6 (>= 1.2.0), libuuid1 (>= 2.18), libice6 (>= 1.0.7), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0), evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: libeconnman1
+Version: 2:1.0.0-r0.0.6
+Depends: libedbus1, ecore, libglib-2.0-0, eina, libc6, libdbus-1-3
+Provides:
+Replaces: edbus
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: libopkg0
+Version: 0.1.8+svnr609-r5.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+Version: 1.0.8-r0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: libxft2
+Version: 1:2.2.0-r9.0.6
+Depends: libfontconfig1, libexpat1, libfreetype6, libz1, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.18-r36.0.6
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: ttf-dejavu-sans-mono
+Version: 2.23-r3.6
+Depends: ttf-dejavu-common
+Recommends: font-update-common
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907451
+Auto-Installed: yes
+
+Package: sysfsutils
+Version: 2.1.0-r3.6
+Depends: libsysfs2, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: perl-module-fcntl
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl-module-xsloader, perl, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643290
+Auto-Installed: yes
+
+Package: pango-module-basic-fc
+Version: 1.24.4-r1.1.6
+Depends: pango, pango, libgobject-2.0-0, libgthread-2.0-0, libc6, libgmodule-2.0-0, libglib-2.0-0, libfontconfig1, libfreetype6, libz1, libexpat1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: gpe-scap
+Version: 1.4-r1.6
+Depends: gtk+, libatk-1.0-0, libgio-2.0-0, pango, libcairo2, libfreetype6, libfontconfig1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libc6, libsoup-2.2-8, libglib-2.0-0, libxml2, libgnutls26, libglade-2.0-0, libx11-6
+Provides:
+Replaces: gpe-screenshot
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907451
+Auto-Installed: yes
+
+Package: task-base-kernel26
+Version: 1.0-r93.6
+Depends: sysfsutils, module-init-tools
+Recommends: kernel-module-nls-utf8, kernel-module-input, kernel-module-uinput, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-rtc-sa1100, kernel-module-unix
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: ecore-imf-evas
+Version: 2:1.0.0-r0.0.6
+Depends: ecore-imf, ecore, libglib-2.0-0, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina
+Provides:
+Replaces: libecore-imf-evas-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: kernel-module-g-serial
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: matchbox
+Version: 0.9.1-r2.6
+Depends: matchbox-common, matchbox-wm, matchbox-panel, matchbox-desktop
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: base-files
+Version: 3.0.14-r100.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Conffiles:
+ /etc/fstab 8a0d747a1565dfb39ae3b27b33ab5031
+ /etc/hostname ef6137876c930a6a32b91a988db1e40d
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: alsa-conf-base
+Version: 1.0.24.1-r0.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: openssh-sshd
+Version: 5.6p1-r9.0.6
+Depends: update-rc.d, openssh-keygen, libpam, libcrypto1.0.0, libc6, libz1, libgcc1
+Provides:
+Conflicts: dropbear
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/ssh/sshd_config 2c92b94dee9aa14ab67603a3b43c8d27
+Installed-Time: 1318411850
+Auto-Installed: yes
+
+Package: sysvinit-inittab
+Version: 2.86-r66.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Conffiles:
+ /etc/inittab 6a8a736f7cf808548473d28dcb79d83e
+Installed-Time: 1317907444
+Auto-Installed: yes
+
+Package: evas-engine-fb
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-engine-fb, libevas-ver-pre-svn-00-engine-fb
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: perl-module-cpan-version
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643315
+Auto-Installed: yes
+
+Package: ecore-input
+Version: 2:1.0.0-r0.0.6
+Depends: ecore, libglib-2.0-0, eina, libc6, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1
+Provides:
+Replaces: libecore-input-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libidl-2-0
+Version: 0.8.13-r0.6
+Depends: libglib-2.0-0, libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: angstrom-locale-en-feed-config
+Version: 1.0-r14.6
+Provides:
+Status: install user installed
+Architecture: omap3evm
+Installed-Time: 1317907473
+
+Package: devmem2
+Version: 1.0-r7.6
+Depends: libc6
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1350548336
+
+Package: libstdc++6
+Version: 4.3.3-r24.2.6
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1317976746
+
+Package: mime-support
+Version: 3.44-r1.6
+Recommends: file
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907463
+Auto-Installed: yes
+
+Package: e-wm
+Version: 0.16.999.060+svnr56372-r18.6
+Depends: shared-mime-info, mime-support, edje-utils, e-wm-utils, glibc-utils, ecore-evas, ecore-x, libxcursor1, libxdamage1, libxcomposite1, libxfixes3, libxinerama1, libxp6, libxrandr2, libxss1, libxtst6, libxi6, libxext6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, ecore-fb, libts-1.0-0, ecore-input, ecore-ipc, edje, embryo, libefreet-mime1, libefreet-trash1, libefreet1, ecore-file, ecore-con, libcurl4, libehal1, libeukit1, libedbus1, libdbus-1-3, eeze, libudev0, ecore-imf-evas, ecore-imf, ecore, libglib-2.0-0, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina, libpam, edbus-enotify, libeconnman1, libasound2, libgcc1, libebluez1, libeofono1
+Recommends: e-wm-config-default, e-wm-images, e-wm-icons, e-wm-other, e-wm-input-methods, e-wm-sysactions
+Provides:
+Replaces: systray
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1317907470
+
+Package: policykit
+Version: 0.96-r3.6
+Depends: libpam, libgobject-2.0-0, libglib-2.0-0, libc6, eggdbus, libdbus-glib-1-2, libdbus-1-3, libgio-2.0-0, libz1, libgmodule-2.0-0, libgthread-2.0-0, libexpat1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: gpe-dm
+Version: 0.52-r0.6
+Depends: xserver-common, update-rc.d, libglib-2.0-0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: libedbus1
+Version: 2:1.0.0-r0.0.6
+Depends: ecore, libglib-2.0-0, eina, libc6, libdbus-1-3
+Provides:
+Replaces: edbus
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: pam-plugin-motd
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: matchbox-desktop
+Version: 0.9.1-r6.6
+Depends: matchbox-common, libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libc6, libxft2, libfontconfig1, libexpat1, libfreetype6, libz1, libxrender1, libstartup-notification-1-0, libsm6, libuuid1, libice6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: pam-plugin-warn
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: libxrender1
+Version: 1:0.9.6-r9.0.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: libdbus-1-3
+Version: 1.2.24-r20.1.6
+Depends: libc6
+Recommends: dbus
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: pam-plugin-rootok
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: tzdata
+Version: 2011b-r8.0.6
+Provides:
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/timezone 27fb759573780869d660f67032dc7efa
+ /etc/localtime 410c65079e6d14f4eedf50c19bd073f8
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: perl-module-cpan-infoobj
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-debug, perl-module-cwd, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643249
+Auto-Installed: yes
+
+Package: task-boot
+Version: 1.0-r53.6
+Depends: base-files, base-passwd, busybox, modutils-initscripts, netbase, opkg
+Recommends: kernel
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907423
+Auto-Installed: yes
+
+Package: libpciaccess0
+Version: 0.12.1-r9.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907446
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-xpm
+Version: 2.20.1-r10.4.6
+Depends: gtk+, libgio-2.0-0, libc6, libz1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: openssl-conf
+Version: 1.0.0d-r14.0.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /usr/lib/ssl/openssl.cnf 3f0ee810b7a5e7cc8c862efea1dd77ee
+Installed-Time: 1317907448
+Auto-Installed: yes
+
+Package: libmount1
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: usbutils
+Version: 0.86-r1.6
+Depends: libusb-0.1-4, libz1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: initscripts
+Version: 1.0-r126.6
+Depends: makedevs
+Provides:
+Status: install user installed
+Architecture: armv7a
+Conffiles:
+ /etc/device_table 19faee0e28d44f1840c39c4f944141a2
+Installed-Time: 1317907443
+
+Package: libxdamage1
+Version: 1:1.1.3-r9.0.6
+Depends: libxfixes3, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: pam-plugin-tally2
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: matchbox-applet-inputmanager
+Version: 0.6-r5.6
+Depends: libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libc6, libxft2, libfontconfig1, libexpat1, libfreetype6, libz1, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: gpe-session-scripts
+Version: 0.68-r0.6
+Depends: matchbox-panel, matchbox-desktop, matchbox-common, gpe-session-starter, xtscal, gpe-question, matchbox-applet-inputmanager, xmodmap, xdpyinfo, xserver-common, ipaq-sleep
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: perl-module-io-handle
+Version: 5.10.1-r22.6
+Depends: perl-module-io, perl-module-carp, perl-module-exporter, perl-module-selectsaver, perl-module-strict, perl-module-symbol, perl
+Provides: perl-module-arm-angstrom-linux-gnueabi-io-handle
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643323
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.0d-r14.0.6
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Recommends: openssl-conf
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907448
+Auto-Installed: yes
+
+Package: kernel-module-cifs
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: e-wm-theme-default
+Version: 0.16.999.060+svnr56372-r18.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: xkbd
+Version: 0.8.15-r5.6
+Depends: libxtst6, libxext6, libxpm4, libxft2, libc6, libx11-6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 5.9-r0.6
+Depends: libc6 (>= 2.9)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907431
+Auto-Installed: yes
+
+Package: embryo-tests
+Version: 2:1.0.0-r0.0.6
+Depends: embryo, libc6
+Provides:
+Replaces: libembryo-ver-pre-svn-00-tests, libembryo-ver-pre-svn-01-tests
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: libgobject-2.0-0
+Version: 2.24.1-r2.6
+Depends: libgthread-2.0-0, libc6, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907442
+Auto-Installed: yes
+
+Package: libxxf86vm1
+Version: 1:1.1.1-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: xserver-xorg-conf
+Version: 0.1-r42.6
+Depends: xf86-video-omapfb
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Conffiles:
+ /etc/X11/xorg.conf 506a210241e65248eb13d5ddd9efc8ba
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: xf86-video-omapfb
+Version: 1:0.1.1+r15.2+gitr044617665d6737f4909aab96f91b06261dff05d2-r15.2.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: perl-module-xsloader
+Version: 5.10.1-r22.6
+Depends: perl
+Provides: perl-module-arm-angstrom-linux-gnueabi-xsloader
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643294
+Auto-Installed: yes
+
+Package: perl-module-cpan-exception-recursivedependency
+Version: 5.10.1-r22.6
+Depends: perl-module-overload, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643281
+Auto-Installed: yes
+
+Package: pam-plugin-time
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: libxfont1
+Version: 1:1.4.3-r9.0.6
+Depends: libfreetype6, libc6, libfontenc1, libz1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907446
+Auto-Installed: yes
+
+Package: edje
+Version: 2:1.0.0-r0.0.6
+Depends: ecore-file, ecore-con, libcurl4, embryo, ecore-imf-evas, ecore-imf, ecore, libglib-2.0-0, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina
+Provides:
+Replaces: libedje-ver-pre-svn-00-0, libedje-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: kernel-module-ppp-generic
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32, kernel-module-slhc
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: libgif4
+Version: 4.1.6-r2.6
+Depends: libsm6, libuuid1, libice6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: e-wm-other
+Version: 0.16.999.060+svnr56372-r18.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907469
+Auto-Installed: yes
+
+Package: libeet1
+Version: 2:1.4.0-r0.0.6
+Depends: libgnutls26, libgcrypt11, libgpg-error0, eina, libc6, libz1, libjpeg8
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: zeroconf
+Version: 0.9-r2.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: libpam-meta
+Version: 1.1.1-r2.6
+Depends: pam-plugin-tally, pam-plugin-group, pam-plugin-nologin, pam-plugin-rhosts, pam-plugin-faildelay, pam-plugin-mkhomedir, pam-plugin-rootok, pam-plugin-env, pam-plugin-mail, pam-plugin-succeed-if, pam-plugin-xauth, pam-plugin-localuser, pam-plugin-motd, pam-plugin-issue, pam-plugin-debug, pam-plugin-limits, pam-plugin-loginuid, pam-plugin-namespace, pam-plugin-permit, pam-plugin-lastlog, pam-plugin-tally2, pam-plugin-wheel, pam-plugin-time, pam-plugin-keyinit, pam-plugin-filter, pam-plugin-warn, pam-plugin-unix, pam-plugin-access, pam-plugin-deny, pam-plugin-userdb, pam-plugin-umask, pam-plugin-pwhistory, pam-plugin-listfile, pam-plugin-shells, pam-plugin-securetty, pam-plugin-timestamp, pam-plugin-echo, pam-plugin-stress, pam-plugin-ftp, pam-plugin-exec
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: perl-module-cpan-debug
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643250
+Auto-Installed: yes
+
+Package: perl-module-exporter
+Version: 5.10.1-r22.6
+Depends: perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643215
+Auto-Installed: yes
+
+Package: perl-module-file-path
+Version: 5.10.1-r22.6
+Depends: perl-module-cwd, perl-module-exporter, perl-module-file-basename, perl-module-file-spec, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643278
+Auto-Installed: yes
+
+Package: embryo
+Version: 2:1.0.0-r0.0.6
+Depends: libc6
+Provides:
+Replaces: libembryo-ver-pre-svn-00-0, libembryo-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: libgtkstylus
+Version: 0.3-r7.6
+Depends: gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libz1, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: dbus-x11
+Version: 1.2.24-r20.1.6
+Depends: dbus, libsm6, libuuid1, libice6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: gpe-theme-clearlooks
+Version: 0.3-r1.6
+Depends: gtk-engine-clearlooks
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: pam-plugin-permit
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: ttf-dejavu-sans
+Version: 2.23-r3.6
+Depends: ttf-dejavu-common
+Recommends: font-update-common
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: perl-module-cpan-cachemgr
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-infoobj, perl-module-cwd, perl-module-file-find, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643256
+Auto-Installed: yes
+
+Package: glibc-utils
+Version: 2.9-r37.4.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libsoup-2.2-8
+Version: 2.2.100-r1.6
+Depends: libgobject-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0, libxml2, libgnutls26, libz1, libgcrypt11, libgpg-error0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: psplash-support
+Version: 0.0+svnr422-r34.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317976748
+Auto-Installed: yes
+
+Package: pam-plugin-echo
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: perl-module-cgi
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-cgi-util, perl-module-constant, perl
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1350643225
+
+Package: perl-module-strict
+Version: 5.10.1-r22.6
+Depends: perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643218
+Auto-Installed: yes
+
+Package: pointercal
+Version: 0.0-r22.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: e-wm-utils
+Version: 0.16.999.060+svnr56372-r18.6
+Depends: ecore-file, ecore-con, ecore, libglib-2.0-0, libcurl4, libgnutls26, libz1, libgcrypt11, libgpg-error0, eina, libc6, libpam, libgcc1, ecore-evas, ecore-fb, libts-1.0-0, ecore-input, ecore-x, libxcursor1, libxdamage1, libxcomposite1, libxfixes3, libxinerama1, libxp6, libxrandr2, libxrender1, libxss1, libxtst6, libxi6, libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, edje, embryo, ecore-imf-evas, ecore-imf, evas, libfribidi0, libeet1, libjpeg8, libfontconfig1, libfreetype6, libexpat1, ecore-ipc, libefreet1, libehal1, libeukit1, libedbus1, libdbus-1-3
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libts-1.0-0
+Version: 1.0-r28.6.6
+Depends: tslib-conf, libc6, libgcc1
+Recommends: pointercal
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: perl-module-cpan-distroprefs
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-dirhandle, perl-module-file-spec, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643269
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.7.8-r9.1.6
+Depends: libc6, libz1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: rgb
+Version: 1:1.0.4-r5.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: libxinerama1
+Version: 1:1.1.1-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: util-linux-ng
+Version: 2.18-r36.0.6
+Depends: util-linux-ng-mountall, util-linux-ng-umount, util-linux-ng-swaponoff, util-linux-ng-losetup, util-linux-ng-fsck, util-linux-ng-blkid, libc6 (>= 2.9), libuuid1 (>= 2.18), libgcc1 (>= 4.3.3), libblkid1 (>= 2.18), libz1 (>= 1.2.3), libtinfo5 (>= 5.7+20110115), libpam (>= 1.1.1), libncursesw5 (>= 5.7+20110115), libmount1 (>= 2.18)
+Recommends: util-linux-ng-fdisk, util-linux-ng-cfdisk, util-linux-ng-sfdisk, util-linux-ng-mount, util-linux-ng-readprofile
+Provides: util-linux
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: perl-module-sys-hostname
+Version: 5.10.1-r22.6
+Depends: perl-module-autoloader, perl-module-carp, perl-module-exporter, perl-module-strict, perl, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643331
+Auto-Installed: yes
+
+Package: gpe-login
+Version: 0.95-r2.6
+Depends: xkbd, libgpewidget1, gtk+, libatk-1.0-0, libgio-2.0-0, pango, libcairo2, libfreetype6, libfontconfig1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0, libx11-6
+Recommends: gpe-theme-clearlooks
+Provides: gpe-session-starter
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/apm/suspend.d/S98lock-display 83623d49e5ee35c822ca9ea02b2d236c
+ /etc/gpe/gpe-login.conf 01a4faee96d11b001bdfe414d548922d
+ /etc/gpe/locale.alias c2bf67b276832b857176ca116c6b4fde
+ /etc/sysconfig/gpelogin b1125fbcdfb088b650a4f9a9e2de56bc
+ /etc/X11/gpe-login.keylaunchrc 69adfba484cf3dcec8c7fa1eaa67165d
+ /etc/X11/gpe-login.gtkrc 3fbe245ccead75b47f3f301dacc41a83
+ /etc/X11/gpe-login.setup 191b969773e0c089a67316c774ed94e8
+ /etc/X11/gpe-login.pre-session f6b2c163239c7b09dee3027de3d1b80b
+ /etc/X11/Xinit.d/99gpe-login 01829db6f424947f8b407e0f6ce08ea6
+ /etc/X11/Xsession.d/50autolock b5e380db7d3f4baaa00ca187f53fc0fb
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: libefreet1
+Version: 2:1.0.0-r0.1.6
+Depends: libeet1 (>= 1.4.0), libjpeg8 (>= 8b), ecore-file (>= 1.0.0), ecore-con (>= 1.0.0), ecore (>= 1.0.0), libglib-2.0-0 (>= 2.24.1), libcurl4 (>= 7.21.2), libgnutls26 (>= 2.10.4), libz1 (>= 1.2.3), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), eina (>= 1.0.0), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libavahi-common3
+Version: 0.6.25-r13.0.6
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: perl-module-io
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-strict, perl-module-warnings, perl-module-xsloader, perl, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643325
+Auto-Installed: yes
+
+Package: kernel-module-usbserial
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: libblkid1
+Version: 2.18-r36.0.6
+Depends: libuuid1 (>= 2.18), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: perl-module-text-tabs
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643344
+Auto-Installed: yes
+
+Package: perl-module-cpan-shell
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-cwd, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643311
+Auto-Installed: yes
+
+Package: xserver-xorg
+Version: 2:1.7.4-r18.2.6
+Depends: libc6, libpciaccess0, libxfont1, libfreetype6, libfontenc1, libz1, libxau6, libpixman-1-0, hal, libdbus-1-3, libxdmcp6, libssl1.0.0, libcrypto1.0.0, libgcc1
+Recommends: libpciaccess0, xserver-security-policy, xkeyboard-config, rgb, xserver-xorg-conf
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907446
+Auto-Installed: yes
+
+Package: font-update-common
+Version: 0.1-r1.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907451
+Auto-Installed: yes
+
+Package: mtd-utils
+Version: 1.4.1-r0.6
+Depends: libc6, libgcc1
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1320071750
+
+Package: portmap
+Version: 6.0-r5.6
+Depends: update-rc.d, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: perl-module-cpan-prompt
+Version: 5.10.1-r22.6
+Depends: perl-module-overload, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643306
+Auto-Installed: yes
+
+Package: libxcb1
+Version: 1.6-r4.1.6
+Depends: libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: evas-engine-software-16-x11
+Version: 2:1.0.0-r1.0.6
+Depends: libxrender1 (>= 0.9.6), libxext6 (>= 1.2.0), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0), evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: libapm1
+Version: 3.2.2-r13.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: xkbd-layout-ru
+Version: 0.1.1-r2.6
+Depends: xkbd
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: glibc-gconv
+Version: 2.9-r37.4.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: udev-utils
+Version: 151-r25.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907441
+Auto-Installed: yes
+
+Package: libxrandr2
+Version: 1:1.3.1-r9.0.6
+Depends: libxext6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907452
+Auto-Installed: yes
+
+Package: libxxf86dga1
+Version: 1:1.1.2-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: util-linux-ng-swaponoff
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libc6 (>= 2.9)
+Provides: util-linux-swaponoff
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: shared-mime-info
+Version: 0.51-r2.6
+Depends: libxml2, libglib-2.0-0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907463
+Auto-Installed: yes
+
+Package: gpe-autostarter
+Version: 0.12-r1.6
+Depends: hotplug-dbus, libglib-2.0-0, libdbus-glib-1-2, libdbus-1-3, libc6, libgobject-2.0-0, libgthread-2.0-0, libx11-6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: pam-plugin-umask
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: perl-module-symbol
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643272
+Auto-Installed: yes
+
+Package: dbus
+Version: 1.2.24-r20.1.6
+Depends: update-rc.d, libexpat1, libc6, libdbus-1-3
+Provides: dbus-1
+Replaces: dbus-1
+Conflicts: dbus-1
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/dbus-1/system.conf cde0a6ef9dad7b80fce3b227753fa64e
+ /etc/dbus-1/session.conf 673ab3651353e67a32593236f7410d2f
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: matchbox-keyboard
+Version: 0.0+svnr1910-r9.6
+Depends: libfakekey0, libxtst6, libxi6, libxext6, libxft2, libfontconfig1, libfreetype6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6, libexpat1, libpng12-0, libz1
+Provides:
+Conflicts: matchbox-keyboard-inputmethod
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: perl-module-io-file
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-exporter, perl-module-file-spec, perl-module-io-seekable, perl-module-selectsaver, perl-module-strict, perl-module-symbol, perl
+Provides: perl-module-arm-angstrom-linux-gnueabi-io-file
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643320
+Auto-Installed: yes
+
+Package: libxxf86misc1
+Version: 1:1.0.3-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: libgmp10
+Version: 5.0.1-r1.1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: kernel-module-smbfs
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: libpam-base-files
+Version: 1.0-r7.6
+Depends: libpam
+Recommends: libpam-meta
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: hicolor-icon-theme
+Version: 0.11-r1.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907452
+Auto-Installed: yes
+
+Package: pam-plugin-rhosts
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: perl-module-text-parsewords
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643336
+Auto-Installed: yes
+
+Package: gtk+
+Version: 2.20.1-r10.4.6
+Depends: hicolor-icon-theme, libxrandr2, libxext6, libxcursor1, pango, libxcomposite1, libxdamage1, libxfixes3, libatk-1.0-0, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libgio-2.0-0, libc6, libfontconfig1, libfreetype6, libz1, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0, libgcc1
+Recommends: ttf-dejavu-sans, gdk-pixbuf-loader-png, gdk-pixbuf-loader-jpeg, gdk-pixbuf-loader-gif, gdk-pixbuf-loader-xpm, glibc-gconv-iso8859-1
+Provides: libgailutil18
+Replaces: libgailutil18
+Conflicts: libgailutil18
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907452
+Auto-Installed: yes
+
+Package: ecore-file
+Version: 2:1.0.0-r0.0.6
+Depends: ecore-con, ecore, libglib-2.0-0, libcurl4, libgnutls26, libz1, libgcrypt11, libgpg-error0, eina, libc6
+Provides:
+Replaces: libecore-file-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: pam-plugin-nologin
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: libxcursor1
+Version: 1:1.1.11-r9.0.6
+Depends: libxrender1, libxfixes3, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 5.9-r0.6
+Depends: libc6 (>= 2.9), libtinfo5 (>= 5.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: libeukit1
+Version: 2:1.0.0-r0.0.6
+Depends: libedbus1, ecore, libglib-2.0-0, eina, libc6, libdbus-1-3
+Provides:
+Replaces: edbus
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: angstrom-x11-base-depends
+Version: 1.0-r45.6
+Depends: xserver-xorg, xf86-input-evdev, xf86-input-mouse, xf86-input-tslib, xf86-video-omapfb, xf86-input-keyboard, dbus-x11, ttf-dejavu-sans, ttf-dejavu-sans-mono
+Provides:
+Status: install user installed
+Architecture: omap3evm
+Installed-Time: 1317907451
+
+Package: eject
+Version: 2.1.5-r1.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: pam-plugin-stress
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: e2fsprogs-badblocks
+Version: 1.41.14-r29.6
+Depends: libext2fs2, libcom-err2, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: perl-module-vars
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-warnings-register, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643220
+Auto-Installed: yes
+
+Package: libxext6
+Version: 1:1.2.0-r9.1.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: task-distro-base
+Version: 1.0-r93.6
+Depends: angstrom-version, angstrom-feed-configs, util-linux-ng-mount, util-linux-ng-umount, angstrom-libc-fixup-hack
+Recommends: kernel-module-vfat, kernel-module-ext2, kernel-module-ext3, kernel-module-af-packet, avahi-daemon, avahi-autoipd, openssh-sftp-server, strace, procps
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: evas-engine-software-16
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-engine-software-16, libevas-ver-pre-svn-00-engine-software-16
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: libfribidi0
+Version: 0.19.2-r1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: gpe-icons
+Version: 0.25-r6.0.6
+Depends: gdk-pixbuf-loader-png
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: kernel-module-gadgetfs
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: matchbox-wm
+Version: 1.2-r7.6
+Depends: libmb1, libjpeg8, libxsettings-client0, libx11-6, libxext6, libpng12-0, libxft2, libc6, libstartup-notification-1-0, gconf, libglib-2.0-0, libxfixes3, libxcursor1, libgobject-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: libsm6
+Version: 1:1.2.0-r9.0.6
+Depends: libice6, libuuid1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.3-r9.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/ppp/pap-secrets e0d80e4e091ba0ca3688784467a8205d
+ /etc/ppp/chap-secrets d1cb45f1aedb9500ab1c325f887d8f84
+ /etc/ppp/options 300f139554327e63b13b44a2e3040ce0
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: hal
+Version: 0.5.14-r11.2+gitr0763f4900a32ac01d4b259fe010ab8ebfc83ad0f.6
+Depends: hal-info, udev-utils, libdbus-glib-1-2, libgobject-2.0-0, libglib-2.0-0, libdbus-1-3, libc6, libexpat1, libusb-0.1-4, libblkid1, libgcc1
+Recommends: eject
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: xcursor-transparent-theme
+Version: 0.1.1-r2.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907461
+Auto-Installed: yes
+
+Package: perl-module-cpan-author
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-infoobj, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643247
+Auto-Installed: yes
+
+Package: libacl1
+Version: 2.2.49-r5.6
+Depends: libattr1 (>= 2.4.44), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907441
+Auto-Installed: yes
+
+Package: base-passwd
+Version: 3.5.20-r1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: ecore-con
+Version: 2:1.0.0-r0.0.6
+Depends: ecore, libglib-2.0-0, libcurl4, eina, libc6, libgnutls26, libz1, libgcrypt11, libgpg-error0
+Provides:
+Replaces: libecore-ver-pre-svn-01-con, libecore-con-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: xsetroot
+Version: 1:1.0.3-r0.5
+Depends: libxmuu1 (>= 1.0.5), libx11-6 (>= 1.3.3), libc6 (>= 2.9)
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1319798440
+
+Package: cpp-symlinks
+Version: 4.3.3-r24.1.6
+Depends: cpp
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: pam-plugin-exec
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: kernel-module-g-ether
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: gpe-confd
+Version: 0.16-r1.6
+Depends: libsqlite0, libglib-2.0-0, libxsettings0, libc6, libx11-6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: pam-plugin-deny
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: task-base-ppp
+Version: 1.0-r93.6
+Depends: ppp, ppp-dialin
+Recommends: kernel-module-ppp-async, kernel-module-ppp-deflate, kernel-module-ppp-mppe
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: apm
+Version: 3.2.2-r13.6
+Depends: libapm1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: edbus-enotify
+Version: 2:1.0.0-r0.0.6
+Depends: libedbus1, ecore, libglib-2.0-0, libdbus-1-3, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina
+Provides:
+Replaces: libenotify1
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: matchbox-applet-startup-monitor
+Version: 0.1-r6.6
+Depends: libstartup-notification-1-0, libsm6, libuuid1, libice6, libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libc6, libxft2, libfontconfig1, libexpat1, libfreetype6, libz1, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: libxpm4
+Version: 1:3.5.9-r9.0.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: pam-plugin-pwhistory
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: libxfixes3
+Version: 1:4.0.5-r9.0.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: angstrom-feed-configs
+Version: 1.0-r14.6
+Recommends: opkg
+Provides:
+Status: install user installed
+Architecture: omap3evm
+Conffiles:
+ /etc/opkg/base-feed.conf a7bd43b0faca141aaf64ff64353d86a7
+ /etc/opkg/debug-feed.conf cfafc86a37f1f008b7d3a198a00d07ce
+ /etc/opkg/perl-feed.conf d6b433c4e746cfc3ef76fdf70d9247f3
+ /etc/opkg/python-feed.conf 0be49d4dae7a4110adb09101994147fe
+ /etc/opkg/gstreamer-feed.conf 3b6ef9097a5af87c0ac33a80c5f65736
+ /etc/opkg/omap3evm-feed.conf 4943a3e25bd1d5b25a1e2a27258fbad1
+ /etc/opkg/noarch-feed.conf 5e4a4d19bd473a8d5624fb7335196655
+ /etc/opkg/sdk-feed.conf d50c00e01c7bd7b3a2408319782cc3a4
+ /etc/opkg/arch.conf bf026815fbb0904efed21b731e6c7fe9
+Installed-Time: 1317907422
+
+Package: e2fsprogs-e2fsck
+Version: 1.41.14-r29.6
+Depends: libext2fs2, libcom-err2, libblkid1, libuuid1, libe2p2, libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: suspend-desktop
+Version: 1.0-r3.6
+Depends: gpe-conf
+Recommends: apm
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: xauth
+Version: 1:1.0.5-r5.0.6
+Depends: libxau6, libxext6, libxmuu1, libx11-6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907461
+Auto-Installed: yes
+
+Package: pam-plugin-unix
+Version: 1.1.1-r2.6
+Depends: libc6, libpam
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: avahi-autoipd
+Version: 0.6.25-r13.0.6
+Depends: update-rc.d, libdaemon0 (>= 0.13), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: gamin
+Version: 0.1.10-r0.6
+Depends: libglib-2.0-0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907442
+Auto-Installed: yes
+
+Package: xkeyboard-config
+Version: 2.0+gitr0+547ae8589afb208d7b44ffe1e0ff7aba466c2ee3-r6.0.6
+Depends: xkbcomp
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: hal-info
+Version: 20090414-r0.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: angstrom-libc-fixup-hack
+Version: 1.0-r0.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: openssh-keygen
+Version: 5.6p1-r9.0.6
+Depends: libcrypto1.0.0, libc6, libz1
+Provides:
+Conflicts: ssh-keygen
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1318411853
+Auto-Installed: yes
+
+Package: util-linux-ng-fsck
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libc6 (>= 2.9)
+Provides: e2fsprogs-fsck
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: libefreet-trash1
+Version: 2:1.0.0-r0.1.6
+Depends: libefreet1 (>= 1.0.0), libeet1 (>= 1.4.0), libjpeg8 (>= 8b), ecore-file (>= 1.0.0), ecore-con (>= 1.0.0), ecore (>= 1.0.0), libglib-2.0-0 (>= 2.24.1), libcurl4 (>= 7.21.2), libgnutls26 (>= 2.10.4), libz1 (>= 1.2.3), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), eina (>= 1.0.0), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: openssh-scp
+Version: 5.6p1-r9.0.6
+Depends: libcrypto1.0.0, libc6, libz1, libgcc1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1318411840
+Auto-Installed: yes
+
+Package: util-linux-ng-fdisk
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: util-linux-fdisk
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: libgnutls26
+Version: 2.10.4-r11.0.6
+Depends: libz1 (>= 1.2.3), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: perl-module-cpan-deferredcode
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643265
+Auto-Installed: yes
+
+Package: libxtst6
+Version: 1:1.2.0-r9.0.6
+Depends: libxi6, libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: sysvinit-utils
+Version: 2.86-r66.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: libeofono1
+Version: 2:1.0.0-r0.0.6
+Depends: libedbus1, ecore, libglib-2.0-0, eina, libc6, libdbus-1-3
+Provides:
+Replaces: edbus
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: kernel-module-g-file-storage
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: perl-module-cpan-distrostatus
+Version: 5.10.1-r22.6
+Depends: perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643280
+Auto-Installed: yes
+
+Package: pango-module-basic-x
+Version: 1.24.4-r1.1.6
+Depends: pango, pango, libc6, libgobject-2.0-0, libgthread-2.0-0, libgmodule-2.0-0, libglib-2.0-0, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: perl-module-constant
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl-module-warnings-register, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643224
+Auto-Installed: yes
+
+Package: util-linux-ng-cfdisk
+Version: 2.18-r36.0.6
+Depends: libncursesw5 (>= 5.7+20110115), libtinfo5 (>= 5.7+20110115), libblkid1 (>= 2.18), libuuid1 (>= 2.18), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: util-linux-cfdisk
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: libpixman-1-0
+Version: 0.21.6-r5.0.6
+Depends: libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: glibc-gconv-iso8859-1
+Version: 2.9-r37.4.6
+Depends: glibc-gconv, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: xf86-input-mouse
+Version: 1:1.6.0-r15.1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: pam-plugin-listfile
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: libext2fs2
+Version: 1.41.14-r29.6
+Depends: libcom-err2, libgcc1, libc6, libblkid1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: perl-module-cpan-queue
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643307
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-jpeg
+Version: 2.20.1-r10.4.6
+Depends: libjpeg8, gtk+, libgio-2.0-0, libc6, libz1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: libgpewidget1
+Version: 0.117-r0.6
+Depends: gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0, libcairo2, libpixman-1-0, libfontconfig1, libexpat1, libfreetype6, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libz1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: rxvt-unicode
+Version: 9.07-r0.6
+Depends: libc6, libxft2, libx11-6, libgcc1, libfontconfig1, libxrender1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: pam-plugin-tally
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: perl-module-warnings-register
+Version: 5.10.1-r22.6
+Depends: perl-module-warnings, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643221
+Auto-Installed: yes
+
+Package: pam-plugin-debug
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: util-linux-ng-blkid
+Version: 2.18-r36.0.6
+Depends: libblkid1 (>= 2.18), libuuid1 (>= 2.18), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: e2fsprogs-blkid
+Replaces: e2fsprogs-blkid
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: pam-plugin-localuser
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: perl-module-cgi-util
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643217
+Auto-Installed: yes
+
+Package: tslib-calibrate
+Version: 1.0-r28.6.6
+Depends: libts-1.0-0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: perl
+Version: 5.10.1-r22.6
+Depends: libperl5, libc6
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1350643191
+
+Package: kernel-module-ppp-deflate
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32, kernel-module-ppp-generic, kernel-module-slhc
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: udev
+Version: 151-r25.6
+Depends: module-init-tools-depmod, udev-utils, update-rc.d, libc6 (>= 2.9), libusb-0.1-4 (>= 0.1.3), libudev0 (>= 151), libacl1 (>= 2.2.49), libglib-2.0-0 (>= 2.24.1)
+Provides: hotplug, udev-compat-wrapper
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1317907442
+
+Package: procps
+Version: 3.2.8-r14.1.6
+Depends: ncurses-terminfo, update-rc.d, libc6, libgcc1, libncurses5, libtinfo5
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/sysctl.conf 5dea4aa6139bcf18672cae3c5e0de8ab
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: e2fsprogs
+Version: 1.41.14-r29.6
+Depends: util-linux-ng, e2fsprogs-badblocks, libuuid1, libc6, libext2fs2, libcom-err2, libe2p2, libgcc1, libss2, libblkid1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: hdparm
+Version: 9.35-r0.6
+Depends: libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: e-wm-icons
+Version: 0.16.999.060+svnr56372-r18.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907469
+Auto-Installed: yes
+
+Package: perl-module-file-find
+Version: 5.10.1-r22.6
+Depends: perl-module-cwd, perl-module-exporter, perl-module-file-basename, perl-module-file-spec, perl-module-strict, perl-module-warnings, perl-module-warnings-register, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643258
+Auto-Installed: yes
+
+Package: libehal1
+Version: 2:1.0.0-r0.0.6
+Depends: libedbus1, ecore, libglib-2.0-0, eina, libc6, libdbus-1-3
+Provides:
+Replaces: edbus
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libesd0
+Version: 1:0.2.36-r3.6
+Depends: hicolor-icon-theme, libaudiofile0, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907461
+Auto-Installed: yes
+
+Package: perl-module-cpan-handleconfig
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643300
+Auto-Installed: yes
+
+Package: module-init-tools
+Version: 3.12-r6.6
+Depends: module-init-tools-depmod, libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-png
+Version: 2.20.1-r10.4.6
+Depends: libpng12-0, gtk+, libgio-2.0-0, libc6, libz1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: avahi-daemon
+Version: 0.6.25-r13.0.6
+Depends: sysvinit-pidof, update-rc.d, libavahi-common3 (>= 0.6.25), libavahi-core6 (>= 0.6.25), libdaemon0 (>= 0.13), libexpat1 (>= 2.0.1), libcap2 (>= 2.16), libc6 (>= 2.9), libdbus-1-3 (>= 1.2.24)
+Recommends: libnss-mdns
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/avahi/avahi-daemon.conf 8b8dd88fc21f1d57d38282571404fa26
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: matchbox-panel-hacks
+Version: 0.3-1-r7.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: libncurses5
+Version: 5.9-r0.6
+Depends: libc6 (>= 2.9), libtinfo5 (>= 5.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907431
+Auto-Installed: yes
+
+Package: libebluez1
+Version: 2:1.0.0-r0.0.6
+Depends: libedbus1, ecore, libglib-2.0-0, eina, libc6, libdbus-1-3
+Provides:
+Replaces: edbus
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: libgthread-2.0-0
+Version: 2.24.1-r2.6
+Depends: libc6, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907442
+Auto-Installed: yes
+
+Package: pam-plugin-issue
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: libxcomposite1
+Version: 1:0.4.3-r9.0.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: ecore-x
+Version: 2:1.0.0-r0.0.6
+Depends: libxcursor1, libxdamage1, libxcomposite1, libxfixes3, libxinerama1, libxp6, libxrandr2, libxrender1, libxss1, libxtst6, libxi6, libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, ecore-input, ecore, libglib-2.0-0, eina, libc6
+Provides:
+Replaces: libecore-x-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: evas-engine-software-generic
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-engine-software-generic, libevas-ver-pre-svn-00-engine-software-generic
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: xmodmap
+Version: 1:1.0.5-r5.0.6
+Depends: libx11-6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: perl-module-carp
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643214
+Auto-Installed: yes
+
+Package: libaudiofile0
+Version: 0.2.6-r8.6
+Depends: libc6
+Provides: libaudiofile0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907461
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 5.9-r0.6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907431
+Auto-Installed: yes
+
+Package: perl-module-cpan-exception-yaml-not-installed
+Version: 5.10.1-r22.6
+Depends: perl-module-overload, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643285
+Auto-Installed: yes
+
+Package: perl-module-dirhandle
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-symbol, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643271
+Auto-Installed: yes
+
+Package: perl-module-filehandle
+Version: 5.10.1-r22.6
+Depends: perl-module-io-file, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643318
+Auto-Installed: yes
+
+Package: perl-module-text-wrap
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl-module-text-tabs, perl-module-warnings-register, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643338
+Auto-Installed: yes
+
+Package: libiw29
+Version: 29-r5.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: libattr1
+Version: 2.4.44-r4.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: cpp
+Version: 4.3.3-r24.1.6
+Depends: libmpfr4 (>= 3.0.0), libgmp10 (>= 5.0.1), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: libxcalibrate0
+Version: 3:0.0+r9.0+gitr0+209d83af61ed38a002c8096377deac292b3e396c-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: sysvinit-pidof
+Version: 2.86-r66.6
+Depends: sysvinit-utils
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: e-wm-config-default
+Version: 0.16.999.060+svnr56372-r18.6
+Recommends: e-wm-theme-default
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: libxi6
+Version: 1:1.4.1-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: libss2
+Version: 1.41.14-r29.6
+Depends: libcom-err2, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: pam-plugin-env
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: kernel-module-ppp-mppe
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32, kernel-module-ppp-generic, kernel-module-slhc
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907440
+Auto-Installed: yes
+
+Package: ipaq-sleep
+Version: 0.9-r8.6
+Depends: apm, libx11-6, libxext6, libapm1, libxss1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/ipaq-sleep.conf 0f08c3d4e99815d2b964c3dda25babb9
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: orbit2
+Version: 2.14.17-r0.6
+Depends: libidl-2-0, libgobject-2.0-0, libgthread-2.0-0, libc6, libgmodule-2.0-0, libglib-2.0-0, libgcc1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907456
+Auto-Installed: yes
+
+Package: pango
+Version: 1.24.4-r1.1.6
+Depends: hicolor-icon-theme, libgobject-2.0-0, libgthread-2.0-0, libc6, libgmodule-2.0-0, libglib-2.0-0, libxft2, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libz1, libexpat1, libgcc1, libcairo2, libpixman-1-0, libpng12-0
+Recommends: pango-module-basic-x, pango-module-basic-fc
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: libfontconfig1
+Version: 2.8.0-r0.6
+Depends: libfreetype6, libz1, libexpat1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: update-rc.d
+Version: 0.7-r2.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: libstartup-notification-1-0
+Version: 0.9-r2.6
+Depends: libsm6, libuuid1, libice6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: kernel-module-pegasus
+Version: 2.6.32-r83+gitra6bad4464f985fdd3bed72e1b82dcbfc004d7869.5
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.20-r0.6
+Depends: libattr1 (>= 2.4.44), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: eina
+Version: 2:1.0.0-r0.0.6
+Depends: libc6, libgcc1
+Provides:
+Replaces: libeina-ver-pre-svn-00-0, libeina-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: tinylogin
+Version: 1.4-r7.6
+Depends: libc6
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1317907445
+
+Package: angstrom-version
+Version: 1:2011.03-r7.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: libcurl4
+Version: 7.21.2-r5.0.6
+Depends: libc6 (>= 2.9), libgnutls26 (>= 2.10.4), libz1 (>= 1.2.3), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libgcc1 (>= 4.3.3)
+Recommends: curl-certs
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: libsysfs2
+Version: 2.1.0-r3.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907432
+Auto-Installed: yes
+
+Package: xserver-common
+Version: 1.34-r0.5
+Depends: xmodmap, xrandr, xdpyinfo, tslib-calibrate
+Provides:
+Replaces: xserver-kdrive-common
+Conflicts: xserver-kdrive-common
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: kernel-module-ipv6
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install user installed
+Architecture: omap3evm
+Installed-Time: 1320153145
+
+Package: perl-module-overload
+Version: 5.10.1-r22.6
+Depends: perl-module-warnings-register, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643284
+Auto-Installed: yes
+
+Package: libxsettings0
+Version: 0.11-r3.6
+Depends: libx11-6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: perl-module-cpan-ftp-netrc
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643288
+Auto-Installed: yes
+
+Package: pam-plugin-timestamp
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: perl-module-cpan-bundle
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-module, perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643253
+Auto-Installed: yes
+
+Package: perl-module-cpan-tarzip
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-debug, perl-module-file-basename, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643312
+Auto-Installed: yes
+
+Package: pam-plugin-lastlog
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: libavahi-client3
+Version: 0.6.25-r13.0.6
+Depends: libdbus-1-3 (>= 1.2.24), libc6 (>= 2.9), libavahi-common3 (>= 0.6.25)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1322421177
+Auto-Installed: yes
+
+Package: file
+Version: 5.05-r2.0.6
+Depends: libz1 (>= 1.2.3), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907463
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.3-r7.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907431
+Auto-Installed: yes
+
+Package: libcidn1
+Version: 2.9-r37.4.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: libfakekey0
+Version: 0.2+svnr1455-r2.6
+Depends: libxtst6, libxi6, libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: pam-plugin-userdb
+Version: 1.1.1-r2.6
+Depends: libpam, libc6, db
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 2.24.1-r2.6
+Depends: libgcc1, libc6, libgio-2.0-0, libgmodule-2.0-0, libz1, libgobject-2.0-0, libgthread-2.0-0, gamin
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907441
+Auto-Installed: yes
+
+Package: evas-saver-png
+Version: 2:1.0.0-r1.0.6
+Depends: libpng12-0 (>= 1.2.44), evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-saver-png, libevas-ver-pre-svn-00-saver-png
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: xf86-input-evdev
+Version: 1:2.6.0-r15.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: xrdb
+Version: 1:1.0.8-r5.0.6
+Depends: libxmuu1, libx11-6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: libx11-6
+Version: 1:1.4.1-r9.0.6
+Depends: libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: pam-plugin-namespace
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: edje-utils
+Version: 2:1.0.0-r0.0.6
+Depends: cpp, cpp-symlinks, embryo-tests, edje, embryo, ecore-imf-evas, ecore-imf, ecore-file, ecore-con, libcurl4, ecore-evas, ecore-x, libxcursor1, libxdamage1, libxcomposite1, libxfixes3, libxinerama1, libxp6, libxrandr2, libxss1, libxtst6, libxi6, libxext6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, ecore-fb, libts-1.0-0, ecore-input, ecore, libglib-2.0-0, evas, libfribidi0, libfontconfig1, libfreetype6, libexpat1, libc6, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libz1, libjpeg8, eina
+Recommends: evas-saver-png, evas-saver-jpeg, evas-saver-eet
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907463
+Auto-Installed: yes
+
+Package: libmb1
+Version: 1.9-r7.6
+Depends: libxsettings-client0, libxext6, libxft2, libfontconfig1, libexpat1, libfreetype6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6, libjpeg8, libpng12-0, libz1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: perl-module-file-spec-unix
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643262
+Auto-Installed: yes
+
+Package: netbase
+Version: 4.21-r50.6
+Depends: update-rc.d
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Conffiles:
+ /etc/network/options a3dfe287e7258722afb9cf254b31815e
+ /etc/hosts 27acad957c7cded40cd6ac50d23ddc66
+ /etc/network/interfaces deb88703b33a8f0e8e94577d63b36d12
+ /etc/rpc f0b6f6352bf886623adc04183120f83b
+ /etc/protocols e1b2c07d83ff5322a6353945a5c4b7e6
+ /etc/services 8a04f87ad04f4a1d3c7e6ca12e07290d
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: evas-loader-jpeg
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-loader-jpeg, libevas-ver-pre-svn-00-loader-jpeg
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: evas-saver-eet
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-saver-eet, libevas-ver-pre-svn-00-saver-eet
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: perl-module-config
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl
+Provides: perl-module-arm-angstrom-linux-gnueabi-config
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643246
+Auto-Installed: yes
+
+Package: perl-module-safe
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-strict, perl
+Provides: perl-module-arm-angstrom-linux-gnueabi-safe
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643329
+Auto-Installed: yes
+
+Package: e-wm-sysactions
+Version: 0.16.999.060+svnr56372-r18.6
+Provides:
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/enlightenment/sysactions.conf b899e8b58eb61bfd63df5052420b6a04
+Installed-Time: 1317907469
+Auto-Installed: yes
+
+Package: perl-module-io-seekable
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-exporter, perl-module-fcntl, perl-module-io-handle, perl-module-strict, perl
+Provides: perl-module-arm-angstrom-linux-gnueabi-io-seekable
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643322
+Auto-Installed: yes
+
+Package: libgcc1
+Version: 4.3.3-r24.2.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907424
+Auto-Installed: yes
+
+Package: perl-module-cpan-url
+Version: 5.10.1-r22.6
+Depends: perl-module-overload, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643314
+Auto-Installed: yes
+
+Package: kernel-module-asix
+Version: 2.6.32-r83+gitra6bad4464f985fdd3bed72e1b82dcbfc004d7869.5
+Depends: update-modules, kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907439
+Auto-Installed: yes
+
+Package: libsqlite0
+Version: 2.8.17-r7.6
+Depends: libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: pam-plugin-limits
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: psplash
+Version: 0.0+svnr249-r19.1
+Depends: psplash-support, libc6 (>= 2.6.1)
+Provides: virtual/psplash
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1317976749
+
+Package: hotplug-dbus
+Version: 0.9-r2.6
+Depends: hotplug
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.0.1-r3.6
+Depends: libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: gpe-conf
+Version: 0.2.9-r0.6
+Depends: xst, gpe-confd, xset, ntpdate, gpe-icons, tzdata, xrandr, libgpewidget1, gtk+, libatk-1.0-0, libgio-2.0-0, pango, libcairo2, libfreetype6, libfontconfig1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0, libxrandr2, libxsettings-client0, libx11-6, libesd0, libaudiofile0, libgcc1
+Provides: bl
+Conflicts: bl
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: ttf-dejavu-common
+Version: 2.23-r3.6
+Recommends: font-update-common
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907450
+Auto-Installed: yes
+
+Package: perl-module-cwd
+Version: 5.10.1-r22.6
+Depends: perl-module-exporter, perl-module-strict, perl-module-vars, perl, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643252
+Auto-Installed: yes
+
+Package: libdmx1
+Version: 1:1.1.1-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: pam-plugin-faildelay
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: libasound2
+Version: 1.0.24.1-r0.6
+Depends: alsa-conf-base, libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: util-linux-ng-losetup
+Version: 2.18-r36.0.6
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides: util-linux-losetup
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907433
+Auto-Installed: yes
+
+Package: xhost
+Version: 1:1.0.4-r5.0.6
+Depends: libxmuu1, libx11-6, libxau6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: ecore-imf
+Version: 2:1.0.0-r0.0.6
+Depends: ecore, libglib-2.0-0, eina, libc6
+Provides:
+Replaces: libecore-imf-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: perl-module-file-copy
+Version: 5.10.1-r22.6
+Depends: perl-module-config, perl-module-exporter, perl-module-file-spec, perl-module-strict, perl-module-warnings, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643317
+Auto-Installed: yes
+
+Package: libpng12-0
+Version: 1.2.44-r3.0.6
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.9)
+Provides: libpng3
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: evas-engine-xrender-x11
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0), libxext6 (>= 1.2.0), libxrender1 (>= 0.9.6), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-engine-xrender-x11, libevas-ver-pre-svn-00-engine-xrender-x11
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: libperl5
+Version: 5.10.1-r22.6
+Depends: libc6, libgcc1
+Provides: libperl5
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643190
+Auto-Installed: yes
+
+Package: kernel
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Depends: kernel-2.6.32
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: perl-module-cpan-distribution
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-distroprefs, perl-module-cpan-infoobj, perl-module-cwd, perl-module-extutils-makemaker, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643268
+Auto-Installed: yes
+
+Package: pam-plugin-keyinit
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: gpe-terminal
+Version: 1.1-r2.6
+Recommends: rxvt-unicode
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907457
+Auto-Installed: yes
+
+Package: gtk-engine-clearlooks
+Version: 2.20.0-r0.6
+Depends: gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libz1, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: db
+Version: 5.1.19-r2.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: kernel-image-2.6.32
+Version: 2.6.32-r100c+gitr5fc29e7b2a76a64a739f857858ef0b98294aa155.6
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907425
+Auto-Installed: yes
+
+Package: perl-module-cpan-module
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643255
+Auto-Installed: yes
+
+Package: iproute
+Version: 20091226-1
+Depends: libc6 (>= 2.11~20100104-0ubuntu5), libdb4.8, libgcc1 (>= 1:4.4.0)
+Recommends: libatm1
+Suggests: iproute-doc
+Provides: arpd
+Conflicts: arpd
+Status: install user installed
+Architecture: armel
+Conffiles:
+ /etc/iproute2/rt_scopes 6298b8df09e9bda23ea7da49021ca457
+ /etc/iproute2/ematch_map 0b9befbbbee4b415319b8070f18b9b88
+ /etc/iproute2/rt_protos 95ce0b4b5b79f5a8a45941fb418a904c
+ /etc/iproute2/rt_realms 7137bdf40e8d58c87ac7e3bba503767f
+ /etc/iproute2/rt_dsfield 4264d5c7c8298300185aa04e1a736934
+ /etc/iproute2/rt_tables a1313318d6778fe6b8c680248ef5a463
+Installed-Time: 1318564140
+Auto-Installed: yes
+
+Package: eeze
+Version: 2:1.0.0-r0.0.6
+Depends: ecore, libglib-2.0-0, eina, libc6, libudev0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907468
+Auto-Installed: yes
+
+Package: ecore-evas
+Version: 2:1.0.0-r0.0.6
+Depends: ecore-x, libxcursor1, libxdamage1, libxcomposite1, libxfixes3, libxinerama1, libxp6, libxrandr2, libxss1, libxtst6, libxi6, libxext6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, ecore-fb, libts-1.0-0, ecore-input, ecore, libglib-2.0-0, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina
+Provides:
+Replaces: libecore-evas-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: ntpdate
+Version: 4.2.6p3-r1.6
+Depends: libc6, libcap2, libgcc1
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: perl-module-cpan-lwp-useragent
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643303
+Auto-Installed: yes
+
+Package: xdpyinfo
+Version: 1:1.2.0-r5.0.6
+Depends: libxext6, libx11-6, libxtst6, libxxf86vm1, libxxf86dga1, libxxf86misc1, libxi6, libxrender1, libxcomposite1, libxinerama1, libdmx1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: ncurses-terminfo
+Version: 5.9-r0.6
+Depends: ncurses-terminfo-base
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907431
+Auto-Installed: yes
+
+Package: libcairo2
+Version: 1.10.0-r2.6
+Depends: libc6 (>= 2.9), libpixman-1-0 (>= 0.21.4), libfontconfig1 (>= 2.8.0), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.4.3), libpng12-0 (>= 1.2.44), libxrender1 (>= 0.9.6), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0), libz1 (>= 1.2.3), libgcc1 (>= 4.3.3)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907453
+Auto-Installed: yes
+
+Package: libefreet-mime1
+Version: 2:1.0.0-r0.1.6
+Depends: libefreet1 (>= 1.0.0), libeet1 (>= 1.4.0), libjpeg8 (>= 8b), ecore-file (>= 1.0.0), ecore-con (>= 1.0.0), ecore (>= 1.0.0), libglib-2.0-0 (>= 2.24.1), libcurl4 (>= 7.21.2), libgnutls26 (>= 2.10.4), libz1 (>= 1.2.3), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), eina (>= 1.0.0), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libxau6
+Version: 1:1.0.6-r9.0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: libudev0
+Version: 151-r25.6
+Depends: libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907441
+Auto-Installed: yes
+
+Package: libgpg-error0
+Version: 1.4-r7.1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: libxsettings-client0
+Version: 0.17-r5.1.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: netplug
+Version: 1.2.9.1-2ubuntu1
+Depends: libc6 (>= 2.4), iproute
+Provides:
+Status: install user installed
+Architecture: armel
+Conffiles:
+ /etc/init.d/netplug d81871d6b895f98053cefc32d2b5ef3d
+ /etc/netplug/netplugd.conf ede682e9a56e69b9495d6ce933470144
+ /etc/netplug/netplug e927cf80077ed8eff613115c500e234c
+Installed-Time: 1318564143
+
+Package: perl-module-autoloader
+Version: 5.10.1-r22.6
+Depends: perl-module-strict, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643334
+Auto-Installed: yes
+
+Package: xset
+Version: 1:1.2.1-r5.0.6
+Depends: libxmuu1, libx11-6, libxext6, libxxf86misc1, libxfontcache1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907460
+Auto-Installed: yes
+
+Package: evas-loader-png
+Version: 2:1.0.0-r1.0.6
+Depends: libpng12-0 (>= 1.2.44), evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-loader-png, libevas-ver-pre-svn-00-loader-png
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: xrandr
+Version: 1:1.3.4-r5.0.6
+Depends: libxrandr2, libxrender1, libx11-6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907458
+Auto-Installed: yes
+
+Package: e2fsprogs-mke2fs
+Version: 1.41.14-r29.6
+Depends: libext2fs2, libcom-err2, libblkid1, libuuid1, libe2p2, libgcc1, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: perl-module-selectsaver
+Version: 5.10.1-r22.6
+Depends: perl-module-carp, perl-module-symbol, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643327
+Auto-Installed: yes
+
+Package: e-wm-config-standard
+Version: 0.16.999.060+svnr56372-r18.6
+Recommends: e-wm-theme-default
+Provides:
+Status: install user installed
+Architecture: all
+Installed-Time: 1317907471
+
+Package: evas-loader-eet
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-loader-eet, libevas-ver-pre-svn-00-loader-eet
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: pam-plugin-succeed-if
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: pam-plugin-loginuid
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907435
+Auto-Installed: yes
+
+Package: sysvinit
+Version: 2.86-r66.6
+Depends: sysvinit-inittab, libc6 (>= 2.9)
+Recommends: sysvinit-utils
+Provides:
+Status: install user installed
+Architecture: armv7a
+Installed-Time: 1317907444
+
+Package: update-modules
+Version: 1.0-r10.6
+Depends: module-init-tools-depmod
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907438
+Auto-Installed: yes
+
+Package: perl-module-cpan-ftp
+Version: 5.10.1-r22.6
+Depends: perl-module-cpan-ftp-netrc, perl-module-fcntl, perl-module-file-basename, perl-module-file-path, perl-module-strict, perl-module-vars, perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643287
+Auto-Installed: yes
+
+Package: libdbus-glib-1-2
+Version: 0.86-r2.1.6
+Depends: libdbus-1-3, libgobject-2.0-0, libgthread-2.0-0, libc6, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: libxkbfile1
+Version: 1:1.0.7-r9.0.6
+Depends: libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907449
+Auto-Installed: yes
+
+Package: ecore
+Version: 2:1.0.0-r0.0.6
+Depends: eina, libc6, libglib-2.0-0
+Provides:
+Replaces: libecore-ver-pre-svn-00-0, libecore-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.41.14-r29.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907437
+Auto-Installed: yes
+
+Package: libxp6
+Version: 1:1.0.1-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxdmcp6, libc6, libxau6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907466
+Auto-Installed: yes
+
+Package: ecore-ipc
+Version: 2:1.0.0-r0.0.6
+Depends: ecore-con, ecore, libglib-2.0-0, libcurl4, libgnutls26, libz1, libgcrypt11, libgpg-error0, eina, libc6
+Provides:
+Replaces: libecore-ipc-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: gdk-pixbuf-loader-gif
+Version: 2.20.1-r10.4.6
+Depends: gtk+, libgio-2.0-0, libc6, libz1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907454
+Auto-Installed: yes
+
+Package: e-wm-images
+Version: 0.16.999.060+svnr56372-r18.6
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1317907469
+Auto-Installed: yes
+
+Package: libdaemon0
+Version: 0.13-r0.6
+Depends: libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: perl-module-warnings
+Version: 5.10.1-r22.6
+Depends: perl
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1350643222
+Auto-Installed: yes
+
+Package: libmpfr4
+Version: 3.0.0-r3.1.6
+Depends: libgmp10, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907464
+Auto-Installed: yes
+
+Package: ecore-fb
+Version: 2:1.0.0-r0.0.6
+Depends: libts-1.0-0, ecore, libglib-2.0-0, eina, libc6
+Provides:
+Replaces: libecore-fb-ver-pre-svn-01-0
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907467
+Auto-Installed: yes
+
+Package: libxss1
+Version: 1:1.2.1-r9.0.6
+Depends: libxext6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Provides:
+Replaces: libxss
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907459
+Auto-Installed: yes
+
+Package: pam-plugin-mkhomedir
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: libnss-mdns
+Version: 0.10-r0.6
+Depends: libc6
+Recommends: zeroconf
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907427
+Auto-Installed: yes
+
+Package: libavahi-core6
+Version: 0.6.25-r13.0.6
+Depends: libavahi-common3 (>= 0.6.25), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907426
+Auto-Installed: yes
+
+Package: libfreetype6
+Version: 2.4.3-r1.6
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.9)
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907447
+Auto-Installed: yes
+
+Package: pam-plugin-xauth
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907434
+Auto-Installed: yes
+
+Package: pam-plugin-ftp
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: pam-plugin-shells
+Version: 1.1.1-r2.6
+Depends: libpam, libc6
+Provides:
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907436
+Auto-Installed: yes
+
+Package: matchbox-panel
+Version: 0.9.3-r6.6
+Depends: libmb1, libjpeg8, libxsettings-client0, libxext6, libpng12-0, libxft2, libxrender1, libfontconfig1, libfreetype6, libx11-6, libstartup-notification-1-0, libc6, libapm1, libiw29, libgcc1
+Provides:
+Status: install ok installed
+Architecture: omap3evm
+Installed-Time: 1317907455
+Auto-Installed: yes
+
+Package: evas-engine-buffer
+Version: 2:1.0.0-r1.0.6
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Provides:
+Replaces: liblibevas-ver-pre-svn-00-engine-buffer, libevas-ver-pre-svn-00-engine-buffer
+Status: install ok installed
+Architecture: armv7a
+Installed-Time: 1317907465
+Auto-Installed: yes
+

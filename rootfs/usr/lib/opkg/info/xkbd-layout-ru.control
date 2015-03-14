@@ -1,0 +1,12 @@
+Package: xkbd-layout-ru
+Version: 0.1.1-r1.3
+Description: xkbd i18n layouts
+Section: x11
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: all
+OE: xkbd-layout-ru
+Homepage: unknown
+Depends: xkbd
+Source: file://en-ru-123.xkbd

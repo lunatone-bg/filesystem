@@ -1,0 +1,5 @@
+/usr/bin/xinput_calibrator
+/usr/bin/xinput_calibrator_x11
+/usr/share/applications/xinput-calibrator.desktop
+/usr/bin/xinput_calibrator_get_hal_calibration.sh
+/usr/bin/xinput_calibrator_once.sh

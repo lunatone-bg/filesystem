@@ -1,0 +1,9 @@
+/etc/opkg/base-feed.conf
+/etc/opkg/python-feed.conf
+/etc/opkg/perl-feed.conf
+/etc/opkg/omap3evm-feed.conf
+/etc/opkg/gstreamer-feed.conf
+/etc/opkg/sdk-feed.conf
+/etc/opkg/arch.conf
+/etc/opkg/noarch-feed.conf
+/etc/opkg/debug-feed.conf

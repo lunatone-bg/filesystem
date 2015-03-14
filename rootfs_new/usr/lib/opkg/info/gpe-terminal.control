@@ -1,0 +1,12 @@
+Package: gpe-terminal
+Version: 1.1-r2.6
+Description: GPE terminal wrapper
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-terminal
+Homepage: unknown
+Recommends: rxvt-unicode
+Source: file://gpe-terminal.desktop file://gpe-terminal.png

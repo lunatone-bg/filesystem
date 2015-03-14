@@ -1,0 +1,32 @@
+This package was un-yada-ifed by Steve Kowalik <stevenk@ubuntu.com> on
+Mon, 23 Jul 2007 11:02:57 +1000.
+
+The original copyright follows:
+This is a prepackaged version of NSS module for using Berkeley
+Databases as a naming service.  It was Debianised by Piotr
+Roszatycki <dexter@debian.org>, using files obtained from
+<URL:ftp://sources.redhat.com/pub/glibc/releases/nss_db-(.*)\.tar.gz>.
+
+More information about NSS module for using Berkeley Databases as a
+naming service is available from <URL:http://www.gnu.org/software/libc/>.
+
+Changes were made as follows:
+  010-db2_upgrade_code.patch
+  020-db4.3_usage.patch
+  030-no_internal_libc.patch
+  040-db4.3_api_change.patch
+  050-initialize_all_fields.patch
+  060-errno.patch
+  070-selinux.patch
+  080-translations.patch
+  090-automake_AC_CANONICAL_HOST.patch
+  100-automake_libtool.patch
+  110-automake_install-data-local.patch
+
+Copyright and licence notice:
+
+  Copyright (C) 2000, 2001 Free Software Foundation, Inc.
+
+On any Debian system, you can find the complete text of the GNU GPL
+(GNU General Public License) in the file  /usr/share/common-licenses/GPL
+

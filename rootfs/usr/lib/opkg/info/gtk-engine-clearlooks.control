@@ -1,0 +1,12 @@
+Package: gtk-engine-clearlooks
+Version: 2.18.1-r1.3
+Description: GTK clearlooks theme engine
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gtk-engines
+Homepage: unknown
+Depends: hicolor-icon-theme, gtk+ (>= 2.16.0), libxcursor1 (>= 1.1.9), libxcomposite1 (>= 0.4.0), libxext6 (>= 1.0.5), libxdamage1 (>= 1.1.1), libxfixes3 (>= 4.0.3), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libpixman-1-0 (>= 0.13.2), libpng12-0 (>= 1.2.35), libxrender1 (>= 0.9.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libz1 (>= 1.2.3), libc6 (>= 2.9), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libexpat1 (>= 2.0.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0)
+Source: http://ftp.gnome.org/pub/GNOME/sources/gtk-engines/2.18/gtk-engines-2.18.1.tar.bz2

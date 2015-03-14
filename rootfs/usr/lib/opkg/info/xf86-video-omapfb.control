@@ -1,0 +1,12 @@
+Package: xf86-video-omapfb
+Version: 1:0.1.1+r9a+gitr5317aae587a2bf48f07a8c06bfaf7bcbfd23bafc-r9a.5
+Description: X.Org X server -- OMAP display driver
+Section: x11/drivers
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xf86-video-omapfb
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.9)
+Source: git://git.pingu.fi/xf86-video-omapfb.git;protocol=http file://0001-omapfb-driver-hack-out-dpms-for-xorg-1.7.x.patch;patch=1

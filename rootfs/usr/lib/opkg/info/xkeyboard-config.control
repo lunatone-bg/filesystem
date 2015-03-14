@@ -1,0 +1,12 @@
+Package: xkeyboard-config
+Version: 1.4-r3.3
+Description: Common X11 Keyboard layouts
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: xkeyboard-config
+Homepage: unknown
+Depends: xkbcomp
+Source: http://xlibs.freedesktop.org/xkbdesc/xkeyboard-config-1.4.tar.bz2 file://abnt2-fixes.patch;patch=1

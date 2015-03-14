@@ -1,0 +1,12 @@
+Package: xkbevd
+Version: 1:1.0.2-r0.2
+Description: X application
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xkbevd
+Homepage: http://www.x.org/
+Depends: libxkbfile1 (>= 1.0.5), libx11-6 (>= 1.2), libc6 (>= 2.6.1)
+Source: http://xorg.freedesktop.org/releases/individual/app/xkbevd-1.0.2.tar.bz2

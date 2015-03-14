@@ -1,0 +1,13 @@
+Package: file
+Version: 5.05-r2.0.6
+Description: File attempts to classify files depending on their contents and prints a description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-ADV
+Architecture: armv7a
+OE: file
+Homepage: unknown
+Build: org.openembedded.dev/ee97ccc
+Depends: libz1 (>= 1.2.3), libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Source: ftp://ftp.astron.com/pub/file/file-5.05.tar.gz file://reloc.patch

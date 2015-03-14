@@ -1,0 +1,12 @@
+Package: gtk-engine-clearlooks
+Version: 2.20.0-r0.6
+Description: GTK clearlooks theme engine
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gtk-engines
+Homepage: unknown
+Depends: gtk+, libatk-1.0-0, libgio-2.0-0, libc6, pango, libcairo2, libpixman-1-0, libpng12-0, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libfontconfig1, libfreetype6, libz1, libexpat1, libgobject-2.0-0, libgmodule-2.0-0, libgthread-2.0-0, libglib-2.0-0
+Source: http://ftp.gnome.org/pub/GNOME/sources/gtk-engines/2.20/gtk-engines-2.20.0.tar.bz2;name=archive

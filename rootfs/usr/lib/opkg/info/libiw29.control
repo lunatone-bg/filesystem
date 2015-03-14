@@ -1,0 +1,12 @@
+Package: libiw29
+Version: 29-r4.3
+Description: Tools for the Linux Standard Wireless Extension Subsystem
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: wireless-tools
+Homepage: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+Depends: libc6 (>= 2.9)
+Source: file:///OE/org.openembedded.dev/recipes/wireless-tools/wireless-tools_29.bb http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz file://man.patch;patch=1 file://shared_lib_ldflags.patch;patch=1 file://wireless-tools.if-pre-up file://zzz-wireless.if-pre-up

@@ -1,0 +1,12 @@
+	deluser avahi || true
+	delgroup avahi || true
+if test "x$D" != "x"; then
+	OPT="-r $D"
+else
+	OPT=""
+fi
+if test "$1" = "remove" -o "$1" = "purge"; then
+	if ! test -e "/etc/init.d/avahi-daemon"; then
+		update-rc.d $OPT avahi-daemon remove
+	fi
+fi

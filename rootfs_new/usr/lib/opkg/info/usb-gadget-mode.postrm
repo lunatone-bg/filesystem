@@ -1,0 +1,1 @@
+	update-rc.d -f usb-gadget remove

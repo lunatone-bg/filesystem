@@ -1,0 +1,13 @@
+Package: procps
+Version: 3.2.8-r14.1.6
+Description: Procps is the package that has a bunch of small useful utilities that give information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, and skill.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: procps
+Homepage: http://procps.sf.net
+Build: org.openembedded.dev/8192b03
+Depends: ncurses-terminfo, update-rc.d, libc6, libgcc1, libncurses5, libtinfo5
+Source: http://procps.sourceforge.net/procps-3.2.8.tar.gz;name=tarball file://sysctl.conf file://procps.init file://install.patch file://procmodule.patch file://psmodule.patch file://linux-limits.patch file://60_linux_version_init.dpatch;apply=yes

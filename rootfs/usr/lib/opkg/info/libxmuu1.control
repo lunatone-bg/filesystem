@@ -1,0 +1,12 @@
+Package: libxmuu1
+Version: 1:1.0.4-r1.3
+Description: X11 miscellaneous utility library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libxmu
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXmu-1.0.4.tar.bz2

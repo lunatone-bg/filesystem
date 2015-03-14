@@ -1,0 +1,5 @@
+if test "x$D" != "x"; then
+	exit 1
+else
+	deluser ppp || true
+fi

@@ -1,0 +1,14 @@
+Package: ecore-evas
+Version: 2:1.0.0-r0.0.6
+Description: Ecore is the Enlightenment application framework library
+Section: e/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: armv7a
+OE: ecore
+Homepage: http://www.enlightenment.org
+Build: org.openembedded.dev/1888f71
+Depends: ecore-x, libxcursor1, libxdamage1, libxcomposite1, libxfixes3, libxinerama1, libxp6, libxrandr2, libxss1, libxtst6, libxi6, libxext6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, ecore-fb, libts-1.0-0, ecore-input, ecore, libglib-2.0-0, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina
+Replaces: libecore-evas-ver-pre-svn-01-0
+Source: http://download.enlightenment.org/releases/ecore-1.0.0.tar.gz file://fix-ecore-fb-initialization.patch file://exit_uclibc.patch

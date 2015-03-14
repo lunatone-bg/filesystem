@@ -1,0 +1,4 @@
+	cat /etc/nsswitch.conf | grep "hosts:\s*files dns mdns$" > /dev/null && {
+		cat /etc/nsswitch.conf | sed 's/\(hosts:\s*files \)mdns4_minimal [NOTFOUND=return] dns mdns4/\1dns/' > /tmp/nsswitch.conf
+		mv /tmp/nsswitch.conf /etc/nsswitch.conf
+	}

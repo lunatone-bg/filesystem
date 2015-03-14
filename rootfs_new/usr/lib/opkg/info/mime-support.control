@@ -1,0 +1,12 @@
+Package: mime-support
+Version: 3.44-r1.6
+Description: MIME files 'mime.types' & 'mailcap', and support programs
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: PD
+Architecture: all
+OE: mime-support
+Homepage: unknown
+Recommends: file
+Source: ftp://ftp.debian.org/debian/pool/main/m/mime-support/mime-support_3.44-1.tar.gz

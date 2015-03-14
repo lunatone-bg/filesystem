@@ -1,0 +1,13 @@
+Package: gpe-scap
+Version: 1.4-r0.3
+Description: A GPE application that allows you to take screenshots.
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-scap
+Homepage: unknown
+Depends: gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libgthread-2.0-0 (>= 2.20.0), libc6 (>= 2.9), libsoup-2.2-8 (>= 2.2.100), libglib-2.0-0 (>= 2.20.0), libxml2 (>= 2.7.2), libgnutls26 (>= 2.4.2), libglade-2.0-0 (>= 2.6.2), libx11-6 (>= 1.2)
+Replaces: gpe-screenshot
+Source: http://gpe.linuxtogo.org/download/source/gpe-scap-1.4.tar.bz2

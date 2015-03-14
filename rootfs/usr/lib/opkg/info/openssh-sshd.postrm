@@ -1,0 +1,8 @@
+if test "x$D" != "x"; then
+	exit 1
+else
+	/etc/init.d/sshd stop
+	deluser sshd
+	delgroup sshd
+	update-rc.d -f sshd remove
+fi

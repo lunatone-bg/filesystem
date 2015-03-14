@@ -1,0 +1,14 @@
+Package: task-distro-base
+Version: 1.0-r93.6
+Description: Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: omap3evm
+OE: task-base
+Homepage: unknown
+Build: 2011.03-maintenance/bdb967b
+Depends: angstrom-version, angstrom-feed-configs, util-linux-ng-mount, util-linux-ng-umount, angstrom-libc-fixup-hack
+Recommends: kernel-module-vfat, kernel-module-ext2, kernel-module-ext3, kernel-module-af-packet, avahi-daemon, avahi-autoipd, openssh-sftp-server, strace, procps
+Source: file:///OE/angstrom-2008/sources/openembedded/recipes/tasks/task-base.bb

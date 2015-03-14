@@ -1,0 +1,12 @@
+Package: libxcursor1
+Version: 1:1.1.9-r2.3
+Description: X cursor management library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: libxcursor
+Homepage: http://www.x.org
+Depends: libxrender1 (>= 0.9.4), libxfixes3 (>= 4.0.3), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXcursor-1.1.9.tar.bz2

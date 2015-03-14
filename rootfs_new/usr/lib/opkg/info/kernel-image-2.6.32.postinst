@@ -1,0 +1,8 @@
+if [ ! -e "$D/lib/modules/2.6.32" ]; then
+	mkdir -p $D/lib/modules/2.6.32
+fi
+if [ -n "$D" ]; then
+	arm-angstrom-linux-gnueabi-depmod-2.6 -A -b $D -F /OE/angstrom-2008/build/tmp-angstrom_2008_1/sysroots/omap3evm-angstrom-linux-gnueabi/kernel/System.map-2.6.32 2.6.32
+else
+	depmod -a 2.6.32
+fi

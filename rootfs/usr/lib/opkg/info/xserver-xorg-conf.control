@@ -1,0 +1,11 @@
+Package: xserver-xorg-conf
+Version: 0.1-r11.3
+Description: Machine specific xorg.conf files
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: beagleboard
+OE: xserver-xorg-conf
+Homepage: unknown
+Source: file://xorg.conf

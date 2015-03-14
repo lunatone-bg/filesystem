@@ -1,0 +1,2 @@
+/usr/share/hal/fdi/policy/20thirdparty/10-x11-input-tslib.fdi
+/usr/lib/xorg/modules/input/tslib_drv.so

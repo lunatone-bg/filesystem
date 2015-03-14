@@ -1,0 +1,12 @@
+Package: gpe-confd
+Version: 0.16-r1.3
+Description: GPE configuration daemon
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-confd
+Homepage: unknown
+Depends: libsqlite0 (>= 2.8.17), libglib-2.0-0 (>= 2.20.0), libxsettings0 (>= 0.11), libc6 (>= 2.9), libx11-6 (>= 1.2)
+Source: http://gpe.linuxtogo.org/download/source/gpe-confd-0.16.tar.gz file://makefile-fix.patch;patch=1

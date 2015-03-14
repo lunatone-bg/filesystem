@@ -1,0 +1,94 @@
+{
+   "": "",
+   "HostReferralList": [ 2 ],
+   "StartupDNSPrefetchList": [ 1, "http://www.google.bg/", "http://www.google.com/" ],
+   "browser": {
+      "last_known_google_url": "http://www.google.bg/",
+      "window_placement": {
+         "bottom": 425,
+         "left": 0,
+         "maximized": false,
+         "right": 800,
+         "top": 0,
+         "work_area_bottom": 444,
+         "work_area_left": 0,
+         "work_area_right": 800,
+         "work_area_top": 0
+      }
+   },
+   "options_window": {
+      "last_tab_index": 2
+   },
+   "protocol_handler": {
+      "excluded_schemes": {
+         "afp": true,
+         "data": true,
+         "disk": true,
+         "disks": true,
+         "file": true,
+         "hcp": true,
+         "javascript": true,
+         "mailto": false,
+         "ms-help": true,
+         "news": false,
+         "nntp": true,
+         "shell": true,
+         "snews": false,
+         "vbscript": true,
+         "view-source": true,
+         "vnd": {
+            "ms": {
+               "radio": true
+            }
+         }
+      }
+   },
+   "safe_browsing": {
+      "client_key": "4a6frv7EVLhdahtdLg5RUw==",
+      "wrapped_key": "AKEgNitzFWxpgqAvE9vkqkOTShBiDi6T9Um-WSgQqFkS-Bn1nvn2Ha9dl05Rq3UZpP3XuTqytDNDjiAyKh1tducQdjcnX7tAHQ=="
+   },
+   "shutdown": {
+      "num_processes": 1,
+      "num_processes_slow": 0,
+      "type": 1
+   },
+   "task_manager": {
+      "window_placement": {
+         "bottom": 425,
+         "left": 0,
+         "maximized": false,
+         "right": 800,
+         "top": 0
+      }
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1272382516",
+      "launch_count": "135"
+   },
+   "user_experience_metrics": {
+      "security": {
+         "renderer_on_default_desktop": 0,
+         "renderer_on_sbox_desktop": 0
+      },
+      "session_id": 134,
+      "stability": {
+         "breakpad_registration_fail": 6,
+         "breakpad_registration_ok": 0,
+         "crash_count": 4,
+         "debugger_not_present": 6,
+         "debugger_present": 0,
+         "exited_cleanly": true,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1272464925",
+         "launch_count": 6,
+         "launch_time_sec": "1272464808",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1284375505",
+         "stats_version": "6.0.495.0-devel",
+         "uptime_sec": "0"
+      }
+   }
+}

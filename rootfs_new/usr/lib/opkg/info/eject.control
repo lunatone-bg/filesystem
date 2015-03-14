@@ -1,0 +1,13 @@
+Package: eject
+Version: 2.1.5-r1.6
+Description: Eject allows removable media (typically a CD-ROM, floppy disk, tape, or JAZ or ZIP disk) to be ejected under software control.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv2
+Architecture: armv7a
+OE: eject
+Homepage: http://eject.sourceforge.net/
+Build: org.openembedded.dev/17481d5
+Depends: libc6 (>= 2.9)
+Source: http://sources.openembedded.org/eject-2.1.5.tar.gz

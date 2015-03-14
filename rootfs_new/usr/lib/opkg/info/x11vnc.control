@@ -1,0 +1,12 @@
+Package: x11vnc
+Version: 0.9.11-r1.6
+Description: Export your X session on-the-fly via VNC
+Section: x11/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: x11vnc
+Homepage: http://www.karlrunge.com/x11vnc/
+Depends: libssl1.0.0, libcrypto1.0.0, libc6, libxtst6, libxext6, libxinerama1, libxrandr2, libxfixes3, libxdamage1, libx11-6, libavahi-common3, libavahi-client3, libz1, libjpeg8, libgcc1
+Source: http://downloads.sourceforge.net/libvncserver/x11vnc-0.9.11.tar.gz file://0001-replaced-pointer-with-x11vnc_pointer.patch

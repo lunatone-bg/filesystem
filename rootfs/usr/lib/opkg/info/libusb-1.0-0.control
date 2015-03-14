@@ -1,0 +1,14 @@
+Package: libusb-1.0-0
+Source: libusb-1.0
+Version: 2:1.0.6-1
+Architecture: armel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 100
+Depends: libc6 (>= 2.8)
+Section: libs
+Priority: optional
+Homepage: http://www.linux-usb.org/
+Description: userspace USB programming library
+ Library for programming USB applications without the knowledge
+ of Linux kernel internals.

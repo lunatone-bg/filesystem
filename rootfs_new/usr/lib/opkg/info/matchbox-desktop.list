@@ -1,0 +1,7 @@
+/usr/lib/matchbox/desktop/dotdesktop.so
+/usr/bin/matchbox-desktop
+/usr/share/pixmaps/mbdesktop.png
+/usr/lib/matchbox/desktop/tasks.so
+/usr/share/applications/mb-show-desktop.desktop
+/etc/matchbox/mbdesktop_modules
+/usr/lib/matchbox/desktop/simplefilebrowser.so

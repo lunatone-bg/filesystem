@@ -1,0 +1,13 @@
+Package: libpciaccess0
+Version: 0.12.1-r9.0.6
+Description: Version 0.12.1-r9.0 of package libpciaccess
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libpciaccess
+Homepage: http://www.x.org
+Build: org.openembedded.dev/69ad115
+Depends: libc6
+Source: http://xorg.freedesktop.org/releases/individual/lib/libpciaccess-0.12.1.tar.bz2;name=archive

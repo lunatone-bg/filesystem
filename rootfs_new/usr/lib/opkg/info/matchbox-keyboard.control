@@ -1,0 +1,13 @@
+Package: matchbox-keyboard
+Version: 0.0+svnr1910-r9.6
+Description: Matchbox virtual keyboard for X11
+Section: x11
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: matchbox-keyboard
+Homepage: unknown
+Depends: libfakekey0, libxtst6, libxi6, libxext6, libxft2, libfontconfig1, libfreetype6, libxrender1, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6, libexpat1, libpng12-0, libz1
+Conflicts: matchbox-keyboard-inputmethod
+Source: svn://svn.o-hand.com/repos/matchbox/trunk;module=matchbox-keyboard;proto=http file://smallscreen-fontsize.patch file://2-Add-new-modifier--layout--Used-to-cycle-thru-all-available-layouts.patch file://3-Changes-to-improve-layout-rendering--especially-after-adding-support-for.patch file://4-Add-rendering-debug-logging.patch file://5-Add-support-for-loading-multiple-independent-layouts.patch file://6-Add-layout-switch-key-to-all-layouts.patch

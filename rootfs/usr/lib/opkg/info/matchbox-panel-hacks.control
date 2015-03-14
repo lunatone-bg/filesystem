@@ -1,0 +1,11 @@
+Package: matchbox-panel-hacks
+Version: 0.3-1-r7.3
+Description: Simple dockapps created with monolaunch and shell script
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: all
+OE: matchbox-panel-hacks
+Homepage: unknown
+Source: file://xrandr-panelapp.sh file://xrandr-panelapp.desktop file://xrandr.png

@@ -1,0 +1,13 @@
+Package: xf86-video-omapfb
+Version: 1:0.1.1+r15.2+gitr044617665d6737f4909aab96f91b06261dff05d2-r15.2.6
+Description: X.Org X server -- OMAP display driver
+Section: x11/drivers
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xf86-video-omapfb
+Homepage: http://www.x.org
+Build: org.openembedded.dev/2463997
+Depends: libc6
+Source: git://git.pingu.fi/xf86-video-omapfb.git;protocol=http file://0001-blacklist-tv-out.patch file://0002-Revert-Set-virtual-size-when-configuring-framebuffer.patch file://0003-force-plain-mode.patch

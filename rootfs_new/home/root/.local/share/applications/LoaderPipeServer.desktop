@@ -1,0 +1,11 @@
+[Desktop Entry]
+Hidden=false
+Exec=loaderPipeServer
+Type=Application
+NoDisplay=false
+Version=1.0
+StartupNotify=false
+StartupWMClass=LoaderPipeServer
+Comment=USB Loader App
+Terminal=false
+Name=LoaderPipeServer

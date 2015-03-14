@@ -1,0 +1,12 @@
+Package: angstrom-version
+Version: 1:2011.03-r7.6
+Description: Version 2011.03-r7 of package angstrom-version
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: omap3evm
+OE: angstrom-version
+Homepage: unknown
+Build: 2011.03-maintenance/61a4492
+Source: file://lsb_release

@@ -1,0 +1,18 @@
+# Aliases for symbols, used by symbol_request().
+alias symbol:can_rx_unregister can
+alias symbol:can_put_echo_skb can_dev
+alias symbol:can_rx_register can
+alias symbol:alloc_can_err_skb can_dev
+alias symbol:can_send can
+alias symbol:can_proto_register can
+alias symbol:can_proto_unregister can
+alias symbol:alloc_can_skb can_dev
+alias symbol:can_free_echo_skb can_dev
+alias symbol:alloc_candev can_dev
+alias symbol:can_get_echo_skb can_dev
+alias symbol:register_candev can_dev
+alias symbol:open_candev can_dev
+alias symbol:can_bus_off can_dev
+alias symbol:close_candev can_dev
+alias symbol:unregister_candev can_dev
+alias symbol:free_candev can_dev

@@ -1,0 +1,12 @@
+Package: xserver-common
+Version: 1.25-r3.3
+Description: Common X11 scripts and support files
+Section: x11
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: all
+OE: xserver-common
+Homepage: unknown
+Depends: xmodmap, xrandr, xdpyinfo
+Source: http://gpe.linuxtogo.org/download/source/xserver-common-1.25.tar.gz file://setDPI.sh file://89xdgautostart.sh file://avoid-rotated-server.patch;patch=1 file://ts-handling-cleanup.diff;patch=1 file://xtscal-fix.patch;patch=1

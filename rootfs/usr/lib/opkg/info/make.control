@@ -1,0 +1,12 @@
+Package: make
+Version: 3.81-r0.4
+Description: GNU Make examines the timestamps on a set of interdependent files, and, if necessary, issues commands to bring them up-to-date.
+Section: devel
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: make
+Homepage: http://www.gnu.org/software/make/
+Depends: libc6 (>= 2.9)
+Source: ftp://ftp.gnu.org/gnu/make/make-3.81.tar.bz2 file://SCCS.patch;patch=1

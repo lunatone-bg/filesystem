@@ -1,0 +1,1 @@
+	update-alternatives --install /usr/bin/scp scp scp.openssh 90

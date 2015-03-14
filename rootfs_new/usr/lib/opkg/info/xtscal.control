@@ -1,0 +1,12 @@
+Package: xtscal
+Version: 0.6.3-r7.6
+Description: Touchscreen calibration utility
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: xtscal
+Homepage: unknown
+Depends: libx11-6, libxft2, libxext6, libxcalibrate0, libc6, libxrender1
+Source: http://gpe.linuxtogo.org/download/source/xtscal-0.6.3.tar.bz2 file://change-cross.patch file://cleanup.patch

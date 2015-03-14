@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Media
+Name[de]=Medien
+Comment=View media files
+Comment[de]=Programme zur Wiedergabe von audiovisuellen Medien
+Icon=mbfolder.png
+Type=Directory
+Match=AudioVideo;Graphics;Media;Viewer;

@@ -1,0 +1,11 @@
+Package: angstrom-libc-fixup-hack
+Version: 1.0-r0.6
+Description: Fixup some miscompiled apps by making an extra symlink
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: all
+OE: angstrom-libc-fixup-hack
+Homepage: unknown
+Source: file:///OE/org.openembedded.dev/recipes/angstrom/angstrom-libc-fixup-hack.bb

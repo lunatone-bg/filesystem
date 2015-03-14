@@ -1,0 +1,12 @@
+Package: angstrom-locale-en-feed-config
+Version: 1.0-r14.6
+Description: Angstrom feed config for the en-feed locale
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: omap3evm
+OE: angstrom-feed-configs
+Homepage: unknown
+Build: 2011.03-maintenance/bdb967b
+Source: file:///OE/angstrom-2008/sources/openembedded/recipes/angstrom/angstrom-feed-configs.bb

@@ -1,0 +1,5282 @@
+Package: aspell-locale-en-gb
+Version: 0.60.6-r0.6
+Depends: aspell, virtual-locale-en-gb
+Provides: aspell-locale, en-gb-translation
+Section: console/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 996dc28bff081e9dc6408b2b8c38f177
+Size: 8064
+Filename: aspell-locale-en-gb_0.60.6-r0.6_armv7a.ipk
+Description: en_GB translation for aspell
+OE: aspell
+HomePage: unknown
+Priority: optional
+
+
+Package: at-spi-locale-en+shaw
+Version: 1.32.0-r0.6
+Depends: at-spi, virtual-locale-en+shaw
+Provides: at-spi-locale, en+shaw-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 15df3505020d96eb9a45f56b5b9d4edc
+Size: 1790
+Filename: at-spi-locale-en+shaw_1.32.0-r0.6_armv7a.ipk
+Description: en@shaw translation for at-spi
+OE: at-spi
+HomePage: unknown
+Priority: optional
+
+
+Package: at-spi-locale-en-ca
+Version: 1.32.0-r0.6
+Depends: at-spi, virtual-locale-en-ca
+Provides: at-spi-locale, en-ca-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e93acb87dc8fa809902b5d86efaabb44
+Size: 1186
+Filename: at-spi-locale-en-ca_1.32.0-r0.6_armv7a.ipk
+Description: en_CA translation for at-spi
+OE: at-spi
+HomePage: unknown
+Priority: optional
+
+
+Package: at-spi-locale-en-gb
+Version: 1.32.0-r0.6
+Depends: at-spi, virtual-locale-en-gb
+Provides: at-spi-locale, en-gb-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 83267aba69a9f50e4bc1decf86927ded
+Size: 1484
+Filename: at-spi-locale-en-gb_1.32.0-r0.6_armv7a.ipk
+Description: en_GB translation for at-spi
+OE: at-spi
+HomePage: unknown
+Priority: optional
+
+
+Package: atk-locale-en-ca
+Version: 1.28.0-r0.4
+Depends: atk, virtual-locale-en-ca
+Provides: atk-locale, en-ca-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: eae829a3c0052092b1add351d10bc60e
+Size: 3360
+Filename: atk-locale-en-ca_1.28.0-r0.4_armv7a.ipk
+Description: en_CA translation for atk
+OE: atk
+HomePage: unknown
+Priority: optional
+
+
+Package: atk-locale-en-gb
+Version: 1.28.0-r0.4
+Depends: atk, virtual-locale-en-gb
+Provides: atk-locale, en-gb-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b232786f022978a7b5bb1a9d392b9907
+Size: 3344
+Filename: atk-locale-en-gb_1.28.0-r0.4_armv7a.ipk
+Description: en_GB translation for atk
+OE: atk
+HomePage: unknown
+Priority: optional
+
+
+Package: avahi-locale-en-au
+Version: 0.6.25-r13.0.6
+Depends: libavahi-gobject0, virtual-locale-en-au
+Provides: avahi-locale, en-au-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 70832e8ab1a19674b44b15e0f6950e62
+Size: 1188
+Filename: avahi-locale-en-au_0.6.25-r13.0.6_armv7a.ipk
+Description: en_AU translation for avahi
+OE: avahi
+HomePage: http://avahi.org
+Priority: optional
+
+
+Package: avahi-locale-en-ca
+Version: 0.6.25-r13.0.6
+Depends: libavahi-gobject0, virtual-locale-en-ca
+Provides: avahi-locale, en-ca-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 727e2759a54dc18f665515bc0cab8bb1
+Size: 1162
+Filename: avahi-locale-en-ca_0.6.25-r13.0.6_armv7a.ipk
+Description: en_CA translation for avahi
+OE: avahi
+HomePage: http://avahi.org
+Priority: optional
+
+
+Package: avahi-locale-en-gb
+Version: 0.6.25-r13.0.6
+Depends: libavahi-gobject0, virtual-locale-en-gb
+Provides: avahi-locale, en-gb-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: cf485ee96df8cb9959305037a2a7e6f1
+Size: 1188
+Filename: avahi-locale-en-gb_0.6.25-r13.0.6_armv7a.ipk
+Description: en_GB translation for avahi
+OE: avahi
+HomePage: http://avahi.org
+Priority: optional
+
+
+Package: avahi-locale-en-nz
+Version: 0.6.25-r13.0.6
+Depends: libavahi-gobject0, virtual-locale-en-nz
+Provides: avahi-locale, en-nz-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a07a31137d7f70a4c87127b795797451
+Size: 1192
+Filename: avahi-locale-en-nz_0.6.25-r13.0.6_armv7a.ipk
+Description: en_NZ translation for avahi
+OE: avahi
+HomePage: http://avahi.org
+Priority: optional
+
+
+Package: balsa-locale-en-ca
+Version: 2.4.7-r0.6
+Depends: balsa, virtual-locale-en-ca
+Provides: balsa-locale, en-ca-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8f8d9c16fb52012f3214a26b64f9fb98
+Size: 39298
+Filename: balsa-locale-en-ca_2.4.7-r0.6_armv7a.ipk
+Description: en_CA translation for balsa
+OE: balsa
+HomePage: http://pawsa.fedorapeople.org/balsa/
+Priority: optional
+
+
+Package: balsa-locale-en-gb
+Version: 2.4.7-r0.6
+Depends: balsa, virtual-locale-en-gb
+Provides: balsa-locale, en-gb-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: cfeba246f6fa61d466c0f362b4b72328
+Size: 40058
+Filename: balsa-locale-en-gb_2.4.7-r0.6_armv7a.ipk
+Description: en_GB translation for balsa
+OE: balsa
+HomePage: http://pawsa.fedorapeople.org/balsa/
+Priority: optional
+
+
+Package: bash-locale-en+boldquot
+Version: 3.2-r11.6
+Depends: bash, virtual-locale-en+boldquot
+Provides: bash-locale, en+boldquot-translation
+Section: base/shell
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 573dddba911e8f0cf8e0355c0e963fb7
+Size: 38530
+Filename: bash-locale-en+boldquot_3.2-r11.6_armv7a.ipk
+Description: en@boldquot translation for bash
+OE: bash
+HomePage: http://cnswww.cns.cwru.edu/~chet/bash/bashtop.html
+Priority: optional
+
+
+Package: bash-locale-en+quot
+Version: 3.2-r11.6
+Depends: bash, virtual-locale-en+quot
+Provides: bash-locale, en+quot-translation
+Section: base/shell
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a0ea98ad63f929047efa8d313248d682
+Size: 38312
+Filename: bash-locale-en+quot_3.2-r11.6_armv7a.ipk
+Description: en@quot translation for bash
+OE: bash
+HomePage: http://cnswww.cns.cwru.edu/~chet/bash/bashtop.html
+Priority: optional
+
+
+Package: bluez-gnome-locale-en-au
+Version: 1.8-r2.6
+Depends: bluez-gnome, virtual-locale-en-au
+Provides: bluez-gnome-locale, en-au-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7124064ce77cec4bd4107e9391015153
+Size: 1310
+Filename: bluez-gnome-locale-en-au_1.8-r2.6_armv7a.ipk
+Description: en_AU translation for bluez-gnome
+OE: bluez-gnome
+HomePage: unknown
+Priority: optional
+
+
+Package: bluez-gnome-locale-en-gb
+Version: 1.8-r2.6
+Depends: bluez-gnome, virtual-locale-en-gb
+Provides: bluez-gnome-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d9bb5f3b0a1a83b26a4efee32b2a078d
+Size: 3812
+Filename: bluez-gnome-locale-en-gb_1.8-r2.6_armv7a.ipk
+Description: en_GB translation for bluez-gnome
+OE: bluez-gnome
+HomePage: unknown
+Priority: optional
+
+
+Package: cheese-locale-en+shaw
+Version: 2.30.1-r1.6
+Depends: cheese, virtual-locale-en+shaw
+Provides: cheese-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 711763e9ef4e72965205c61aed96a5c6
+Size: 5158
+Filename: cheese-locale-en+shaw_2.30.1-r1.6_armv7a.ipk
+Description: en@shaw translation for cheese
+OE: cheese
+HomePage: unknown
+Priority: optional
+
+
+Package: cheese-locale-en-gb
+Version: 2.30.1-r1.6
+Depends: cheese, virtual-locale-en-gb
+Provides: cheese-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 48cb6fe20f635a9a97c0459fe4ede71c
+Size: 4410
+Filename: cheese-locale-en-gb_2.30.1-r1.6_armv7a.ipk
+Description: en_GB translation for cheese
+OE: cheese
+HomePage: unknown
+Priority: optional
+
+
+Package: claws-mail-locale-en-gb
+Version: 3.6.1-r3.6
+Depends: claws-mail, virtual-locale-en-gb
+Provides: claws-mail-locale, en-gb-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 45361376e443c340f9d6ddb93bbf0e5b
+Size: 3752
+Filename: claws-mail-locale-en-gb_3.6.1-r3.6_armv7a.ipk
+Description: en_GB translation for claws-mail
+OE: claws-mail
+HomePage: unknown
+Priority: optional
+
+
+Package: coreutils-locale-en
+Version: 8.5-r6.0.6
+Depends: coreutils, virtual-locale-en
+Provides: coreutils-locale, en-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5bacaeb623ae53f0dd002a3fb7e1ff6f
+Size: 1222
+Filename: coreutils-locale-en_8.5-r6.0.6_armv7a.ipk
+Description: en translation for coreutils
+OE: coreutils
+HomePage: http://www.gnu.org/software/coreutils
+Priority: optional
+
+
+Package: dates-locale-en-gb
+Version: 0.4.8-r0.6
+Depends: dates, virtual-locale-en-gb
+Provides: dates-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5060500efe6e3e410386cb282dfddfc2
+Size: 2726
+Filename: dates-locale-en-gb_0.4.8-r0.6_armv7a.ipk
+Description: en_GB translation for dates
+OE: dates
+HomePage: unknown
+Priority: optional
+
+
+Package: diffutils-locale-en-gb
+Version: 2.8.1-r4.6
+Depends: diffutils, virtual-locale-en-gb
+Provides: diffutils-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 18fe9a07b3be3a0307a69d54e6aae290
+Size: 1210
+Filename: diffutils-locale-en-gb_2.8.1-r4.6_armv7a.ipk
+Description: en_GB translation for diffutils
+OE: diffutils
+HomePage: unknown
+Priority: optional
+
+
+Package: ekiga-locale-en+shaw
+Version: 3.3.1+git-r6+gitr7c669dd4ce69296f09004f8876366058c20a3352.6
+Depends: ekiga, virtual-locale-en+shaw
+Provides: ekiga-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 38d64499274e21e25c02616bf203b3b3
+Size: 20418
+Filename: ekiga-locale-en+shaw_3.3.1+git-r6+gitr7c669dd4ce69296f09004f8876366058c20a3352.6_armv7a.ipk
+Description: en@shaw translation for ekiga
+OE: ekiga
+HomePage: unknown
+Priority: optional
+
+
+Package: ekiga-locale-en-ca
+Version: 3.3.1+git-r6+gitr7c669dd4ce69296f09004f8876366058c20a3352.6
+Depends: ekiga, virtual-locale-en-ca
+Provides: ekiga-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e5c53f8d244f078f89494ecf961868d8
+Size: 19186
+Filename: ekiga-locale-en-ca_3.3.1+git-r6+gitr7c669dd4ce69296f09004f8876366058c20a3352.6_armv7a.ipk
+Description: en_CA translation for ekiga
+OE: ekiga
+HomePage: unknown
+Priority: optional
+
+
+Package: ekiga-locale-en-gb
+Version: 3.3.1+git-r6+gitr7c669dd4ce69296f09004f8876366058c20a3352.6
+Depends: ekiga, virtual-locale-en-gb
+Provides: ekiga-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9bebb3e81ca581a175fa4dc4e73d7ebb
+Size: 17310
+Filename: ekiga-locale-en-gb_3.3.1+git-r6+gitr7c669dd4ce69296f09004f8876366058c20a3352.6_armv7a.ipk
+Description: en_GB translation for ekiga
+OE: ekiga
+HomePage: unknown
+Priority: optional
+
+
+Package: empathy-locale-en-ca
+Version: 2.28.2-r2.6
+Depends: empathy-scrollkeeper-junk, virtual-locale-en-ca
+Provides: empathy-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bfe2970088915ddca1209de032ef70fd
+Size: 2504
+Filename: empathy-locale-en-ca_2.28.2-r2.6_armv7a.ipk
+Description: en_CA translation for empathy
+OE: empathy
+HomePage: http://blogs.gnome.org/view/xclaesse/2007/04/26/0
+Priority: optional
+
+
+Package: empathy-locale-en-gb
+Version: 2.28.2-r2.6
+Depends: empathy-scrollkeeper-junk, virtual-locale-en-gb
+Provides: empathy-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1009be08bc24dcb44f33eb072677ed7f
+Size: 14006
+Filename: empathy-locale-en-gb_2.28.2-r2.6_armv7a.ipk
+Description: en_GB translation for empathy
+OE: empathy
+HomePage: http://blogs.gnome.org/view/xclaesse/2007/04/26/0
+Priority: optional
+
+
+Package: enna-locale-en+boldquot
+Version: 0.4.0+hg-r1.0.5
+Depends: enna, virtual-locale-en+boldquot
+Provides: enna-locale, en+boldquot-translation
+Section: x11/multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 02e95da51904aabc065f046e458acc6c
+Size: 4470
+Filename: enna-locale-en+boldquot_0.4.0+hg-r1.0.5_armv7a.ipk
+Description: en@boldquot translation for enna
+OE: enna
+HomePage: http://enna.geexbox.org/
+Priority: optional
+
+
+Package: enna-locale-en+quot
+Version: 0.4.0+hg-r1.0.5
+Depends: enna, virtual-locale-en+quot
+Provides: enna-locale, en+quot-translation
+Section: x11/multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3e5fe0ff45b3a4e4e22775de9d2ef2ec
+Size: 4464
+Filename: enna-locale-en+quot_0.4.0+hg-r1.0.5_armv7a.ipk
+Description: en@quot translation for enna
+OE: enna
+HomePage: http://enna.geexbox.org/
+Priority: optional
+
+
+Package: eog-locale-en-ca
+Version: 2.28.2-r2.6
+Depends: eog, virtual-locale-en-ca
+Provides: eog-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e3c5c6eea17dd02e77aabc17142674b9
+Size: 6788
+Filename: eog-locale-en-ca_2.28.2-r2.6_armv7a.ipk
+Description: en_CA translation for eog
+OE: eog
+HomePage: unknown
+Priority: optional
+
+
+Package: eog-locale-en-gb
+Version: 2.28.2-r2.6
+Depends: eog, virtual-locale-en-gb
+Provides: eog-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d09ce0304daf86288a21178f2e47b4d8
+Size: 8352
+Filename: eog-locale-en-gb_2.28.2-r2.6_armv7a.ipk
+Description: en_GB translation for eog
+OE: eog
+HomePage: unknown
+Priority: optional
+
+
+Package: epiphany-extensions-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: epiphany-extensions, virtual-locale-en-ca
+Provides: epiphany-extensions-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 11e7537c6b1d488b85f605540eca3b0d
+Size: 5894
+Filename: epiphany-extensions-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for epiphany-extensions
+OE: epiphany-extensions
+HomePage: unknown
+Priority: optional
+
+
+Package: epiphany-extensions-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: epiphany-extensions, virtual-locale-en-gb
+Provides: epiphany-extensions-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0a06fd0e456ba7c6b98eb2e4697c91d9
+Size: 6334
+Filename: epiphany-extensions-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for epiphany-extensions
+OE: epiphany-extensions
+HomePage: unknown
+Priority: optional
+
+
+Package: epiphany-locale-en+shaw
+Version: 2.30.2-r4.6
+Depends: epiphany, virtual-locale-en+shaw
+Provides: epiphany-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7a7b2be6537797936c642af9cf48a654
+Size: 19376
+Filename: epiphany-locale-en+shaw_2.30.2-r4.6_armv7a.ipk
+Description: en@shaw translation for epiphany
+OE: epiphany
+HomePage: unknown
+Priority: optional
+
+
+Package: epiphany-locale-en-ca
+Version: 2.30.2-r4.6
+Depends: epiphany, virtual-locale-en-ca
+Provides: epiphany-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6810ac8d705e6d652e87d9edaab8c0ab
+Size: 20644
+Filename: epiphany-locale-en-ca_2.30.2-r4.6_armv7a.ipk
+Description: en_CA translation for epiphany
+OE: epiphany
+HomePage: unknown
+Priority: optional
+
+
+Package: epiphany-locale-en-gb
+Version: 2.30.2-r4.6
+Depends: epiphany, virtual-locale-en-gb
+Provides: epiphany-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4d4c812fc079c4452a266bde70a99f5f
+Size: 17058
+Filename: epiphany-locale-en-gb_2.30.2-r4.6_armv7a.ipk
+Description: en_GB translation for epiphany
+OE: epiphany
+HomePage: unknown
+Priority: optional
+
+
+Package: evince-locale-en+shaw
+Version: 2.30.0-r2.6
+Depends: evince-nautilus-extension, virtual-locale-en+shaw
+Provides: evince-locale, en+shaw-translation
+Section: x11/office
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d6bc3490c9788beaf561925c5044f32d
+Size: 10056
+Filename: evince-locale-en+shaw_2.30.0-r2.6_armv7a.ipk
+Description: en@shaw translation for evince
+OE: evince
+HomePage: unknown
+Priority: optional
+
+
+Package: evince-locale-en-ca
+Version: 2.30.0-r2.6
+Depends: evince-nautilus-extension, virtual-locale-en-ca
+Provides: evince-locale, en-ca-translation
+Section: x11/office
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 203118dda9cd072bca917dd1def7b988
+Size: 6840
+Filename: evince-locale-en-ca_2.30.0-r2.6_armv7a.ipk
+Description: en_CA translation for evince
+OE: evince
+HomePage: unknown
+Priority: optional
+
+
+Package: evince-locale-en-gb
+Version: 2.30.0-r2.6
+Depends: evince-nautilus-extension, virtual-locale-en-gb
+Provides: evince-locale, en-gb-translation
+Section: x11/office
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a3f6236abf9d1ebe8f381765838e4a75
+Size: 8340
+Filename: evince-locale-en-gb_2.30.0-r2.6_armv7a.ipk
+Description: en_GB translation for evince
+OE: evince
+HomePage: unknown
+Priority: optional
+
+
+Package: exo-locale-en-gb
+Version: 0.3.107-r1.6
+Depends: exo, virtual-locale-en-gb
+Provides: exo-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e20bbcc083fd2976232c01e77d29f108
+Size: 8238
+Filename: exo-locale-en-gb_0.3.107-r1.6_armv7a.ipk
+Description: en_GB translation for exo
+OE: exo
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: file-roller-locale-en-ca
+Version: 2.28.0-r3.6
+Depends: file-roller, virtual-locale-en-ca
+Provides: file-roller-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: fbae782d5479be95fc37357616b6eb4c
+Size: 6526
+Filename: file-roller-locale-en-ca_2.28.0-r3.6_armv7a.ipk
+Description: en_CA translation for file-roller
+OE: file-roller
+HomePage: unknown
+Priority: optional
+
+
+Package: file-roller-locale-en-gb
+Version: 2.28.0-r3.6
+Depends: file-roller, virtual-locale-en-gb
+Provides: file-roller-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e2ffdf545bdccf60d0ad9a22709b178b
+Size: 7380
+Filename: file-roller-locale-en-gb_2.28.0-r3.6_armv7a.ipk
+Description: en_GB translation for file-roller
+OE: file-roller
+HomePage: unknown
+Priority: optional
+
+
+Package: gcalctool-locale-en+shaw
+Version: 5.30.0-r0.6
+Depends: gcalctool, virtual-locale-en+shaw
+Provides: gcalctool-locale, en+shaw-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4dff25fe9e2fb1e3e4833b2bfd12b0f5
+Size: 9458
+Filename: gcalctool-locale-en+shaw_5.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gcalctool
+OE: gcalctool
+HomePage: unknown
+Priority: optional
+
+
+Package: gcalctool-locale-en-ca
+Version: 5.30.0-r0.6
+Depends: gcalctool, virtual-locale-en-ca
+Provides: gcalctool-locale, en-ca-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f01df2e5632b2eec1d7f0b4fe895ea79
+Size: 7628
+Filename: gcalctool-locale-en-ca_5.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gcalctool
+OE: gcalctool
+HomePage: unknown
+Priority: optional
+
+
+Package: gcalctool-locale-en-gb
+Version: 5.30.0-r0.6
+Depends: gcalctool, virtual-locale-en-gb
+Provides: gcalctool-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a924d48a5162af7aa39e3cbec1884e1e
+Size: 7864
+Filename: gcalctool-locale-en-gb_5.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gcalctool
+OE: gcalctool
+HomePage: unknown
+Priority: optional
+
+
+Package: gcalctool-locale-en-us
+Version: 5.30.0-r0.6
+Depends: gcalctool, virtual-locale-en-us
+Provides: gcalctool-locale, en-us-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4b8303680bdf78560a6802dcd381d65d
+Size: 6762
+Filename: gcalctool-locale-en-us_5.30.0-r0.6_armv7a.ipk
+Description: en_US translation for gcalctool
+OE: gcalctool
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-dbus-locale-en-ca
+Version: 2.16.0+svnr641-r0.3
+Depends: gconf-dbus, virtual-locale-en-ca
+Provides: gconf-dbus-locale, en-ca-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c017f305ef9360fdd67f0568b437c54c
+Size: 13484
+Filename: gconf-dbus-locale-en-ca_2.16.0+svnr641-r0.3_armv7a.ipk
+Description: en_CA translation for gconf-dbus
+OE: gconf-dbus
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-dbus-locale-en-gb
+Version: 2.16.0+svnr641-r0.3
+Depends: gconf-dbus, virtual-locale-en-gb
+Provides: gconf-dbus-locale, en-gb-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: dc9d248b3037a76af4057f002c86d038
+Size: 13780
+Filename: gconf-dbus-locale-en-gb_2.16.0+svnr641-r0.3_armv7a.ipk
+Description: en_GB translation for gconf-dbus
+OE: gconf-dbus
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-editor-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gconf-editor, virtual-locale-en+shaw
+Provides: gconf-editor-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f5346794e8a0aa584ac8604ed6542af0
+Size: 3844
+Filename: gconf-editor-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gconf-editor
+OE: gconf-editor
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-editor-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gconf-editor, virtual-locale-en-ca
+Provides: gconf-editor-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f536d8c343492b1a80a7f44e564af60e
+Size: 3098
+Filename: gconf-editor-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gconf-editor
+OE: gconf-editor
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-editor-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gconf-editor, virtual-locale-en-gb
+Provides: gconf-editor-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 26b0c7284e671cc2f4b66b9ae15804db
+Size: 3108
+Filename: gconf-editor-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gconf-editor
+OE: gconf-editor
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-locale-en-ca
+Version: 2.28.0-r2.6
+Depends: gconf, virtual-locale-en-ca
+Provides: gconf-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 77aa34f861fd7396a1c6b4960d2da7db
+Size: 13906
+Filename: gconf-locale-en-ca_2.28.0-r2.6_armv7a.ipk
+Description: en_CA translation for gconf
+OE: gconf
+HomePage: unknown
+Priority: optional
+
+
+Package: gconf-locale-en-gb
+Version: 2.28.0-r2.6
+Depends: gconf, virtual-locale-en-gb
+Provides: gconf-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 975aa0b017a25e33866946ed2f5fe8e7
+Size: 13926
+Filename: gconf-locale-en-gb_2.28.0-r2.6_armv7a.ipk
+Description: en_GB translation for gconf
+OE: gconf
+HomePage: unknown
+Priority: optional
+
+
+Package: gdm-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gdm, virtual-locale-en+shaw
+Provides: gdm-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 86be479162ed6f0889387a8232fb2c36
+Size: 7828
+Filename: gdm-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gdm
+OE: gdm
+HomePage: unknown
+Priority: optional
+
+
+Package: gdm-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gdm, virtual-locale-en-ca
+Provides: gdm-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8c66bde8d6cb535a6eb1aaabe19d7f21
+Size: 28286
+Filename: gdm-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gdm
+OE: gdm
+HomePage: unknown
+Priority: optional
+
+
+Package: gdm-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gdm, virtual-locale-en-gb
+Provides: gdm-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0e533cf93b4665dd09c2b4ff1e807bfe
+Size: 6982
+Filename: gdm-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gdm
+OE: gdm
+HomePage: unknown
+Priority: optional
+
+
+Package: geany-locale-en-gb
+Version: 0.18-r0.6
+Depends: geany, virtual-locale-en-gb
+Provides: geany-locale, en-gb-translation
+Section: editors
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4afe490a7cc45c2bd006701b9c70b1b7
+Size: 35080
+Filename: geany-locale-en-gb_0.18-r0.6_armv7a.ipk
+Description: en_GB translation for geany
+OE: geany
+HomePage: http://geany.sf.net
+Priority: optional
+
+
+Package: geda-gschem-locale-en-gb
+Version: 1.4.3-r1.6
+Depends: geda-gschem, virtual-locale-en-gb
+Provides: geda-gschem-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f39dda0c11c921b54bb4326e6a02ae0d
+Size: 10614
+Filename: geda-gschem-locale-en-gb_1.4.3-r1.6_armv7a.ipk
+Description: en_GB translation for geda-gschem
+OE: geda-gschem
+HomePage: http://www.gpleda.org/
+Priority: optional
+
+
+Package: gedit-locale-en+shaw
+Version: 2.30.0-r2.6
+Depends: gedit, virtual-locale-en+shaw
+Provides: gedit-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 33e76b72b0b92d53a93ad25d600b4988
+Size: 36648
+Filename: gedit-locale-en+shaw_2.30.0-r2.6_armv7a.ipk
+Description: en@shaw translation for gedit
+OE: gedit
+HomePage: unknown
+Priority: optional
+
+
+Package: gedit-locale-en-ca
+Version: 2.30.0-r2.6
+Depends: gedit, virtual-locale-en-ca
+Provides: gedit-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0be7732d021965441bd0f179d81adfd0
+Size: 21198
+Filename: gedit-locale-en-ca_2.30.0-r2.6_armv7a.ipk
+Description: en_CA translation for gedit
+OE: gedit
+HomePage: unknown
+Priority: optional
+
+
+Package: gedit-locale-en-gb
+Version: 2.30.0-r2.6
+Depends: gedit, virtual-locale-en-gb
+Provides: gedit-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6e08120bd2e27fa739095093611c5c4a
+Size: 23528
+Filename: gedit-locale-en-gb_2.30.0-r2.6_armv7a.ipk
+Description: en_GB translation for gedit
+OE: gedit
+HomePage: unknown
+Priority: optional
+
+
+Package: gedit-plugins-locale-en-ca
+Version: 2.30.0-r0.5
+Depends: gedit-plugins, virtual-locale-en-ca
+Provides: gedit-plugins-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f7e79f04c164ee14938eed01911a6bca
+Size: 1988
+Filename: gedit-plugins-locale-en-ca_2.30.0-r0.5_armv7a.ipk
+Description: en_CA translation for gedit-plugins
+OE: gedit-plugins
+HomePage: unknown
+Priority: optional
+
+
+Package: gedit-plugins-locale-en-gb
+Version: 2.30.0-r0.5
+Depends: gedit-plugins, virtual-locale-en-gb
+Provides: gedit-plugins-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8d80ec7952effe4b662dcf0bff06b7e0
+Size: 2632
+Filename: gedit-plugins-locale-en-gb_2.30.0-r0.5_armv7a.ipk
+Description: en_GB translation for gedit-plugins
+OE: gedit-plugins
+HomePage: unknown
+Priority: optional
+
+
+Package: gettext-locale-en+boldquot
+Version: 0.18-r4.6
+Depends: gettext-libintl, virtual-locale-en+boldquot
+Provides: gettext-locale, en+boldquot-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d940699bae22b6993f2c9c497135dab0
+Size: 31264
+Filename: gettext-locale-en+boldquot_0.18-r4.6_armv7a.ipk
+Description: en@boldquot translation for gettext
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+Priority: optional
+
+
+Package: gettext-locale-en+quot
+Version: 0.18-r4.6
+Depends: gettext-libintl, virtual-locale-en+quot
+Provides: gettext-locale, en+quot-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4c4acbe0b4b8a47251884ccb4c0b5f4e
+Size: 31174
+Filename: gettext-locale-en+quot_0.18-r4.6_armv7a.ipk
+Description: en@quot translation for gettext
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+Priority: optional
+
+
+Package: gftp-locale-en-ca
+Version: 2.0.19-r0.5
+Depends: gftp, virtual-locale-en-ca
+Provides: gftp-locale, en-ca-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c16ba341907282a52f92e140519dd3d2
+Size: 13516
+Filename: gftp-locale-en-ca_2.0.19-r0.5_armv7a.ipk
+Description: en_CA translation for gftp
+OE: gftp
+HomePage: http://www.gftp.org/
+Priority: optional
+
+
+Package: gftp-locale-en-gb
+Version: 2.0.19-r0.5
+Depends: gftp, virtual-locale-en-gb
+Provides: gftp-locale, en-gb-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f22ef91fb223b265adb52526c936f7fd
+Size: 14828
+Filename: gftp-locale-en-gb_2.0.19-r0.5_armv7a.ipk
+Description: en_GB translation for gftp
+OE: gftp
+HomePage: http://www.gftp.org/
+Priority: optional
+
+
+Package: ggz-client-libs-locale-en-gb
+Version: 0.0.14.1-r2.6
+Depends: ggz-client-libs, virtual-locale-en-gb
+Provides: ggz-client-libs-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b6a483c75cf847bd95c5c1da69086dc6
+Size: 1648
+Filename: ggz-client-libs-locale-en-gb_0.0.14.1-r2.6_armv7a.ipk
+Description: en_GB translation for ggz-client-libs
+OE: ggz-client-libs
+HomePage: unknown
+Priority: optional
+
+
+Package: gimp-locale-en-ca
+Version: 2.6.8-r1.6
+Depends: gimp, virtual-locale-en-ca
+Provides: gimp-locale, en-ca-translation
+Section: x11/graphics
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1420d4bc76f4bf260c2cd32fb07362a0
+Size: 170786
+Filename: gimp-locale-en-ca_2.6.8-r1.6_armv7a.ipk
+Description: en_CA translation for gimp
+OE: gimp
+HomePage: http://www.gimp.org
+Priority: optional
+
+
+Package: gimp-locale-en-gb
+Version: 2.6.8-r1.6
+Depends: gimp, virtual-locale-en-gb
+Provides: gimp-locale, en-gb-translation
+Section: x11/graphics
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4dff86866de4eac756e6f6740b7d188d
+Size: 173102
+Filename: gimp-locale-en-gb_2.6.8-r1.6_armv7a.ipk
+Description: en_GB translation for gimp
+OE: gimp
+HomePage: http://www.gimp.org
+Priority: optional
+
+
+Package: glib-2.0-locale-en-ca
+Version: 2.22.1-r5.1.4
+Depends: gobject-2.0, virtual-locale-en-ca
+Provides: glib-2.0-locale, en-ca-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5bc68078680399058062f19745b1b617
+Size: 8836
+Filename: glib-2.0-locale-en-ca_2.22.1-r5.1.4_armv7a.ipk
+Description: en_CA translation for glib-2.0
+OE: glib-2.0
+HomePage: unknown
+Priority: optional
+
+
+Package: glib-2.0-locale-en-gb
+Version: 2.22.1-r5.1.4
+Depends: gobject-2.0, virtual-locale-en-gb
+Provides: glib-2.0-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ddc43e2eddd5b449540608550238018d
+Size: 10480
+Filename: glib-2.0-locale-en-gb_2.22.1-r5.1.4_armv7a.ipk
+Description: en_GB translation for glib-2.0
+OE: glib-2.0
+HomePage: unknown
+Priority: optional
+
+
+Package: glibc-locale-en-gb
+Version: 2.9-r37.4.6
+Depends: libc6, virtual-locale-en-gb
+Provides: glibc-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c3fae8c117058e9629e58261922be50a
+Size: 1950
+Filename: glibc-locale-en-gb_2.9-r37.4.6_armv7a.ipk
+Description: en_GB translation for glibc
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: gnome-applets-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gnome-applets, virtual-locale-en+shaw
+Provides: gnome-applets-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 09f41915019223908725f2d1c598c701
+Size: 21144
+Filename: gnome-applets-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-applets
+OE: gnome-applets
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-applets-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gnome-applets, virtual-locale-en-ca
+Provides: gnome-applets-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 59ef4f4abdb4e7a15e0c2a3a76ae014e
+Size: 20120
+Filename: gnome-applets-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-applets
+OE: gnome-applets
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-applets-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gnome-applets, virtual-locale-en-gb
+Provides: gnome-applets-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b8f40eaf5d91fb9d415bf90386b81317
+Size: 17584
+Filename: gnome-applets-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-applets
+OE: gnome-applets
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-backgrounds-locale-en+shaw
+Version: 2.30.0-r0.5
+Depends: gnome-backgrounds, virtual-locale-en+shaw
+Provides: gnome-backgrounds-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7c2c00017729e7d90cd67fdbeffe081d
+Size: 1682
+Filename: gnome-backgrounds-locale-en+shaw_2.30.0-r0.5_armv7a.ipk
+Description: en@shaw translation for gnome-backgrounds
+OE: gnome-backgrounds
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-backgrounds-locale-en-ca
+Version: 2.30.0-r0.5
+Depends: gnome-backgrounds, virtual-locale-en-ca
+Provides: gnome-backgrounds-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2cb87a1c161b43282ec80ac2d83006c4
+Size: 1352
+Filename: gnome-backgrounds-locale-en-ca_2.30.0-r0.5_armv7a.ipk
+Description: en_CA translation for gnome-backgrounds
+OE: gnome-backgrounds
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-backgrounds-locale-en-gb
+Version: 2.30.0-r0.5
+Depends: gnome-backgrounds, virtual-locale-en-gb
+Provides: gnome-backgrounds-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4f4ff63b81cfd321e563130d52912cbd
+Size: 1450
+Filename: gnome-backgrounds-locale-en-gb_2.30.0-r0.5_armv7a.ipk
+Description: en_GB translation for gnome-backgrounds
+OE: gnome-backgrounds
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-bluetooth-locale-en+shaw
+Version: 2.30.0-r3.6
+Depends: gnome-bluetooth, virtual-locale-en+shaw
+Provides: gnome-bluetooth-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 84957997f21e38aaf69e70230f09eba9
+Size: 5388
+Filename: gnome-bluetooth-locale-en+shaw_2.30.0-r3.6_armv7a.ipk
+Description: en@shaw translation for gnome-bluetooth
+OE: gnome-bluetooth
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-bluetooth-locale-en-au
+Version: 2.27.4-r0.5
+Depends: gnome-bluetooth, virtual-locale-en-au
+Provides: gnome-bluetooth-locale, en-au-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 97322b79dd0568e5f0c8c57ec79e2ec5
+Size: 1304
+Filename: gnome-bluetooth-locale-en-au_2.27.4-r0.5_armv7a.ipk
+Description: en_AU translation for gnome-bluetooth
+OE: gnome-bluetooth
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-bluetooth-locale-en-gb
+Version: 2.30.0-r3.6
+Depends: gnome-bluetooth, virtual-locale-en-gb
+Provides: gnome-bluetooth-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 349715b3361b1c4298b44326b2e940bd
+Size: 5150
+Filename: gnome-bluetooth-locale-en-gb_2.30.0-r3.6_armv7a.ipk
+Description: en_GB translation for gnome-bluetooth
+OE: gnome-bluetooth
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-control-center-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gnome-control-center, virtual-locale-en+shaw
+Provides: gnome-control-center-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7a307d68fee3c9e797d5ddc54c3f3e46
+Size: 22162
+Filename: gnome-control-center-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-control-center
+OE: gnome-control-center
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-control-center-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gnome-control-center, virtual-locale-en-ca
+Provides: gnome-control-center-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5afe26130cfcad94a031b6af6339e570
+Size: 17746
+Filename: gnome-control-center-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-control-center
+OE: gnome-control-center
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-control-center-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gnome-control-center, virtual-locale-en-gb
+Provides: gnome-control-center-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 257051ccacfbdb2e5960d38aa2f8a91f
+Size: 17488
+Filename: gnome-control-center-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-control-center
+OE: gnome-control-center
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-cups-manager-locale-en-ca
+Version: 0.33-r0.3
+Depends: gnome-cups-manager, virtual-locale-en-ca
+Provides: gnome-cups-manager-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 534738df6cb90fbf3ddb7709da73f7f6
+Size: 4018
+Filename: gnome-cups-manager-locale-en-ca_0.33-r0.3_armv7a.ipk
+Description: en_CA translation for gnome-cups-manager
+OE: gnome-cups-manager
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-cups-manager-locale-en-gb
+Version: 0.33-r0.3
+Depends: gnome-cups-manager, virtual-locale-en-gb
+Provides: gnome-cups-manager-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ef28b96c08ad9c389f95038c84ddfd1c
+Size: 4092
+Filename: gnome-cups-manager-locale-en-gb_0.33-r0.3_armv7a.ipk
+Description: en_GB translation for gnome-cups-manager
+OE: gnome-cups-manager
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-desktop-locale-en+shaw
+Version: 2.30.0-r1.6
+Depends: gnome-desktop, virtual-locale-en+shaw
+Provides: gnome-desktop-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0bdcd5c18075cebfe7a4b1fa5ce50baf
+Size: 4454
+Filename: gnome-desktop-locale-en+shaw_2.30.0-r1.6_armv7a.ipk
+Description: en@shaw translation for gnome-desktop
+OE: gnome-desktop
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-desktop-locale-en-ca
+Version: 2.30.0-r1.6
+Depends: gnome-desktop, virtual-locale-en-ca
+Provides: gnome-desktop-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9432ca91bb2fae7869f04ef318d9c287
+Size: 3110
+Filename: gnome-desktop-locale-en-ca_2.30.0-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-desktop
+OE: gnome-desktop
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-desktop-locale-en-gb
+Version: 2.30.0-r1.6
+Depends: gnome-desktop, virtual-locale-en-gb
+Provides: gnome-desktop-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 92cea34a9cdfee0dba26e999077d0225
+Size: 3068
+Filename: gnome-desktop-locale-en-gb_2.30.0-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-desktop
+OE: gnome-desktop
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-doc-utils-locale-en+shaw
+Version: 0.19.2-r6.2.6
+Depends: gnome-doc-utils, virtual-locale-en+shaw
+Provides: gnome-doc-utils-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c42778b23de489b06b7dca332de676af
+Size: 2042
+Filename: gnome-doc-utils-locale-en+shaw_0.19.2-r6.2.6_armv7a.ipk
+Description: en@shaw translation for gnome-doc-utils
+OE: gnome-doc-utils
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-doc-utils-locale-en-ca
+Version: 0.19.2-r6.2.6
+Depends: gnome-doc-utils, virtual-locale-en-ca
+Provides: gnome-doc-utils-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7e1b7660e386dddeedaa23b9e3ab19c4
+Size: 3264
+Filename: gnome-doc-utils-locale-en-ca_0.19.2-r6.2.6_armv7a.ipk
+Description: en_CA translation for gnome-doc-utils
+OE: gnome-doc-utils
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-doc-utils-locale-en-gb
+Version: 0.19.2-r6.2.6
+Depends: gnome-doc-utils, virtual-locale-en-gb
+Provides: gnome-doc-utils-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9c41872e00d697998e3b5b5e78495232
+Size: 3396
+Filename: gnome-doc-utils-locale-en-gb_0.19.2-r6.2.6_armv7a.ipk
+Description: en_GB translation for gnome-doc-utils
+OE: gnome-doc-utils
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-dvb-daemon-locale-en-gb
+Version: 0.1.18-r1.5
+Depends: gnome-dvb-daemon, virtual-locale-en-gb
+Provides: gnome-dvb-daemon-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 68f582dbc09a91208cd40669d433db88
+Size: 5498
+Filename: gnome-dvb-daemon-locale-en-gb_0.1.18-r1.5_armv7a.ipk
+Description: en_GB translation for gnome-dvb-daemon
+OE: gnome-dvb-daemon
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-games-locale-en+shaw
+Version: 2.32.0-r0.6
+Depends: gnome-games-sudoku, virtual-locale-en+shaw
+Provides: gnome-games-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 93735d96a961632d906a6f7254c99f75
+Size: 43376
+Filename: gnome-games-locale-en+shaw_2.32.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-games
+OE: gnome-games
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-games-locale-en-ca
+Version: 2.32.0-r0.6
+Depends: gnome-games-sudoku, virtual-locale-en-ca
+Provides: gnome-games-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 43b1b42ae9c68a74571cfcedc7efc086
+Size: 21702
+Filename: gnome-games-locale-en-ca_2.32.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-games
+OE: gnome-games
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-games-locale-en-gb
+Version: 2.32.0-r0.6
+Depends: gnome-games-sudoku, virtual-locale-en-gb
+Provides: gnome-games-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4213c41d9941e6e5caa246241339643e
+Size: 43188
+Filename: gnome-games-locale-en-gb_2.32.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-games
+OE: gnome-games
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-keyring-locale-en+shaw
+Version: 2.28.2-r1.6
+Depends: gnome-keyring-pam-plugin, virtual-locale-en+shaw
+Provides: gnome-keyring-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 131071f645f4c5afb3d90bcae046c0d1
+Size: 9854
+Filename: gnome-keyring-locale-en+shaw_2.28.2-r1.6_armv7a.ipk
+Description: en@shaw translation for gnome-keyring
+OE: gnome-keyring
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-keyring-locale-en-ca
+Version: 2.28.2-r1.6
+Depends: gnome-keyring-pam-plugin, virtual-locale-en-ca
+Provides: gnome-keyring-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3616dd651c13b4d826d7c20709a3691d
+Size: 2630
+Filename: gnome-keyring-locale-en-ca_2.28.2-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-keyring
+OE: gnome-keyring
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-keyring-locale-en-gb
+Version: 2.28.2-r1.6
+Depends: gnome-keyring-pam-plugin, virtual-locale-en-gb
+Provides: gnome-keyring-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 833fa2b132c71e918cf535aca4278ebf
+Size: 7226
+Filename: gnome-keyring-locale-en-gb_2.28.2-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-keyring
+OE: gnome-keyring
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-media-locale-en-ca
+Version: 2.28.0-r1.6
+Depends: gnome-media, virtual-locale-en-ca
+Provides: gnome-media-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bca9dcb0edb124f76a3c851ea163cb12
+Size: 10782
+Filename: gnome-media-locale-en-ca_2.28.0-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-media
+OE: gnome-media
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-media-locale-en-gb
+Version: 2.28.0-r1.6
+Depends: gnome-media, virtual-locale-en-gb
+Provides: gnome-media-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3240cd2ea93bf30b39d1f64916ac80f2
+Size: 7460
+Filename: gnome-media-locale-en-gb_2.28.0-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-media
+OE: gnome-media
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-mime-data-locale-en-ca
+Version: 2.18.0-r1.6
+Depends: gnome-mime-data, virtual-locale-en-ca
+Provides: gnome-mime-data-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 473baf9ae207d5b621f196e83ccd7404
+Size: 7384
+Filename: gnome-mime-data-locale-en-ca_2.18.0-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-mime-data
+OE: gnome-mime-data
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-mime-data-locale-en-gb
+Version: 2.18.0-r1.6
+Depends: gnome-mime-data, virtual-locale-en-gb
+Provides: gnome-mime-data-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ac4c49275da8a3ed4c839ac01ccedbe0
+Size: 7398
+Filename: gnome-mime-data-locale-en-gb_2.18.0-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-mime-data
+OE: gnome-mime-data
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-mount-locale-en-gb
+Version: 0.8-r0.6
+Depends: gnome-mount, virtual-locale-en-gb
+Provides: gnome-mount-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7fd8220d145720d74a4c6846f12db2c7
+Size: 4728
+Filename: gnome-mount-locale-en-gb_0.8-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-mount
+OE: gnome-mount
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-mplayer-locale-en-gb
+Version: 0.9.9.2-r11.0.6
+Depends: gnome-mplayer-nautilus-extension, virtual-locale-en-gb
+Provides: gnome-mplayer-locale, en-gb-translation
+Section: x11/multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ea5a21b2e8cd943a99c205c843550aed
+Size: 8034
+Filename: gnome-mplayer-locale-en-gb_0.9.9.2-r11.0.6_armv7a.ipk
+Description: en_GB translation for gnome-mplayer
+OE: gnome-mplayer
+HomePage: http://code.google.com/p/gnome-mplayer/
+Priority: optional
+
+
+Package: gnome-mplayer-locale-en
+Version: 0.9.9.2-r11.0.6
+Depends: gnome-mplayer-nautilus-extension, virtual-locale-en
+Provides: gnome-mplayer-locale, en-translation
+Section: x11/multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6ac83a0996613eda28bf5deef6bb9a5e
+Size: 2468
+Filename: gnome-mplayer-locale-en_0.9.9.2-r11.0.6_armv7a.ipk
+Description: en translation for gnome-mplayer
+OE: gnome-mplayer
+HomePage: http://code.google.com/p/gnome-mplayer/
+Priority: optional
+
+
+Package: gnome-nettool-locale-en+shaw
+Version: 2.30.0-r0.5
+Depends: gnome-nettool, virtual-locale-en+shaw
+Provides: gnome-nettool-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7892fb851f78afa5fcd2a3ebcf00667f
+Size: 6328
+Filename: gnome-nettool-locale-en+shaw_2.30.0-r0.5_armv7a.ipk
+Description: en@shaw translation for gnome-nettool
+OE: gnome-nettool
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-nettool-locale-en-ca
+Version: 2.30.0-r0.5
+Depends: gnome-nettool, virtual-locale-en-ca
+Provides: gnome-nettool-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1f345638c362ab5e5e237c795c7028c2
+Size: 4366
+Filename: gnome-nettool-locale-en-ca_2.30.0-r0.5_armv7a.ipk
+Description: en_CA translation for gnome-nettool
+OE: gnome-nettool
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-nettool-locale-en-gb
+Version: 2.30.0-r0.5
+Depends: gnome-nettool, virtual-locale-en-gb
+Provides: gnome-nettool-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 524b9a58f3f4103fe61a5f52fdab3b19
+Size: 5134
+Filename: gnome-nettool-locale-en-gb_2.30.0-r0.5_armv7a.ipk
+Description: en_GB translation for gnome-nettool
+OE: gnome-nettool
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-packagekit-locale-en-gb
+Version: 2.28.2-r0.5
+Depends: gnome-packagekit, virtual-locale-en-gb
+Provides: gnome-packagekit-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9b85d90ba2bcfa00ef32771f534a37b0
+Size: 26798
+Filename: gnome-packagekit-locale-en-gb_2.28.2-r0.5_armv7a.ipk
+Description: en_GB translation for gnome-packagekit
+OE: gnome-packagekit
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-panel-locale-en+shaw
+Version: 2.30.0-r1.6
+Depends: libpanel-applet-2-0, virtual-locale-en+shaw
+Provides: gnome-panel-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8c5bad1a21be841f018a86f21674c0e3
+Size: 20496
+Filename: gnome-panel-locale-en+shaw_2.30.0-r1.6_armv7a.ipk
+Description: en@shaw translation for gnome-panel
+OE: gnome-panel
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-panel-locale-en-ca
+Version: 2.30.0-r1.6
+Depends: libpanel-applet-2-0, virtual-locale-en-ca
+Provides: gnome-panel-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 59ef18af5557eed7c4cac7069d760b25
+Size: 15538
+Filename: gnome-panel-locale-en-ca_2.30.0-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-panel
+OE: gnome-panel
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-panel-locale-en-gb
+Version: 2.30.0-r1.6
+Depends: libpanel-applet-2-0, virtual-locale-en-gb
+Provides: gnome-panel-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c70105a54d9767669da377f9551f39e7
+Size: 17370
+Filename: gnome-panel-locale-en-gb_2.30.0-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-panel
+OE: gnome-panel
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-power-manager-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gnome-power-manager-applets, virtual-locale-en+shaw
+Provides: gnome-power-manager-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8569cbe5ecc1f8c4ba961ac43795a48e
+Size: 14314
+Filename: gnome-power-manager-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-power-manager
+OE: gnome-power-manager
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-power-manager-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gnome-power-manager-applets, virtual-locale-en-ca
+Provides: gnome-power-manager-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 107d53c3ed541317f9b083ee26c9dc93
+Size: 4946
+Filename: gnome-power-manager-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-power-manager
+OE: gnome-power-manager
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-power-manager-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gnome-power-manager-applets, virtual-locale-en-gb
+Provides: gnome-power-manager-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8e0c28ae09cbfa2167b4ab1c659fcee5
+Size: 10422
+Filename: gnome-power-manager-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-power-manager
+OE: gnome-power-manager
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-screensaver-locale-en+shaw
+Version: 2.30.2-r1.6
+Depends: gnome-screensaver, virtual-locale-en+shaw
+Provides: gnome-screensaver-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 28f27bd3892a8371d83327932e6b43a0
+Size: 7508
+Filename: gnome-screensaver-locale-en+shaw_2.30.2-r1.6_armv7a.ipk
+Description: en@shaw translation for gnome-screensaver
+OE: gnome-screensaver
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-screensaver-locale-en-ca
+Version: 2.30.2-r1.6
+Depends: gnome-screensaver, virtual-locale-en-ca
+Provides: gnome-screensaver-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 34fe4ae68b60ca61c948b449a8e71854
+Size: 5844
+Filename: gnome-screensaver-locale-en-ca_2.30.2-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-screensaver
+OE: gnome-screensaver
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-screensaver-locale-en-gb
+Version: 2.30.2-r1.6
+Depends: gnome-screensaver, virtual-locale-en-gb
+Provides: gnome-screensaver-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2bc3e075bf9acdbc4d139083b6bb21fa
+Size: 5572
+Filename: gnome-screensaver-locale-en-gb_2.30.2-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-screensaver
+OE: gnome-screensaver
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-session-locale-en-ca
+Version: 2.28.0-r0.6
+Depends: gnome-session, virtual-locale-en-ca
+Provides: gnome-session-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4e758feec334e224fd8d1efbd2fbb091
+Size: 4974
+Filename: gnome-session-locale-en-ca_2.28.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-session
+OE: gnome-session
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-session-locale-en-gb
+Version: 2.28.0-r0.6
+Depends: gnome-session, virtual-locale-en-gb
+Provides: gnome-session-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: aad6d4ab06bcf358fd3ec3a9304fe40c
+Size: 4248
+Filename: gnome-session-locale-en-gb_2.28.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-session
+OE: gnome-session
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-settings-daemon-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gnome-settings-daemon, virtual-locale-en+shaw
+Provides: gnome-settings-daemon-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4db64502fca3356af51eff3408b59d87
+Size: 9066
+Filename: gnome-settings-daemon-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-settings-daemon
+OE: gnome-settings-daemon
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-settings-daemon-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gnome-settings-daemon, virtual-locale-en-ca
+Provides: gnome-settings-daemon-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ccdb87aebcef0b6b0547cf1d3ba38314
+Size: 2920
+Filename: gnome-settings-daemon-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-settings-daemon
+OE: gnome-settings-daemon
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-settings-daemon-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gnome-settings-daemon, virtual-locale-en-gb
+Provides: gnome-settings-daemon-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9ea9c0b232ccf07b15fbd17f14614ca4
+Size: 7716
+Filename: gnome-settings-daemon-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-settings-daemon
+OE: gnome-settings-daemon
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-system-monitor-locale-en+shaw
+Version: 2.28.1-r0.6
+Depends: gnome-system-monitor-applets, virtual-locale-en+shaw
+Provides: gnome-system-monitor-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c6f7ad8e43a1d57b8fff729964bbec7a
+Size: 7390
+Filename: gnome-system-monitor-locale-en+shaw_2.28.1-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-system-monitor
+OE: gnome-system-monitor
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-system-monitor-locale-en-ca
+Version: 2.28.1-r0.6
+Depends: gnome-system-monitor-applets, virtual-locale-en-ca
+Provides: gnome-system-monitor-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f46bf8737b4d7da72bdf22bc8278b338
+Size: 4950
+Filename: gnome-system-monitor-locale-en-ca_2.28.1-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-system-monitor
+OE: gnome-system-monitor
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-system-monitor-locale-en-gb
+Version: 2.28.1-r0.6
+Depends: gnome-system-monitor-applets, virtual-locale-en-gb
+Provides: gnome-system-monitor-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e73f282cb05375b430984643156e1dc1
+Size: 6292
+Filename: gnome-system-monitor-locale-en-gb_2.28.1-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-system-monitor
+OE: gnome-system-monitor
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-system-tools-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gnome-system-tools, virtual-locale-en+shaw
+Provides: gnome-system-tools-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ea19044217c0a8126c766759b228b56e
+Size: 12812
+Filename: gnome-system-tools-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-system-tools
+OE: gnome-system-tools
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-system-tools-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gnome-system-tools, virtual-locale-en-ca
+Provides: gnome-system-tools-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 77c858bd288bd124f718d54a28408c67
+Size: 10814
+Filename: gnome-system-tools-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-system-tools
+OE: gnome-system-tools
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-system-tools-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gnome-system-tools, virtual-locale-en-gb
+Provides: gnome-system-tools-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7914f7c623e379ad0386251b356f614b
+Size: 11168
+Filename: gnome-system-tools-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-system-tools
+OE: gnome-system-tools
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-terminal-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: gnome-terminal, virtual-locale-en+shaw
+Provides: gnome-terminal-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bf31a0ff2d26c8dff25aee45824a3405
+Size: 14598
+Filename: gnome-terminal-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gnome-terminal
+OE: gnome-terminal
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-terminal-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: gnome-terminal, virtual-locale-en-ca
+Provides: gnome-terminal-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c4ec7a2e7ab53df30620b4a48db300fa
+Size: 13624
+Filename: gnome-terminal-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-terminal
+OE: gnome-terminal
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-terminal-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: gnome-terminal, virtual-locale-en-gb
+Provides: gnome-terminal-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: be5defb84ee0da1aec4ee3c54322f870
+Size: 12986
+Filename: gnome-terminal-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-terminal
+OE: gnome-terminal
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-utils-locale-en+shaw
+Version: 2.30.0-r1.6
+Depends: gnome-utils, virtual-locale-en+shaw
+Provides: gnome-utils-locale, en+shaw-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a86d87475dba7fc86e0623044354ec83
+Size: 20872
+Filename: gnome-utils-locale-en+shaw_2.30.0-r1.6_armv7a.ipk
+Description: en@shaw translation for gnome-utils
+OE: gnome-utils
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-utils-locale-en-ca
+Version: 2.30.0-r1.6
+Depends: gnome-utils, virtual-locale-en-ca
+Provides: gnome-utils-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 078c05b40d828a9c0d050338e563f020
+Size: 14008
+Filename: gnome-utils-locale-en-ca_2.30.0-r1.6_armv7a.ipk
+Description: en_CA translation for gnome-utils
+OE: gnome-utils
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-utils-locale-en-gb
+Version: 2.30.0-r1.6
+Depends: gnome-utils, virtual-locale-en-gb
+Provides: gnome-utils-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 321c23d2e9610d556a0c22e95ff12d9e
+Size: 16172
+Filename: gnome-utils-locale-en-gb_2.30.0-r1.6_armv7a.ipk
+Description: en_GB translation for gnome-utils
+OE: gnome-utils
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-vfs-locale-en-ca
+Version: 2.24.1-r3.6
+Depends: gnome-vfs, virtual-locale-en-ca
+Provides: gnome-vfs-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 227f334c80f646454743e4109b3a437d
+Size: 7524
+Filename: gnome-vfs-locale-en-ca_2.24.1-r3.6_armv7a.ipk
+Description: en_CA translation for gnome-vfs
+OE: gnome-vfs
+HomePage: unknown
+Priority: optional
+
+
+Package: gnome-vfs-locale-en-gb
+Version: 2.24.1-r3.6
+Depends: gnome-vfs, virtual-locale-en-gb
+Provides: gnome-vfs-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 086f9eea4508b3049c346625f95021c1
+Size: 7480
+Filename: gnome-vfs-locale-en-gb_2.24.1-r3.6_armv7a.ipk
+Description: en_GB translation for gnome-vfs
+OE: gnome-vfs
+HomePage: unknown
+Priority: optional
+
+
+Package: gnote-locale-en-gb
+Version: 0.5.0-r0.3
+Depends: gnote, virtual-locale-en-gb
+Provides: gnote-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6685b9f13d6b3ff9198f8c48ae66993a
+Size: 9048
+Filename: gnote-locale-en-gb_0.5.0-r0.3_armv7a.ipk
+Description: en_GB translation for gnote
+OE: gnote
+HomePage: unknown
+Priority: optional
+
+
+Package: gnumeric-locale-en-ca
+Version: 1.10.1-r0.6
+Depends: gnumeric, virtual-locale-en-ca
+Provides: gnumeric-locale, en-ca-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ae0d1f7f6ff0cbd8534e648cd5a5ea26
+Size: 69980
+Filename: gnumeric-locale-en-ca_1.10.1-r0.6_armv7a.ipk
+Description: en_CA translation for gnumeric
+OE: gnumeric
+HomePage: unknown
+Priority: optional
+
+
+Package: gnumeric-locale-en-gb
+Version: 1.10.1-r0.6
+Depends: gnumeric, virtual-locale-en-gb
+Provides: gnumeric-locale, en-gb-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d03bd2f3f78b2b3f869e55540058432d
+Size: 184306
+Filename: gnumeric-locale-en-gb_1.10.1-r0.6_armv7a.ipk
+Description: en_GB translation for gnumeric
+OE: gnumeric
+HomePage: unknown
+Priority: optional
+
+
+Package: gnupg-locale-en+boldquot
+Version: 1.4.10-r3.6
+Depends: gpgv, virtual-locale-en+boldquot
+Provides: gnupg-locale, en+boldquot-translation
+Section: console/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2c8d0b20150b95d625b32d6a2b8e3715
+Size: 46388
+Filename: gnupg-locale-en+boldquot_1.4.10-r3.6_armv7a.ipk
+Description: en@boldquot translation for gnupg
+OE: gnupg
+HomePage: http://www.gnupg.org/
+Priority: optional
+
+
+Package: gnupg-locale-en+quot
+Version: 1.4.10-r3.6
+Depends: gpgv, virtual-locale-en+quot
+Provides: gnupg-locale, en+quot-translation
+Section: console/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 818598640f1ad603b250954c03c0806f
+Size: 46288
+Filename: gnupg-locale-en+quot_1.4.10-r3.6_armv7a.ipk
+Description: en@quot translation for gnupg
+OE: gnupg
+HomePage: http://www.gnupg.org/
+Priority: optional
+
+
+Package: gnutls-locale-en+boldquot
+Version: 2.4.2-r4.4
+Depends: gnutls-openssl, virtual-locale-en+boldquot
+Provides: gnutls-locale, en+boldquot-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d5af13124196a5ccb40699247fcbf085
+Size: 5492
+Filename: gnutls-locale-en+boldquot_2.4.2-r4.4_armv7a.ipk
+Description: en@boldquot translation for gnutls
+OE: gnutls
+HomePage: http://www.gnu.org/software/gnutls/
+Priority: optional
+
+
+Package: gnutls-locale-en+quot
+Version: 2.4.2-r4.4
+Depends: gnutls-openssl, virtual-locale-en+quot
+Provides: gnutls-locale, en+quot-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7ae93df982f5c4ea8f1e633478707df5
+Size: 5486
+Filename: gnutls-locale-en+quot_2.4.2-r4.4_armv7a.ipk
+Description: en@quot translation for gnutls
+OE: gnutls
+HomePage: http://www.gnu.org/software/gnutls/
+Priority: optional
+
+
+Package: gphoto2-locale-en-gb
+Version: 2.4.8-r0.6
+Depends: gphoto2, virtual-locale-en-gb
+Provides: gphoto2-locale, en-gb-translation
+Section: console/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4084f598ed4b2f3af41a15b2d60010e5
+Size: 5166
+Filename: gphoto2-locale-en-gb_2.4.8-r0.6_armv7a.ipk
+Description: en_GB translation for gphoto2
+OE: gphoto2
+HomePage: unknown
+Priority: optional
+
+
+Package: gst-plugins-bad-locale-en-gb.gmo
+Version: 0.10.21-r11.0.6
+Depends: gst-plugins-bad, virtual-locale-en-gb.gmo
+Provides: gst-plugins-bad-locale, en-gb.gmo-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4aab27a570aa4e6e3aeae99e813fc4a8
+Size: 1404
+Filename: gst-plugins-bad-locale-en-gb.gmo_0.10.21-r11.0.6_armv7a.ipk
+Description: en_GB.gmo translation for gst-plugins-bad
+OE: gst-plugins-bad
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-bad-locale-en-gb
+Version: 0.10.20-r11.2.6
+Depends: gst-plugins-bad, virtual-locale-en-gb
+Provides: gst-plugins-bad-locale, en-gb-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8bc685fdea7a10c3e0bbea60e91cb759
+Size: 1344
+Filename: gst-plugins-bad-locale-en-gb_0.10.20-r11.2.6_armv7a.ipk
+Description: en_GB translation for gst-plugins-bad
+OE: gst-plugins-bad
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-base-locale-en-gb.gmo
+Version: 0.10.32-r11.1.6
+Depends: gst-plugins-base, virtual-locale-en-gb.gmo
+Provides: gst-plugins-base-locale, en-gb.gmo-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c2cceb42e749c51dc5ca4cddfbfaa80c
+Size: 1562
+Filename: gst-plugins-base-locale-en-gb.gmo_0.10.32-r11.1.6_armv7a.ipk
+Description: en_GB.gmo translation for gst-plugins-base
+OE: gst-plugins-base
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-base-locale-en-gb
+Version: 0.10.30-r11.0.6
+Depends: gst-plugins-base, virtual-locale-en-gb
+Provides: gst-plugins-base-locale, en-gb-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a98f2b7dc35ceeb82a3b9b21d1b77b75
+Size: 1530
+Filename: gst-plugins-base-locale-en-gb_0.10.30-r11.0.6_armv7a.ipk
+Description: en_GB translation for gst-plugins-base
+OE: gst-plugins-base
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-good-locale-en-gb.gmo
+Version: 0.10.26-r11.0.6
+Depends: gst-plugin-gconfelements, virtual-locale-en-gb.gmo
+Provides: gst-plugins-good-locale, en-gb.gmo-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f9a4b361a85fc87cec0434347d49d4cb
+Size: 1680
+Filename: gst-plugins-good-locale-en-gb.gmo_0.10.26-r11.0.6_armv7a.ipk
+Description: en_GB.gmo translation for gst-plugins-good
+OE: gst-plugins-good
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-good-locale-en-gb
+Version: 0.10.25-r11.0.6
+Depends: gst-plugin-gconfelements, virtual-locale-en-gb
+Provides: gst-plugins-good-locale, en-gb-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f769742c83c4f12336f4b58c84bcbad2
+Size: 1644
+Filename: gst-plugins-good-locale-en-gb_0.10.25-r11.0.6_armv7a.ipk
+Description: en_GB translation for gst-plugins-good
+OE: gst-plugins-good
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-ugly-locale-en-gb.gmo
+Version: 0.10.16-r11.1.6
+Depends: gst-plugins-ugly, virtual-locale-en-gb.gmo
+Provides: gst-plugins-ugly-locale, en-gb.gmo-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e7b2b006222505c553d76f4a438aefc8
+Size: 1320
+Filename: gst-plugins-ugly-locale-en-gb.gmo_0.10.16-r11.1.6_armv7a.ipk
+Description: en_GB.gmo translation for gst-plugins-ugly
+OE: gst-plugins-ugly
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gst-plugins-ugly-locale-en-gb
+Version: 0.10.16-r11.1.6
+Depends: gst-plugins-ugly, virtual-locale-en-gb
+Provides: gst-plugins-ugly-locale, en-gb-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9f20ec92f59f95536794f1a49bbd341d
+Size: 1272
+Filename: gst-plugins-ugly-locale-en-gb_0.10.16-r11.1.6_armv7a.ipk
+Description: en_GB translation for gst-plugins-ugly
+OE: gst-plugins-ugly
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gstreamer-locale-en-gb.gmo
+Version: 0.10.32-r0.6
+Depends: gstreamer, virtual-locale-en-gb.gmo
+Provides: gstreamer-locale, en-gb.gmo-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6894f099331a3c751861b1d709e9c583
+Size: 4746
+Filename: gstreamer-locale-en-gb.gmo_0.10.32-r0.6_armv7a.ipk
+Description: en_GB.gmo translation for gstreamer
+OE: gstreamer
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gstreamer-locale-en-gb
+Version: 0.10.30-r1.6
+Depends: gstreamer, virtual-locale-en-gb
+Provides: gstreamer-locale, en-gb-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1110c34d974b3bf041b17d012f0e441a
+Size: 4618
+Filename: gstreamer-locale-en-gb_0.10.30-r1.6_armv7a.ipk
+Description: en_GB translation for gstreamer
+OE: gstreamer
+HomePage: http://www.gstreamer.net/
+Priority: optional
+
+
+Package: gthumb-locale-en-ca
+Version: 2.10.11-r3.6
+Depends: gthumb, virtual-locale-en-ca
+Provides: gthumb-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a73934b37eca11b239a56878ed9a9f40
+Size: 15902
+Filename: gthumb-locale-en-ca_2.10.11-r3.6_armv7a.ipk
+Description: en_CA translation for gthumb
+OE: gthumb
+HomePage: unknown
+Priority: optional
+
+
+Package: gthumb-locale-en-gb
+Version: 2.10.11-r3.6
+Depends: gthumb, virtual-locale-en-gb
+Provides: gthumb-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2c1531e0d3dbab9c9031bcad25fd8782
+Size: 18196
+Filename: gthumb-locale-en-gb_2.10.11-r3.6_armv7a.ipk
+Description: en_GB translation for gthumb
+OE: gthumb
+HomePage: unknown
+Priority: optional
+
+
+Package: gtk+-locale-en-ca
+Version: 2.20.1-r10.4.6
+Depends: gtk+-demo, virtual-locale-en-ca
+Provides: gtk+-locale, en-ca-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a1d48a509778aec17d855b7f526b135d
+Size: 59088
+Filename: gtk+-locale-en-ca_2.20.1-r10.4.6_armv7a.ipk
+Description: en_CA translation for gtk+
+OE: gtk+
+HomePage: http://www.gtk.org
+Priority: optional
+
+
+Package: gtk+-locale-en-gb
+Version: 2.20.1-r10.4.6
+Depends: gtk+-demo, virtual-locale-en-gb
+Provides: gtk+-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6f44e7c49d8aaebbcf3cc1bcd98fcd87
+Size: 74318
+Filename: gtk+-locale-en-gb_2.20.1-r10.4.6_armv7a.ipk
+Description: en_GB translation for gtk+
+OE: gtk+
+HomePage: http://www.gtk.org
+Priority: optional
+
+
+Package: gtk-engines-locale-en+shaw
+Version: 2.20.0-r0.6
+Depends: gtk-engines, virtual-locale-en+shaw
+Provides: gtk-engines-locale, en+shaw-translation
+Section: x11/base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 637b129ddce6583cddb99dddd54b92fd
+Size: 2106
+Filename: gtk-engines-locale-en+shaw_2.20.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gtk-engines
+OE: gtk-engines
+HomePage: unknown
+Priority: optional
+
+
+Package: gtk-engines-locale-en-gb
+Version: 2.20.0-r0.6
+Depends: gtk-engines, virtual-locale-en-gb
+Provides: gtk-engines-locale, en-gb-translation
+Section: x11/base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d189ad6f8a05366ca673828defe918c9
+Size: 2152
+Filename: gtk-engines-locale-en-gb_2.20.0-r0.6_armv7a.ipk
+Description: en_GB translation for gtk-engines
+OE: gtk-engines
+HomePage: unknown
+Priority: optional
+
+
+Package: gvfs-locale-en+shaw
+Version: 1.6.6-r1.6
+Depends: gvfsd-ftp, virtual-locale-en+shaw
+Provides: gvfs-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c313e65083a6d7bcbebfe0d12fc87d20
+Size: 14466
+Filename: gvfs-locale-en+shaw_1.6.6-r1.6_armv7a.ipk
+Description: en@shaw translation for gvfs
+OE: gvfs
+HomePage: unknown
+Priority: optional
+
+
+Package: gvfs-locale-en-gb
+Version: 1.6.6-r1.6
+Depends: gvfsd-ftp, virtual-locale-en-gb
+Provides: gvfs-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0e282d24691664d6637357dff06fae53
+Size: 10534
+Filename: gvfs-locale-en-gb_1.6.6-r1.6_armv7a.ipk
+Description: en_GB translation for gvfs
+OE: gvfs
+HomePage: unknown
+Priority: optional
+
+
+Package: inkscape-locale-en-au
+Version: 0.48.0-r0.6
+Depends: inkscape, virtual-locale-en-au
+Provides: inkscape-locale, en-au-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 577911ec2383062995cb5e41a7e5cfdb
+Size: 37820
+Filename: inkscape-locale-en-au_0.48.0-r0.6_armv7a.ipk
+Description: en_AU translation for inkscape
+OE: inkscape
+HomePage: unknown
+Priority: optional
+
+
+Package: inkscape-locale-en-ca
+Version: 0.48.0-r0.6
+Depends: inkscape, virtual-locale-en-ca
+Provides: inkscape-locale, en-ca-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d9fd9b8f736e2169d84c7853b5275377
+Size: 4098
+Filename: inkscape-locale-en-ca_0.48.0-r0.6_armv7a.ipk
+Description: en_CA translation for inkscape
+OE: inkscape
+HomePage: unknown
+Priority: optional
+
+
+Package: inkscape-locale-en-gb
+Version: 0.48.0-r0.6
+Depends: inkscape, virtual-locale-en-gb
+Provides: inkscape-locale, en-gb-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7a412abf59be8900962daacc72e65ea8
+Size: 170216
+Filename: inkscape-locale-en-gb_0.48.0-r0.6_armv7a.ipk
+Description: en_GB translation for inkscape
+OE: inkscape
+HomePage: unknown
+Priority: optional
+
+
+Package: inkscape-locale-en-us+piglatin
+Version: 0.48.0-r0.6
+Depends: inkscape, virtual-locale-en-us+piglatin
+Provides: inkscape-locale, en-us+piglatin-translation
+Section: x11/utils
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 937139e4fd9b5020dcbc0c1b6ef1a4b7
+Size: 153660
+Filename: inkscape-locale-en-us+piglatin_0.48.0-r0.6_armv7a.ipk
+Description: en_US@piglatin translation for inkscape
+OE: inkscape
+HomePage: unknown
+Priority: optional
+
+
+Package: libatk-1.0-locale-en+shaw
+Version: 1.30.0-r1.6
+Depends: libatk-1.0-0, virtual-locale-en+shaw
+Provides: atk-locale, en+shaw-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bda69628d297913015f44cc469799b0e
+Size: 4024
+Filename: libatk-1.0-locale-en+shaw_1.30.0-r1.6_armv7a.ipk
+Description: en@shaw translation for atk
+OE: atk
+HomePage: unknown
+Priority: optional
+
+
+Package: libatk-1.0-locale-en-ca
+Version: 1.30.0-r1.6
+Depends: libatk-1.0-0, virtual-locale-en-ca
+Provides: atk-locale, en-ca-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 60248b1e49f6e100d9439a5af2933048
+Size: 3388
+Filename: libatk-1.0-locale-en-ca_1.30.0-r1.6_armv7a.ipk
+Description: en_CA translation for atk
+OE: atk
+HomePage: unknown
+Priority: optional
+
+
+Package: libatk-1.0-locale-en-gb
+Version: 1.30.0-r1.6
+Depends: libatk-1.0-0, virtual-locale-en-gb
+Provides: atk-locale, en-gb-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0cf0f2cfb35254ea09b2b5e4dedaad1b
+Size: 3372
+Filename: libatk-1.0-locale-en-gb_1.30.0-r1.6_armv7a.ipk
+Description: en_GB translation for atk
+OE: atk
+HomePage: unknown
+Priority: optional
+
+
+Package: libbonobo-locale-en+shaw
+Version: 2.24.3-r0.6
+Depends: libbonobo, virtual-locale-en+shaw
+Provides: libbonobo-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d06b9c92fefec1ebf0ea39b383bb9a8e
+Size: 4962
+Filename: libbonobo-locale-en+shaw_2.24.3-r0.6_armv7a.ipk
+Description: en@shaw translation for libbonobo
+OE: libbonobo
+HomePage: unknown
+Priority: optional
+
+
+Package: libbonobo-locale-en-ca
+Version: 2.24.3-r0.6
+Depends: libbonobo, virtual-locale-en-ca
+Provides: libbonobo-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 04e89d1628b47d0bc0a0ef590a7e7d1e
+Size: 3956
+Filename: libbonobo-locale-en-ca_2.24.3-r0.6_armv7a.ipk
+Description: en_CA translation for libbonobo
+OE: libbonobo
+HomePage: unknown
+Priority: optional
+
+
+Package: libbonobo-locale-en-gb
+Version: 2.24.3-r0.6
+Depends: libbonobo, virtual-locale-en-gb
+Provides: libbonobo-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1dd16a29f6a2eda18ce7600ea58714de
+Size: 3886
+Filename: libbonobo-locale-en-gb_2.24.3-r0.6_armv7a.ipk
+Description: en_GB translation for libbonobo
+OE: libbonobo
+HomePage: unknown
+Priority: optional
+
+
+Package: libbonoboui-locale-en+shaw
+Version: 2.24.3-r0.6
+Depends: libbonoboui, virtual-locale-en+shaw
+Provides: libbonoboui-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 455aa2a441db0b1a9534ff7a078f8381
+Size: 4132
+Filename: libbonoboui-locale-en+shaw_2.24.3-r0.6_armv7a.ipk
+Description: en@shaw translation for libbonoboui
+OE: libbonoboui
+HomePage: unknown
+Priority: optional
+
+
+Package: libbonoboui-locale-en-ca
+Version: 2.24.3-r0.6
+Depends: libbonoboui, virtual-locale-en-ca
+Provides: libbonoboui-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 44d06e5f199f7e403d144bb238503cdf
+Size: 3534
+Filename: libbonoboui-locale-en-ca_2.24.3-r0.6_armv7a.ipk
+Description: en_CA translation for libbonoboui
+OE: libbonoboui
+HomePage: unknown
+Priority: optional
+
+
+Package: libbonoboui-locale-en-gb
+Version: 2.24.3-r0.6
+Depends: libbonoboui, virtual-locale-en-gb
+Provides: libbonoboui-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9963ed4dcfafce6cd536b62e9ce99df6
+Size: 3588
+Filename: libbonoboui-locale-en-gb_2.24.3-r0.6_armv7a.ipk
+Description: en_GB translation for libbonoboui
+OE: libbonoboui
+HomePage: unknown
+Priority: optional
+
+
+Package: libedataserverui-1.2-locale-en-au
+Version: 1.4.0+svnr736-r7.5
+Depends: libcamel-provider-1.2-6, virtual-locale-en-au
+Provides: eds-dbus-locale, en-au-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 43752380f6f90479e6f5143653f8d4d0
+Size: 2004
+Filename: libedataserverui-1.2-locale-en-au_1.4.0+svnr736-r7.5_armv7a.ipk
+Description: en_AU translation for eds-dbus
+OE: eds-dbus
+HomePage: http://projects.o-hand.com/eds
+Priority: optional
+
+
+Package: libedataserverui-1.2-locale-en-ca
+Version: 1.4.0+svnr736-r7.5
+Depends: libcamel-provider-1.2-6, virtual-locale-en-ca
+Provides: eds-dbus-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 591574e3e43e49ac76034505d45bca98
+Size: 21144
+Filename: libedataserverui-1.2-locale-en-ca_1.4.0+svnr736-r7.5_armv7a.ipk
+Description: en_CA translation for eds-dbus
+OE: eds-dbus
+HomePage: http://projects.o-hand.com/eds
+Priority: optional
+
+
+Package: libedataserverui-1.2-locale-en-gb
+Version: 1.4.0+svnr736-r7.5
+Depends: libcamel-provider-1.2-6, virtual-locale-en-gb
+Provides: eds-dbus-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 099bdf3002ded78d6458d77c4de43248
+Size: 20340
+Filename: libedataserverui-1.2-locale-en-gb_1.4.0+svnr736-r7.5_armv7a.ipk
+Description: en_GB translation for eds-dbus
+OE: eds-dbus
+HomePage: http://projects.o-hand.com/eds
+Priority: optional
+
+
+Package: libeel-2-locale-en-ca
+Version: 2.26.0-r0.5
+Depends: libeel-2-2, virtual-locale-en-ca
+Provides: eel-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: cf498a9a38367ab6f51b792ae6727c7d
+Size: 2372
+Filename: libeel-2-locale-en-ca_2.26.0-r0.5_armv7a.ipk
+Description: en_CA translation for eel
+OE: eel
+HomePage: unknown
+Priority: optional
+
+
+Package: libeel-2-locale-en-gb
+Version: 2.26.0-r0.5
+Depends: libeel-2-2, virtual-locale-en-gb
+Provides: eel-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4e8e10d558bfb05009b0cf0a53c1dd32
+Size: 2024
+Filename: libeel-2-locale-en-gb_2.26.0-r0.5_armv7a.ipk
+Description: en_GB translation for eel
+OE: eel
+HomePage: unknown
+Priority: optional
+
+
+Package: libexif-locale-en-ca
+Version: 0.6.19-r0.0.6
+Depends: libexif12, virtual-locale-en-ca
+Provides: libexif-locale, en-ca-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 75e65a35a95d574a4d8f4ae749cbf73c
+Size: 3978
+Filename: libexif-locale-en-ca_0.6.19-r0.0.6_armv7a.ipk
+Description: en_CA translation for libexif
+OE: libexif
+HomePage: http://sourceforge.net/projects/libexif
+Priority: optional
+
+
+Package: libexif-locale-en-gb
+Version: 0.6.19-r0.0.6
+Depends: libexif12, virtual-locale-en-gb
+Provides: libexif-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bca079e3afd95038f357e1d65affa11a
+Size: 18156
+Filename: libexif-locale-en-gb_0.6.19-r0.0.6_armv7a.ipk
+Description: en_GB translation for libexif
+OE: libexif
+HomePage: http://sourceforge.net/projects/libexif
+Priority: optional
+
+
+Package: libgdata-locale-en-gb
+Version: 0.5.1-r0.6
+Depends: libgdata6, virtual-locale-en-gb
+Provides: libgdata-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ce21c95c1ef6aea5c9ffb28bf8a76d30
+Size: 2696
+Filename: libgdata-locale-en-gb_0.5.1-r0.6_armv7a.ipk
+Description: en_GB translation for libgdata
+OE: libgdata
+HomePage: unknown
+Priority: optional
+
+
+Package: libgeda-locale-en-gb
+Version: 1.4.3-r1.6
+Depends: libgeda33, virtual-locale-en-gb
+Provides: libgeda-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 12084cfa28635184a0dd16129defadca
+Size: 4674
+Filename: libgeda-locale-en-gb_1.4.3-r1.6_armv7a.ipk
+Description: en_GB translation for libgeda
+OE: libgeda
+HomePage: http://www.gpleda.org/
+Priority: optional
+
+
+Package: libglib-2.0-locale-en+shaw
+Version: 2.24.1-r2.6
+Depends: libgobject-2.0-0, virtual-locale-en+shaw
+Provides: glib-2.0-locale, en+shaw-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: fcfe881a10744b8c770495863715598e
+Size: 16254
+Filename: libglib-2.0-locale-en+shaw_2.24.1-r2.6_armv7a.ipk
+Description: en@shaw translation for glib-2.0
+OE: glib-2.0
+HomePage: unknown
+Priority: optional
+
+
+Package: libglib-2.0-locale-en-ca
+Version: 2.24.1-r2.6
+Depends: libgobject-2.0-0, virtual-locale-en-ca
+Provides: glib-2.0-locale, en-ca-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 206741a67ea87affe66810c6fa917b64
+Size: 8824
+Filename: libglib-2.0-locale-en-ca_2.24.1-r2.6_armv7a.ipk
+Description: en_CA translation for glib-2.0
+OE: glib-2.0
+HomePage: unknown
+Priority: optional
+
+
+Package: libglib-2.0-locale-en-gb
+Version: 2.24.1-r2.6
+Depends: libgobject-2.0-0, virtual-locale-en-gb
+Provides: glib-2.0-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1f6586927dfed8af86ebc6722fab01c9
+Size: 10870
+Filename: libglib-2.0-locale-en-gb_2.24.1-r2.6_armv7a.ipk
+Description: en_GB translation for glib-2.0
+OE: glib-2.0
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnome-2-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: libgnome-2-0, virtual-locale-en+shaw
+Provides: libgnome-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6ace29b2f507c5b8de49e99bad8a5cf2
+Size: 10622
+Filename: libgnome-2-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for libgnome
+OE: libgnome
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnome-2-locale-en-ca
+Version: 2.30.0-r0.6
+Depends: libgnome-2-0, virtual-locale-en-ca
+Provides: libgnome-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ff58e5b5d8745548c2c00d60a0518d32
+Size: 7944
+Filename: libgnome-2-locale-en-ca_2.30.0-r0.6_armv7a.ipk
+Description: en_CA translation for libgnome
+OE: libgnome
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnome-2-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: libgnome-2-0, virtual-locale-en-gb
+Provides: libgnome-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2685d7919c7f85075c93807ef3490c48
+Size: 8306
+Filename: libgnome-2-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for libgnome
+OE: libgnome
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnome-menu-locale-en-ca
+Version: 2.28.0.1-r0.6
+Depends: libgnome-menu2, virtual-locale-en-ca
+Provides: gnome-menus-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d20099c8606efda1b9e9485314cd09a6
+Size: 2262
+Filename: libgnome-menu-locale-en-ca_2.28.0.1-r0.6_armv7a.ipk
+Description: en_CA translation for gnome-menus
+OE: gnome-menus
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnome-menu-locale-en-gb
+Version: 2.28.0.1-r0.6
+Depends: libgnome-menu2, virtual-locale-en-gb
+Provides: gnome-menus-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5188bfae4ef6341f41e41fde4ad3bfe6
+Size: 2432
+Filename: libgnome-menu-locale-en-gb_2.28.0.1-r0.6_armv7a.ipk
+Description: en_GB translation for gnome-menus
+OE: gnome-menus
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomecanvas-2-locale-en-ca
+Version: 2.26.0-r1.6
+Depends: libgnomecanvas-2-0, virtual-locale-en-ca
+Provides: libgnomecanvas-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e95ee89586552f57ef1e1722a6a6c4b2
+Size: 3058
+Filename: libgnomecanvas-2-locale-en-ca_2.26.0-r1.6_armv7a.ipk
+Description: en_CA translation for libgnomecanvas
+OE: libgnomecanvas
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomecanvas-2-locale-en-gb
+Version: 2.26.0-r1.6
+Depends: libgnomecanvas-2-0, virtual-locale-en-gb
+Provides: libgnomecanvas-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: fe6950e4fdc64eacaec464c019a4b596
+Size: 3022
+Filename: libgnomecanvas-2-locale-en-gb_2.26.0-r1.6_armv7a.ipk
+Description: en_GB translation for libgnomecanvas
+OE: libgnomecanvas
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomecups-1.0-locale-en-ca
+Version: 0.2.3-r0.6
+Depends: libgnomecups-1.0-1, virtual-locale-en-ca
+Provides: libgnomecups-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ffb60f134e9e2fdd67fe63f5e1f5eabc
+Size: 2330
+Filename: libgnomecups-1.0-locale-en-ca_0.2.3-r0.6_armv7a.ipk
+Description: en_CA translation for libgnomecups
+OE: libgnomecups
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomecups-1.0-locale-en-gb
+Version: 0.2.3-r0.6
+Depends: libgnomecups-1.0-1, virtual-locale-en-gb
+Provides: libgnomecups-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e6fdb0c93f5b430e85d1909b2fccc323
+Size: 2294
+Filename: libgnomecups-1.0-locale-en-gb_0.2.3-r0.6_armv7a.ipk
+Description: en_GB translation for libgnomecups
+OE: libgnomecups
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomekbd-locale-en+shaw
+Version: 2.30.0-r0.6
+Depends: libgnomekbd, virtual-locale-en+shaw
+Provides: libgnomekbd-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ea3a88e941649838a106dd40bd962e71
+Size: 2916
+Filename: libgnomekbd-locale-en+shaw_2.30.0-r0.6_armv7a.ipk
+Description: en@shaw translation for libgnomekbd
+OE: libgnomekbd
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomekbd-locale-en-gb
+Version: 2.30.0-r0.6
+Depends: libgnomekbd, virtual-locale-en-gb
+Provides: libgnomekbd-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 71db16c45df2368ff1c0e64e7ee16d93
+Size: 2696
+Filename: libgnomekbd-locale-en-gb_2.30.0-r0.6_armv7a.ipk
+Description: en_GB translation for libgnomekbd
+OE: libgnomekbd
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeprint-2-2-locale-en+shaw
+Version: 2.18.7-r0.6
+Depends: libgnomeprint-2-2-0, virtual-locale-en+shaw
+Provides: libgnomeprint-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c3049f8eb98e2914a6b9df01dc94cbb7
+Size: 2992
+Filename: libgnomeprint-2-2-locale-en+shaw_2.18.7-r0.6_armv7a.ipk
+Description: en@shaw translation for libgnomeprint
+OE: libgnomeprint
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeprint-2-2-locale-en-ca
+Version: 2.18.7-r0.6
+Depends: libgnomeprint-2-2-0, virtual-locale-en-ca
+Provides: libgnomeprint-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0b6382e010e17b285e353759cb93e63c
+Size: 2558
+Filename: libgnomeprint-2-2-locale-en-ca_2.18.7-r0.6_armv7a.ipk
+Description: en_CA translation for libgnomeprint
+OE: libgnomeprint
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeprint-2-2-locale-en-gb
+Version: 2.18.7-r0.6
+Depends: libgnomeprint-2-2-0, virtual-locale-en-gb
+Provides: libgnomeprint-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3e8a281f4e28855f856b5fad2b48c078
+Size: 2548
+Filename: libgnomeprint-2-2-locale-en-gb_2.18.7-r0.6_armv7a.ipk
+Description: en_GB translation for libgnomeprint
+OE: libgnomeprint
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeprintui-2-2-locale-en+shaw
+Version: 2.18.5-r0.6
+Depends: libgnomeprintui-2-2-0, virtual-locale-en+shaw
+Provides: libgnomeprintui-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 510b7bf753d7a9904af0fad8f2039705
+Size: 5466
+Filename: libgnomeprintui-2-2-locale-en+shaw_2.18.5-r0.6_armv7a.ipk
+Description: en@shaw translation for libgnomeprintui
+OE: libgnomeprintui
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeprintui-2-2-locale-en-ca
+Version: 2.18.5-r0.6
+Depends: libgnomeprintui-2-2-0, virtual-locale-en-ca
+Provides: libgnomeprintui-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 89981c565a33cffb8340edf9082ee5c8
+Size: 4056
+Filename: libgnomeprintui-2-2-locale-en-ca_2.18.5-r0.6_armv7a.ipk
+Description: en_CA translation for libgnomeprintui
+OE: libgnomeprintui
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeprintui-2-2-locale-en-gb
+Version: 2.18.5-r0.6
+Depends: libgnomeprintui-2-2-0, virtual-locale-en-gb
+Provides: libgnomeprintui-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 924befdde6efb9f3e6519cacc5aef4a2
+Size: 4046
+Filename: libgnomeprintui-2-2-locale-en-gb_2.18.5-r0.6_armv7a.ipk
+Description: en_GB translation for libgnomeprintui
+OE: libgnomeprintui
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeui-2-locale-en+shaw
+Version: 2.24.3-r0.6
+Depends: libgnomeui-2-0, virtual-locale-en+shaw
+Provides: libgnomeui-locale, en+shaw-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e7dc6a16aa51652478eb8ede2723918a
+Size: 9636
+Filename: libgnomeui-2-locale-en+shaw_2.24.3-r0.6_armv7a.ipk
+Description: en@shaw translation for libgnomeui
+OE: libgnomeui
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeui-2-locale-en-ca
+Version: 2.24.3-r0.6
+Depends: libgnomeui-2-0, virtual-locale-en-ca
+Provides: libgnomeui-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b661147e2182efb3a519a027afcd57ca
+Size: 7840
+Filename: libgnomeui-2-locale-en-ca_2.24.3-r0.6_armv7a.ipk
+Description: en_CA translation for libgnomeui
+OE: libgnomeui
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnomeui-2-locale-en-gb
+Version: 2.24.3-r0.6
+Depends: libgnomeui-2-0, virtual-locale-en-gb
+Provides: libgnomeui-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c66678e176f487c3f144d9c77750181c
+Size: 7900
+Filename: libgnomeui-2-locale-en-gb_2.24.3-r0.6_armv7a.ipk
+Description: en_GB translation for libgnomeui
+OE: libgnomeui
+HomePage: unknown
+Priority: optional
+
+
+Package: libgnutls-locale-en+boldquot
+Version: 2.10.2-r10.1.6
+Depends: libgnutls-openssl26, virtual-locale-en+boldquot
+Provides: gnutls-locale, en+boldquot-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3e8feaa3925e22d9457f5328b7a883ad
+Size: 6694
+Filename: libgnutls-locale-en+boldquot_2.10.2-r10.1.6_armv7a.ipk
+Description: en@boldquot translation for gnutls
+OE: gnutls
+HomePage: http://www.gnu.org/software/gnutls/
+Priority: optional
+
+
+Package: libgnutls-locale-en+quot
+Version: 2.10.2-r10.1.6
+Depends: libgnutls-openssl26, virtual-locale-en+quot
+Provides: gnutls-locale, en+quot-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 59f38c899193905d2fb52b3d37bcc765
+Size: 6672
+Filename: libgnutls-locale-en+quot_2.10.2-r10.1.6_armv7a.ipk
+Description: en@quot translation for gnutls
+OE: gnutls
+HomePage: http://www.gnu.org/software/gnutls/
+Priority: optional
+
+
+Package: libgoffice-0.6-locale-en-ca
+Version: 0.6.3-r0.3
+Depends: libgoffice-0.6-6, virtual-locale-en-ca
+Provides: goffice-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 851534ee153b27c8ae63436fdf5affbe
+Size: 16436
+Filename: libgoffice-0.6-locale-en-ca_0.6.3-r0.3_armv7a.ipk
+Description: en_CA translation for goffice
+OE: goffice
+HomePage: unknown
+Priority: optional
+
+
+Package: libgoffice-0.6-locale-en-gb
+Version: 0.6.3-r0.3
+Depends: libgoffice-0.6-6, virtual-locale-en-gb
+Provides: goffice-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ef58d038c61bb2f8db8d3b4916d7ce46
+Size: 16468
+Filename: libgoffice-0.6-locale-en-gb_0.6.3-r0.3_armv7a.ipk
+Description: en_GB translation for goffice
+OE: goffice
+HomePage: unknown
+Priority: optional
+
+
+Package: libgoffice-0.8-locale-en-ca
+Version: 0.8.9-r0.6
+Depends: libgoffice-0.8-8, virtual-locale-en-ca
+Provides: goffice-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 887b79026320a59b011f8463fb62699a
+Size: 15888
+Filename: libgoffice-0.8-locale-en-ca_0.8.9-r0.6_armv7a.ipk
+Description: en_CA translation for goffice
+OE: goffice
+HomePage: unknown
+Priority: optional
+
+
+Package: libgoffice-0.8-locale-en-gb
+Version: 0.8.9-r0.6
+Depends: libgoffice-0.8-8, virtual-locale-en-gb
+Provides: goffice-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f805bd579378a45246c64d21d2b3096b
+Size: 28992
+Filename: libgoffice-0.8-locale-en-gb_0.8.9-r0.6_armv7a.ipk
+Description: en_GB translation for goffice
+OE: goffice
+HomePage: unknown
+Priority: optional
+
+
+Package: libgsf-locale-en-gb
+Version: 1.14.16-r1.6
+Depends: libgsf-gnome-1-114, virtual-locale-en-gb
+Provides: libgsf-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f688072572e7c85638f7885e45aba317
+Size: 3678
+Filename: libgsf-locale-en-gb_1.14.16-r1.6_armv7a.ipk
+Description: en_GB translation for libgsf
+OE: libgsf
+HomePage: unknown
+Priority: optional
+
+
+Package: libgtksourceview-2.0-locale-en+shaw
+Version: 2.10.0-r0.6
+Depends: libgtksourceview-2.0-0, virtual-locale-en+shaw
+Provides: gtksourceview2-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e61c1624765f0c817cdac5748b9f99bb
+Size: 12064
+Filename: libgtksourceview-2.0-locale-en+shaw_2.10.0-r0.6_armv7a.ipk
+Description: en@shaw translation for gtksourceview2
+OE: gtksourceview2
+HomePage: http://projects.gnome.org/gtksourceview/
+Priority: optional
+
+
+Package: libgtksourceview-2.0-locale-en-ca
+Version: 2.10.0-r0.6
+Depends: libgtksourceview-2.0-0, virtual-locale-en-ca
+Provides: gtksourceview2-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 843eaf28379f8194a08a4a0191f9e9ff
+Size: 7448
+Filename: libgtksourceview-2.0-locale-en-ca_2.10.0-r0.6_armv7a.ipk
+Description: en_CA translation for gtksourceview2
+OE: gtksourceview2
+HomePage: http://projects.gnome.org/gtksourceview/
+Priority: optional
+
+
+Package: libgtksourceview-2.0-locale-en-gb
+Version: 2.10.0-r0.6
+Depends: libgtksourceview-2.0-0, virtual-locale-en-gb
+Provides: gtksourceview2-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d81e72ecb90e28d0044bed3764808e20
+Size: 10452
+Filename: libgtksourceview-2.0-locale-en-gb_2.10.0-r0.6_armv7a.ipk
+Description: en_GB translation for gtksourceview2
+OE: gtksourceview2
+HomePage: http://projects.gnome.org/gtksourceview/
+Priority: optional
+
+
+Package: libgtop-2.0-locale-en+shaw
+Version: 2.28.1-r0.6
+Depends: libgtop-2.0-7, virtual-locale-en+shaw
+Provides: libgtop-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 754aa9cd3dbb4bb4f0d2b71fcab5b4b8
+Size: 2544
+Filename: libgtop-2.0-locale-en+shaw_2.28.1-r0.6_armv7a.ipk
+Description: en@shaw translation for libgtop
+OE: libgtop
+HomePage: unknown
+Priority: optional
+
+
+Package: libgtop-2.0-locale-en-ca
+Version: 2.28.1-r0.6
+Depends: libgtop-2.0-7, virtual-locale-en-ca
+Provides: libgtop-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9a2ee51b0ae4779f4c7f377bb97fd311
+Size: 2152
+Filename: libgtop-2.0-locale-en-ca_2.28.1-r0.6_armv7a.ipk
+Description: en_CA translation for libgtop
+OE: libgtop
+HomePage: unknown
+Priority: optional
+
+
+Package: libgtop-2.0-locale-en-gb
+Version: 2.28.1-r0.6
+Depends: libgtop-2.0-7, virtual-locale-en-gb
+Provides: libgtop-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ebf50802049a42d269b33a141f9dd32a
+Size: 2046
+Filename: libgtop-2.0-locale-en-gb_2.28.1-r0.6_armv7a.ipk
+Description: en_GB translation for libgtop
+OE: libgtop
+HomePage: unknown
+Priority: optional
+
+
+Package: libgweather-locale-en-ca
+Version: 2.28.0-r0.6
+Depends: libgweather-locationdata, virtual-locale-en-ca
+Provides: libgweather-locale, en-ca-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a564637b9643664f878fc079e78ba37e
+Size: 4414
+Filename: libgweather-locale-en-ca_2.28.0-r0.6_armv7a.ipk
+Description: en_CA translation for libgweather
+OE: libgweather
+HomePage: unknown
+Priority: optional
+
+
+Package: libgweather-locale-en-gb
+Version: 2.28.0-r0.6
+Depends: libgweather-locationdata, virtual-locale-en-gb
+Provides: libgweather-locale, en-gb-translation
+Section: x11/gnome/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 25c736381bc4f9c4fe2cc93f14c8a144
+Size: 4434
+Filename: libgweather-locale-en-gb_2.28.0-r0.6_armv7a.ipk
+Description: en_GB translation for libgweather
+OE: libgweather
+HomePage: unknown
+Priority: optional
+
+
+Package: libhildon-1-locale-en-gb
+Version: 1.99.0-r0.3
+Depends: libhildon-1-0, virtual-locale-en-gb
+Provides: libhildon-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: cb7c32b008c306abf8548ff7549059ca
+Size: 2488
+Filename: libhildon-1-locale-en-gb_1.99.0-r0.3_armv7a.ipk
+Description: en_GB translation for libhildon
+OE: libhildon
+HomePage: unknown
+Priority: optional
+
+
+Package: libidn-locale-en+boldquot
+Version: 1.18-r0.6
+Depends: libidn, virtual-locale-en+boldquot
+Provides: libidn-locale, en+boldquot-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 85e8bbc33e0965952180703dacb94fc6
+Size: 3396
+Filename: libidn-locale-en+boldquot_1.18-r0.6_armv7a.ipk
+Description: en@boldquot translation for libidn
+OE: libidn
+HomePage: unknown
+Priority: optional
+
+
+Package: libidn-locale-en+quot
+Version: 1.18-r0.6
+Depends: libidn, virtual-locale-en+quot
+Provides: libidn-locale, en+quot-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 89c4f2a9e9cda761f324cb21da5a897c
+Size: 3376
+Filename: libidn-locale-en+quot_1.18-r0.6_armv7a.ipk
+Description: en@quot translation for libidn
+OE: libidn
+HomePage: unknown
+Priority: optional
+
+
+Package: libmimedir-0.4-locale-en-ca
+Version: 0.4.2-r1.6
+Depends: libmimedir-0.4-0, virtual-locale-en-ca
+Provides: libmimedir-locale, en-ca-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ed41c043aca026e4b4e9d2d01718e49e
+Size: 7754
+Filename: libmimedir-0.4-locale-en-ca_0.4.2-r1.6_armv7a.ipk
+Description: en_CA translation for libmimedir
+OE: libmimedir
+HomePage: unknown
+Priority: optional
+
+
+Package: libmimedir-0.4-locale-en-gb
+Version: 0.4.2-r1.6
+Depends: libmimedir-0.4-0, virtual-locale-en-gb
+Provides: libmimedir-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0c55efa05cc9f8bd0ef2f11c05267238
+Size: 7760
+Filename: libmimedir-0.4-locale-en-gb_0.4.2-r1.6_armv7a.ipk
+Description: en_GB translation for libmimedir
+OE: libmimedir
+HomePage: unknown
+Priority: optional
+
+
+Package: libpolkit-gtk-1-locale-en-gb
+Version: 0.96-r1.6
+Depends: libpolkit-gtk-1-0, virtual-locale-en-gb
+Provides: policykit-gnome-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 302b60eb421ee9a470c9198e490de09d
+Size: 2372
+Filename: libpolkit-gtk-1-locale-en-gb_0.96-r1.6_armv7a.ipk
+Description: en_GB translation for policykit-gnome
+OE: policykit-gnome
+HomePage: http://www.packagekit.org/
+Priority: optional
+
+
+Package: libwebkit-1.0-locale-en-gb
+Version: 1.3.1+svnr60413-r60413-r2.6
+Depends: libwebkit-1.0-webinspector, virtual-locale-en-gb
+Provides: webkit-gtk-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 243159b3ec459305e5e0d2b2ba6319b6
+Size: 4838
+Filename: libwebkit-1.0-locale-en-gb_1.3.1+svnr60413-r60413-r2.6_armv7a.ipk
+Description: en_GB translation for webkit-gtk
+OE: webkit-gtk
+HomePage: unknown
+Priority: optional
+
+
+Package: libwebkitgtk-1.0-locale-en-gb
+Version: 1.3.6+svnr72648-r72648-r0.6
+Depends: libwebkitgtk-1.0-webinspector, virtual-locale-en-gb
+Provides: webkit-gtk-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d3abdb166108347bd7dd592c6a6dbf95
+Size: 966
+Filename: libwebkitgtk-1.0-locale-en-gb_1.3.6+svnr72648-r72648-r0.6_armv7a.ipk
+Description: en_GB translation for webkit-gtk
+OE: webkit-gtk
+HomePage: unknown
+Priority: optional
+
+
+Package: libwnck-locale-en+shaw
+Version: 2.30.5-r0.6
+Depends: libwnck, virtual-locale-en+shaw
+Provides: libwnck-locale, en+shaw-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bbb00229909300f6b9c8c81d9ab3c3de
+Size: 7128
+Filename: libwnck-locale-en+shaw_2.30.5-r0.6_armv7a.ipk
+Description: en@shaw translation for libwnck
+OE: libwnck
+HomePage: unknown
+Priority: optional
+
+
+Package: libwnck-locale-en-ca
+Version: 2.30.5-r0.6
+Depends: libwnck, virtual-locale-en-ca
+Provides: libwnck-locale, en-ca-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1434d943fd9096acc7349419c38ac579
+Size: 1772
+Filename: libwnck-locale-en-ca_2.30.5-r0.6_armv7a.ipk
+Description: en_CA translation for libwnck
+OE: libwnck
+HomePage: unknown
+Priority: optional
+
+
+Package: libwnck-locale-en-gb
+Version: 2.30.5-r0.6
+Depends: libwnck, virtual-locale-en-gb
+Provides: libwnck-locale, en-gb-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 8d3479136bc7f7df7679e3d1760b997d
+Size: 6032
+Filename: libwnck-locale-en-gb_2.30.5-r0.6_armv7a.ipk
+Description: en_GB translation for libwnck
+OE: libwnck
+HomePage: unknown
+Priority: optional
+
+
+Package: libxfce4menu-0.1-locale-en-gb
+Version: 4.6.2-r0.5
+Depends: libxfce4menu-0.1-0, virtual-locale-en-gb
+Provides: libxfce4menu-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 46df93d22076e606fcf3a9da58104683
+Size: 1304
+Filename: libxfce4menu-0.1-locale-en-gb_4.6.2-r0.5_armv7a.ipk
+Description: en_GB translation for libxfce4menu
+OE: libxfce4menu
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: libxfce4util-locale-en-gb
+Version: 4.6.2-r0.6
+Depends: libxfce4util, virtual-locale-en-gb
+Provides: libxfce4util-locale, en-gb-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: edcb0d1e99853555ac7bb1c544a40024
+Size: 2308
+Filename: libxfce4util-locale-en-gb_4.6.2-r0.6_armv7a.ipk
+Description: en_GB translation for libxfce4util
+OE: libxfce4util
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: libxfcegui4-locale-en-gb
+Version: 4.6.4-r0.6
+Depends: libxfcegui4-4, virtual-locale-en-gb
+Provides: libxfcegui4-locale, en-gb-translation
+Section: x11/libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e003c133c02bf762a887adf62ee22e7e
+Size: 2468
+Filename: libxfcegui4-locale-en-gb_4.6.4-r0.6_armv7a.ipk
+Description: en_GB translation for libxfcegui4
+OE: libxfcegui4
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: locale-base-en-ag
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-ag
+Provides: virtual-locale-en-ag, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b2a1918a5c5c0287976c7f6775c4da7a
+Size: 1124
+Filename: locale-base-en-ag_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-au
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-au
+Provides: virtual-locale-en-au, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c3743bdc08209b2a8027ced2911a4405
+Size: 1128
+Filename: locale-base-en-au_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-bw
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-bw
+Provides: virtual-locale-en-bw, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e2259469071c61bfd097df37ea4f43fa
+Size: 1128
+Filename: locale-base-en-bw_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-ca
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-ca
+Provides: virtual-locale-en-ca, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 55765a16c97436b3b60282728d711608
+Size: 1128
+Filename: locale-base-en-ca_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-dk
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-dk
+Provides: virtual-locale-en-dk, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: cc59b7a98e47ee4e12bf9fe11c4be29f
+Size: 1128
+Filename: locale-base-en-dk_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-gb
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-gb
+Provides: virtual-locale-en-gb, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a7995cfded90d11be46732793ac0da08
+Size: 1124
+Filename: locale-base-en-gb_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-hk
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-hk
+Provides: virtual-locale-en-hk, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 17c72d9a71dd5682520e9600ce11fee3
+Size: 1128
+Filename: locale-base-en-hk_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-ie
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-ie
+Provides: virtual-locale-en-ie, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: f0866bbb78b4db46a04c5971ad64ec2e
+Size: 1130
+Filename: locale-base-en-ie_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-in
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-in
+Provides: virtual-locale-en-in, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 64d9614eb75b85628b2155f0643a6124
+Size: 1128
+Filename: locale-base-en-in_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-ng
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-ng
+Provides: virtual-locale-en-ng, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1ed42b228baef087c6880d49f1b527e5
+Size: 1126
+Filename: locale-base-en-ng_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-nz
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-nz
+Provides: virtual-locale-en-nz, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 7affc84c8ee77cdf0da13896bad204c4
+Size: 1128
+Filename: locale-base-en-nz_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-ph
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-ph
+Provides: virtual-locale-en-ph, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a5dda3f8836867ff0f79d028a64df32d
+Size: 1124
+Filename: locale-base-en-ph_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-sg
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-sg
+Provides: virtual-locale-en-sg, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: befde7c7106693d26e681aa31c43885a
+Size: 1128
+Filename: locale-base-en-sg_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-us
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-us
+Provides: virtual-locale-en-us, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a5f531848cec50b209584a5b2394bcc5
+Size: 1128
+Filename: locale-base-en-us_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-za
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-za
+Provides: virtual-locale-en-za, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1095127ec7d23b2ba438ca59e0073880
+Size: 1128
+Filename: locale-base-en-za_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: locale-base-en-zw
+Version: 2.9-r37.4.6
+Depends: glibc-binary-localedata-en-zw
+Provides: virtual-locale-en-zw, virtual-locale-en
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c285a4d8bd6bd6ebfd177b7b719a105f
+Size: 1128
+Filename: locale-base-en-zw_2.9-r37.4.6_armv7a.ipk
+Description: GNU C Library
+OE: glibc
+HomePage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+
+
+Package: lxsession-locale-en-gb
+Version: 0.4.4-r0.5
+Depends: lxsession, virtual-locale-en-gb
+Provides: lxsession-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9eb9ff79eb9130e432f9c2023acf77d7
+Size: 1532
+Filename: lxsession-locale-en-gb_0.4.4-r0.5_armv7a.ipk
+Description: en_GB translation for lxsession
+OE: lxsession
+HomePage: unknown
+Priority: optional
+
+
+Package: lyx-locale-en
+Version: 1.6.4.1-r1.6
+Depends: lyx, virtual-locale-en
+Provides: lyx-locale, en-translation
+Section: x11/office
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: bde47f04c38076d9b012de2878a53960
+Size: 1318
+Filename: lyx-locale-en_1.6.4.1-r1.6_armv7a.ipk
+Description: en translation for lyx
+OE: lyx
+HomePage: http://www.lyx.org
+Priority: optional
+
+
+Package: madplay-locale-en
+Version: 0.15.2b-r0.6
+Depends: madplay, virtual-locale-en
+Provides: madplay-locale, en-translation
+Section: console/multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a818ac7c836c3386d15bec4830484dcb
+Size: 1180
+Filename: madplay-locale-en_0.15.2b-r0.6_armv7a.ipk
+Description: en translation for madplay
+OE: madplay
+HomePage: http://www.mars.org/home/rob/proj/mpeg/
+Priority: optional
+
+
+Package: metacity-locale-en+shaw
+Version: 2.30.3-r1.6
+Depends: metacity, virtual-locale-en+shaw
+Provides: metacity-locale, en+shaw-translation
+Section: x11/wm
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e22a9d6ac596d9a57dd5605ffe158100
+Size: 23858
+Filename: metacity-locale-en+shaw_2.30.3-r1.6_armv7a.ipk
+Description: en@shaw translation for metacity
+OE: metacity
+HomePage: unknown
+Priority: optional
+
+
+Package: metacity-locale-en-ca
+Version: 2.30.3-r1.6
+Depends: metacity, virtual-locale-en-ca
+Provides: metacity-locale, en-ca-translation
+Section: x11/wm
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 03756ba2f9876efed3d7fc8bd3f89b7b
+Size: 23680
+Filename: metacity-locale-en-ca_2.30.3-r1.6_armv7a.ipk
+Description: en_CA translation for metacity
+OE: metacity
+HomePage: unknown
+Priority: optional
+
+
+Package: metacity-locale-en-gb
+Version: 2.30.3-r1.6
+Depends: metacity, virtual-locale-en-gb
+Provides: metacity-locale, en-gb-translation
+Section: x11/wm
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4ed3cdfeb5b7e6117290e6305e1acb65
+Size: 13808
+Filename: metacity-locale-en-gb_2.30.3-r1.6_armv7a.ipk
+Description: en_GB translation for metacity
+OE: metacity
+HomePage: unknown
+Priority: optional
+
+
+Package: midori-locale-en-gb
+Version: 1:0.2.9+r0+gitr0+ad2f0066ce969152080cd841ce4cdd0920565409-r0.6
+Depends: midori, virtual-locale-en-gb
+Provides: midori-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: c5d3af37486280a9a3b2802d40dda322
+Size: 14378
+Filename: midori-locale-en-gb_0.2.9+r0+gitr0+ad2f0066ce969152080cd841ce4cdd0920565409-r0.6_armv7a.ipk
+Description: en_GB translation for midori
+OE: midori
+HomePage: unknown
+Priority: optional
+
+
+Package: moblin-menus-locale-en-gb
+Version: 0.0+gite1d63681739dd16195d005b3cf15752df294bd3c-r1.2
+Depends: moblin-menus, virtual-locale-en-gb
+Provides: moblin-menus-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6a0b91c1f24fe47416b2a924913c6f4d
+Size: 2972
+Filename: moblin-menus-locale-en-gb_0.0+gite1d63681739dd16195d005b3cf15752df294bd3c-r1.2_armv7a.ipk
+Description: en_GB translation for moblin-menus
+OE: moblin-menus
+HomePage: unknown
+Priority: optional
+
+
+Package: mousepad-locale-en-gb
+Version: 0.2.16-r3.5
+Depends: mousepad, virtual-locale-en-gb
+Provides: mousepad-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 316bb71fffd59ff295ac9e4c4c24020c
+Size: 2330
+Filename: mousepad-locale-en-gb_0.2.16-r3.5_armv7a.ipk
+Description: en_GB translation for mousepad
+OE: mousepad
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: nautilus-cd-burner-locale-en-ca
+Version: 2.25.3-r1.6
+Depends: nautilus-cd-burner, virtual-locale-en-ca
+Provides: nautilus-cd-burner-locale, en-ca-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 13b4f71236f1031c43bb36f41cdc0c44
+Size: 5846
+Filename: nautilus-cd-burner-locale-en-ca_2.25.3-r1.6_armv7a.ipk
+Description: en_CA translation for nautilus-cd-burner
+OE: nautilus-cd-burner
+HomePage: unknown
+Priority: optional
+
+
+Package: nautilus-cd-burner-locale-en-gb
+Version: 2.25.3-r1.6
+Depends: nautilus-cd-burner, virtual-locale-en-gb
+Provides: nautilus-cd-burner-locale, en-gb-translation
+Section: x11/gnome
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1bb76fa89bf5adf0e52296ae4f915a85
+Size: 6104
+Filename: nautilus-cd-burner-locale-en-gb_2.25.3-r1.6_armv7a.ipk
+Description: en_GB translation for nautilus-cd-burner
+OE: nautilus-cd-burner
+HomePage: unknown
+Priority: optional
+
+
+Package: nautilus-locale-en+shaw
+Version: 2.30.0-r1.6
+Depends: nautilus, virtual-locale-en+shaw
+Provides: nautilus-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 9ee0ab49f4b44bfc5100771458c70ac8
+Size: 43028
+Filename: nautilus-locale-en+shaw_2.30.0-r1.6_armv7a.ipk
+Description: en@shaw translation for nautilus
+OE: nautilus
+HomePage: unknown
+Priority: optional
+
+
+Package: nautilus-locale-en-ca
+Version: 2.30.0-r1.6
+Depends: nautilus, virtual-locale-en-ca
+Provides: nautilus-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 04d30ba1f0039c239430543c66c994fb
+Size: 38512
+Filename: nautilus-locale-en-ca_2.30.0-r1.6_armv7a.ipk
+Description: en_CA translation for nautilus
+OE: nautilus
+HomePage: unknown
+Priority: optional
+
+
+Package: nautilus-locale-en-gb
+Version: 2.30.0-r1.6
+Depends: nautilus, virtual-locale-en-gb
+Provides: nautilus-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3262df4214ae855c8994af882b18c367
+Size: 45076
+Filename: nautilus-locale-en-gb_2.30.0-r1.6_armv7a.ipk
+Description: en_GB translation for nautilus
+OE: nautilus
+HomePage: unknown
+Priority: optional
+
+
+Package: navit-locale-en-gb
+Version: 1:0.1.0+svnr3174-r5.5.5
+Depends: navit, virtual-locale-en-gb
+Provides: navit-locale, en-gb-translation
+Suggests: "flite, espeak
+Recommends: gpsd
+Section: x11/applications
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 154dc218c5587b285b8794fb9242ce16
+Size: 7832
+Filename: navit-locale-en-gb_0.1.0+svnr3174-r5.5.5_armv7a.ipk
+Description: en_GB translation for navit
+OE: navit
+HomePage: unknown
+Priority: optional
+
+
+Package: netbook-launcher-efl-locale-en-au
+Version: 0.3.0-r0.5
+Depends: netbook-launcher-efl, virtual-locale-en-au
+Provides: netbook-launcher-efl-locale, en-au-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 16ba50d66ea8f7bcb33486eb38408577
+Size: 1704
+Filename: netbook-launcher-efl-locale-en-au_0.3.0-r0.5_armv7a.ipk
+Description: en_AU translation for netbook-launcher-efl
+OE: netbook-launcher-efl
+HomePage: unknown
+Priority: optional
+
+
+Package: netbook-launcher-efl-locale-en-ca
+Version: 0.3.0-r0.5
+Depends: netbook-launcher-efl, virtual-locale-en-ca
+Provides: netbook-launcher-efl-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 087b5d393b1844ed7101e6f2763e49f3
+Size: 1708
+Filename: netbook-launcher-efl-locale-en-ca_0.3.0-r0.5_armv7a.ipk
+Description: en_CA translation for netbook-launcher-efl
+OE: netbook-launcher-efl
+HomePage: unknown
+Priority: optional
+
+
+Package: netbook-launcher-efl-locale-en-gb
+Version: 0.3.0-r0.5
+Depends: netbook-launcher-efl, virtual-locale-en-gb
+Provides: netbook-launcher-efl-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 256f28b8b7f76814a1a2b2574d78a75d
+Size: 1676
+Filename: netbook-launcher-efl-locale-en-gb_0.3.0-r0.5_armv7a.ipk
+Description: en_GB translation for netbook-launcher-efl
+OE: netbook-launcher-efl
+HomePage: unknown
+Priority: optional
+
+
+Package: network-manager-applet-locale-en-ca
+Version: 0.8.1-r0.6
+Depends: network-manager-applet, virtual-locale-en-ca
+Provides: network-manager-applet-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 11c545f4fca083a5e2567586762a6793
+Size: 5378
+Filename: network-manager-applet-locale-en-ca_0.8.1-r0.6_armv7a.ipk
+Description: en_CA translation for network-manager-applet
+OE: network-manager-applet
+HomePage: unknown
+Priority: optional
+
+
+Package: network-manager-applet-locale-en-gb
+Version: 0.8.1-r0.6
+Depends: network-manager-applet, virtual-locale-en-gb
+Provides: network-manager-applet-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 82cdf7b085c38ad81b795ead5baaf65c
+Size: 6882
+Filename: network-manager-applet-locale-en-gb_0.8.1-r0.6_armv7a.ipk
+Description: en_GB translation for network-manager-applet
+OE: network-manager-applet
+HomePage: unknown
+Priority: optional
+
+
+Package: networkmanager-locale-en-ca
+Version: 0.8.2+git-r0.gitr9b61ec7c58e8106c28d01b33ad0b263aefb1f347.6
+Depends: libnm-util1, virtual-locale-en-ca
+Provides: networkmanager-locale, en-ca-translation
+Section: net/misc
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e7c8fb3a7e05ec4752c9dea1da9826f1
+Size: 5482
+Filename: networkmanager-locale-en-ca_0.8.2+git-r0.gitr9b61ec7c58e8106c28d01b33ad0b263aefb1f347.6_armv7a.ipk
+Description: en_CA translation for networkmanager
+OE: networkmanager
+HomePage: unknown
+Priority: optional
+
+
+Package: networkmanager-locale-en-gb
+Version: 0.8.2+git-r0.gitr9b61ec7c58e8106c28d01b33ad0b263aefb1f347.6
+Depends: libnm-util1, virtual-locale-en-gb
+Provides: networkmanager-locale, en-gb-translation
+Section: net/misc
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b4913d7882dcd1d2666910618eb50806
+Size: 3174
+Filename: networkmanager-locale-en-gb_0.8.2+git-r0.gitr9b61ec7c58e8106c28d01b33ad0b263aefb1f347.6_armv7a.ipk
+Description: en_GB translation for networkmanager
+OE: networkmanager
+HomePage: unknown
+Priority: optional
+
+
+Package: networkmanager-openvpn-locale-en-gb
+Version: 0.8.1-r0.6
+Depends: networkmanager-openvpn, virtual-locale-en-gb
+Provides: networkmanager-openvpn-locale, en-gb-translation
+Section: net/misc
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 286e0d84a3e78892dc06ea46010000c7
+Size: 3188
+Filename: networkmanager-openvpn-locale-en-gb_0.8.1-r0.6_armv7a.ipk
+Description: en_GB translation for networkmanager-openvpn
+OE: networkmanager-openvpn
+HomePage: unknown
+Priority: optional
+
+
+Package: ohm-locale-en-gb
+Version: 1:0.1.2+r0+gitredfe25d49d67884bf004de7ae0724c162bb5e65e-r0.3
+Depends: libohm2, virtual-locale-en-gb
+Provides: ohm-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 95df2d5ddcc58689a70b76aca69735cf
+Size: 1186
+Filename: ohm-locale-en-gb_0.1.2+r0+gitredfe25d49d67884bf004de7ae0724c162bb5e65e-r0.3_armv7a.ipk
+Description: en_GB translation for ohm
+OE: ohm
+HomePage: http://freedesktop.org/Software/ohm
+Priority: optional
+
+
+Package: openbox-locale-en+boldquot
+Version: 3.4.7.2-r0.6
+Depends: openbox, virtual-locale-en+boldquot
+Provides: openbox-locale, en+boldquot-translation
+Section: x11/wm
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0548dc2cd21abcaa6fe60fe9dded3c38
+Size: 3752
+Filename: openbox-locale-en+boldquot_3.4.7.2-r0.6_armv7a.ipk
+Description: en@boldquot translation for openbox
+OE: openbox
+HomePage: unknown
+Priority: optional
+
+
+Package: openbox-locale-en+quot
+Version: 3.4.7.2-r0.6
+Depends: openbox, virtual-locale-en+quot
+Provides: openbox-locale, en+quot-translation
+Section: x11/wm
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 014d067f960f75e4b573bae95aae1b8b
+Size: 3724
+Filename: openbox-locale-en+quot_3.4.7.2-r0.6_armv7a.ipk
+Description: en@quot translation for openbox
+OE: openbox
+HomePage: unknown
+Priority: optional
+
+
+Package: orage-locale-en-au
+Version: 4.6.1-r4.6
+Depends: orage, virtual-locale-en-au
+Provides: orage-locale, en-au-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2872b2d52c9679d5488a9f5fa9a2928a
+Size: 1262
+Filename: orage-locale-en-au_4.6.1-r4.6_armv7a.ipk
+Description: en_AU translation for orage
+OE: orage
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: orage-locale-en-gb
+Version: 4.6.1-r4.6
+Depends: orage, virtual-locale-en-gb
+Provides: orage-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d9f8239f8e99a8f9d3597e1678c82870
+Size: 15696
+Filename: orage-locale-en-gb_4.6.1-r4.6_armv7a.ipk
+Description: en_GB translation for orage
+OE: orage
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: packagekit-locale-en-gb
+Version: 2:0.5.6-r1.5
+Depends: packagekit-gtkmodule, virtual-locale-en-gb
+Provides: packagekit-locale, en-gb-translation
+Section: libs
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4d99196fd70571846d75f16d9328a2d4
+Size: 3704
+Filename: packagekit-locale-en-gb_0.5.6-r1.5_armv7a.ipk
+Description: en_GB translation for packagekit
+OE: packagekit
+HomePage: unknown
+Priority: optional
+
+
+Package: pidgin-locale-en-au
+Version: 2.7.3-r3.0.6
+Depends: libpurple, virtual-locale-en-au
+Provides: pidgin-locale, en-au-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a1ce25868a8c29c96a5e48e50d6b4e82
+Size: 42462
+Filename: pidgin-locale-en-au_2.7.3-r3.0.6_armv7a.ipk
+Description: en_AU translation for pidgin
+OE: pidgin
+HomePage: unknown
+Priority: optional
+
+
+Package: pidgin-locale-en-ca
+Version: 2.7.3-r3.0.6
+Depends: libpurple, virtual-locale-en-ca
+Provides: pidgin-locale, en-ca-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b0af5bbe131b05df4861698b9186d8eb
+Size: 43006
+Filename: pidgin-locale-en-ca_2.7.3-r3.0.6_armv7a.ipk
+Description: en_CA translation for pidgin
+OE: pidgin
+HomePage: unknown
+Priority: optional
+
+
+Package: pidgin-locale-en-gb
+Version: 2.7.3-r3.0.6
+Depends: libpurple, virtual-locale-en-gb
+Provides: pidgin-locale, en-gb-translation
+Section: x11/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 840a47abf3188fb2eced2d4fcf430e8e
+Size: 104624
+Filename: pidgin-locale-en-gb_2.7.3-r3.0.6_armv7a.ipk
+Description: en_GB translation for pidgin
+OE: pidgin
+HomePage: unknown
+Priority: optional
+
+
+Package: pmount-locale-en-au
+Version: 0.9.19-r0.6
+Depends: pmount-hal, virtual-locale-en-au
+Provides: pmount-locale, en-au-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d767841967a98cbe2369770e4f33ee4a
+Size: 3706
+Filename: pmount-locale-en-au_0.9.19-r0.6_armv7a.ipk
+Description: en_AU translation for pmount
+OE: pmount
+HomePage: http://pmount.alioth.debian.org/
+Priority: optional
+
+
+Package: pmount-locale-en-gb
+Version: 0.9.19-r0.6
+Depends: pmount-hal, virtual-locale-en-gb
+Provides: pmount-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ea117f6eeb2fce90717c9937feb9bf3a
+Size: 3746
+Filename: pmount-locale-en-gb_0.9.19-r0.6_armv7a.ipk
+Description: en_GB translation for pmount
+OE: pmount
+HomePage: http://pmount.alioth.debian.org/
+Priority: optional
+
+
+Package: pmount-locale-en
+Version: 0.9.19-r0.6
+Depends: pmount-hal, virtual-locale-en
+Provides: pmount-locale, en-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3b5b25bb0eca9f3a1dc14c4d58b966e3
+Size: 1232
+Filename: pmount-locale-en_0.9.19-r0.6_armv7a.ipk
+Description: en translation for pmount
+OE: pmount
+HomePage: http://pmount.alioth.debian.org/
+Priority: optional
+
+
+Package: policykit-gnome-locale-en-gb
+Version: 0.9.2-r0.5
+Depends: policykit-gnome, virtual-locale-en-gb
+Provides: policykit-gnome-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 66a227f732b36697dcc1d6debb153264
+Size: 4822
+Filename: policykit-gnome-locale-en-gb_0.9.2-r0.5_armv7a.ipk
+Description: en_GB translation for policykit-gnome
+OE: policykit-gnome
+HomePage: http://www.packagekit.org/
+Priority: optional
+
+
+Package: ristretto-locale-en-gb
+Version: 0.0.21-r2.5
+Depends: ristretto, virtual-locale-en-gb
+Provides: ristretto-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: fd5d50def804e12c062a0ef67bfd6e87
+Size: 2288
+Filename: ristretto-locale-en-gb_0.0.21-r2.5_armv7a.ipk
+Description: en_GB translation for ristretto
+OE: ristretto
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: shared-mime-info-locale-en-gb
+Version: 0.51-r2.6
+Depends: freedesktop-mime-info, virtual-locale-en-gb
+Provides: shared-mime-info-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 771b15b3f266c1a5df63f4f1e2e4cdcb
+Size: 7846
+Filename: shared-mime-info-locale-en-gb_0.51-r2.6_armv7a.ipk
+Description: en_GB translation for shared-mime-info
+OE: shared-mime-info
+HomePage: unknown
+Priority: optional
+
+
+Package: squeeze-locale-en-gb
+Version: 0.2.3-r2.5
+Depends: squeeze, virtual-locale-en-gb
+Provides: squeeze-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4911bb86d94e0825f0174f54f89ae6c9
+Size: 3286
+Filename: squeeze-locale-en-gb_0.2.3-r2.5_armv7a.ipk
+Description: en_GB translation for squeeze
+OE: squeeze
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: sugar-base-locale-en
+Version: 0.84.1-r0.3
+Depends: sugar-base, virtual-locale-en
+Provides: sugar-base-locale, en-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: afe74f69bf9103eb69623f967ebbb411
+Size: 1186
+Filename: sugar-base-locale-en_0.84.1-r0.3_armv7a.ipk
+Description: en translation for sugar-base
+OE: sugar-base
+HomePage: unknown
+Priority: optional
+
+
+Package: sugar-locale-en
+Version: 0.83.4-r0.2
+Depends: sugar, virtual-locale-en
+Provides: sugar-locale, en-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5de9c4cbc5592a8f65aca62e2626e58c
+Size: 1158
+Filename: sugar-locale-en_0.83.4-r0.2_armv7a.ipk
+Description: en translation for sugar
+OE: sugar
+HomePage: unknown
+Priority: optional
+
+
+Package: sugar-toolkit-locale-en
+Version: 0.84.4-r0.5
+Depends: sugar-toolkit, virtual-locale-en
+Provides: sugar-toolkit-locale, en-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: e503b55d0ae940c460be26f1dd21976e
+Size: 1184
+Filename: sugar-toolkit-locale-en_0.84.4-r0.5_armv7a.ipk
+Description: en translation for sugar-toolkit
+OE: sugar-toolkit
+HomePage: unknown
+Priority: optional
+
+
+Package: swfdec-gnome-locale-en-gb
+Version: 2.26.0-r1.6
+Depends: swfdec-gnome, virtual-locale-en-gb
+Provides: swfdec-gnome-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1a601443eb58f1574a24de2c35e2a4b2
+Size: 1820
+Filename: swfdec-gnome-locale-en-gb_2.26.0-r1.6_armv7a.ipk
+Description: en_GB translation for swfdec-gnome
+OE: swfdec-gnome
+HomePage: unknown
+Priority: optional
+
+
+Package: system-tools-backends-locale-en-gb
+Version: 2.10.0-r1.6
+Depends: system-tools-backends, virtual-locale-en-gb
+Provides: system-tools-backends-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: edf4d5b264cc97830fd146e3a00cc958
+Size: 1350
+Filename: system-tools-backends-locale-en-gb_2.10.0-r1.6_armv7a.ipk
+Description: en_GB translation for system-tools-backends
+OE: system-tools-backends
+HomePage: unknown
+Priority: optional
+
+
+Package: thunar-locale-en-gb
+Version: 1.0.2-r0.5
+Depends: thunar, virtual-locale-en-gb
+Provides: thunar-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0776a4f67fa1d3beb6a3ea2d4bb4c334
+Size: 16248
+Filename: thunar-locale-en-gb_1.0.2-r0.5_armv7a.ipk
+Description: en_GB translation for thunar
+OE: thunar
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: totem-locale-en+shaw
+Version: 2.30.0-r1.6
+Depends: totem-nautilus-extension, virtual-locale-en+shaw
+Provides: totem-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1da3f3e87f3abfa98f5ed6b7565a1b00
+Size: 16934
+Filename: totem-locale-en+shaw_2.30.0-r1.6_armv7a.ipk
+Description: en@shaw translation for totem
+OE: totem
+HomePage: http://www.gnome.org/projects/totem/
+Priority: optional
+
+
+Package: totem-locale-en-ca
+Version: 2.30.0-r1.6
+Depends: totem-nautilus-extension, virtual-locale-en-ca
+Provides: totem-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b405bc8e7157dc6ab729b9ad4929b000
+Size: 9132
+Filename: totem-locale-en-ca_2.30.0-r1.6_armv7a.ipk
+Description: en_CA translation for totem
+OE: totem
+HomePage: http://www.gnome.org/projects/totem/
+Priority: optional
+
+
+Package: totem-locale-en-gb
+Version: 2.30.0-r1.6
+Depends: totem-nautilus-extension, virtual-locale-en-gb
+Provides: totem-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: ed074bfad0962035a3e2a14d89867a3c
+Size: 14032
+Filename: totem-locale-en-gb_2.30.0-r1.6_armv7a.ipk
+Description: en_GB translation for totem
+OE: totem
+HomePage: http://www.gnome.org/projects/totem/
+Priority: optional
+
+
+Package: totem-pl-parser-locale-en+shaw
+Version: 2.30.0-r2.6
+Depends: totem-pl-parser, virtual-locale-en+shaw
+Provides: totem-pl-parser-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 49e1c48352fe7be06583bed26073a417
+Size: 1590
+Filename: totem-pl-parser-locale-en+shaw_2.30.0-r2.6_armv7a.ipk
+Description: en@shaw translation for totem-pl-parser
+OE: totem-pl-parser
+HomePage: http://www.gnome.org/projects/totem/
+Priority: optional
+
+
+Package: totem-pl-parser-locale-en-ca
+Version: 2.30.0-r2.6
+Depends: totem-pl-parser, virtual-locale-en-ca
+Provides: totem-pl-parser-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2e7c27daf40b69d17e8f95f2c3ad5039
+Size: 9114
+Filename: totem-pl-parser-locale-en-ca_2.30.0-r2.6_armv7a.ipk
+Description: en_CA translation for totem-pl-parser
+OE: totem-pl-parser
+HomePage: http://www.gnome.org/projects/totem/
+Priority: optional
+
+
+Package: totem-pl-parser-locale-en-gb
+Version: 2.30.0-r2.6
+Depends: totem-pl-parser, virtual-locale-en-gb
+Provides: totem-pl-parser-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 775706fbfa1436f8ae2350baacbf7779
+Size: 1380
+Filename: totem-pl-parser-locale-en-gb_2.30.0-r2.6_armv7a.ipk
+Description: en_GB translation for totem-pl-parser
+OE: totem-pl-parser
+HomePage: http://www.gnome.org/projects/totem/
+Priority: optional
+
+
+Package: tracker-locale-en-gb
+Version: 0.6.95-r2.6
+Depends: tracker, virtual-locale-en-gb
+Provides: tracker-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3fdfbb5a7db65829fa58e7d79ecf6e44
+Size: 8402
+Filename: tracker-locale-en-gb_0.6.95-r2.6_armv7a.ipk
+Description: en_GB translation for tracker
+OE: tracker
+HomePage: http://www.tracker-project.org/
+Priority: optional
+
+
+Package: transmission-locale-en-au
+Version: 1.93-r4.0.6
+Depends: transmission, virtual-locale-en-au
+Provides: transmission-locale, en-au-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 729ccc20c3687a48fc46da74941cdb7f
+Size: 8068
+Filename: transmission-locale-en-au_1.93-r4.0.6_armv7a.ipk
+Description: en_AU translation for transmission
+OE: transmission
+HomePage: www.transmissionbt.com/
+Priority: optional
+
+
+Package: transmission-locale-en-ca
+Version: 1.93-r4.0.6
+Depends: transmission, virtual-locale-en-ca
+Provides: transmission-locale, en-ca-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1e2db8abee98d247cff59cb9a6fbc82c
+Size: 8066
+Filename: transmission-locale-en-ca_1.93-r4.0.6_armv7a.ipk
+Description: en_CA translation for transmission
+OE: transmission
+HomePage: www.transmissionbt.com/
+Priority: optional
+
+
+Package: transmission-locale-en-gb
+Version: 1.93-r4.0.6
+Depends: transmission, virtual-locale-en-gb
+Provides: transmission-locale, en-gb-translation
+Section: network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4aedb70d265c45297706397eb72f37ed
+Size: 10116
+Filename: transmission-locale-en-gb_1.93-r4.0.6_armv7a.ipk
+Description: en_GB translation for transmission
+OE: transmission
+HomePage: www.transmissionbt.com/
+Priority: optional
+
+
+Package: vlc-locale-en-gb
+Version: 1.1.4.1-r0.6
+Depends: libvlc5, virtual-locale-en-gb
+Provides: vlc-locale, en-gb-translation
+Section: multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: b0f531aa716a92e911f5f2d60bce2338
+Size: 8476
+Filename: vlc-locale-en-gb_1.1.4.1-r0.6_armv7a.ipk
+Description: en_GB translation for vlc
+OE: vlc
+HomePage: http://www.videolan.org
+Priority: optional
+
+
+Package: vte-locale-en+shaw
+Version: 0.24.0-r1.6
+Depends: libvte9, virtual-locale-en+shaw
+Provides: vte-locale, en+shaw-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 1a1829fc06896f201922c7a515525112
+Size: 2100
+Filename: vte-locale-en+shaw_0.24.0-r1.6_armv7a.ipk
+Description: en@shaw translation for vte
+OE: vte
+HomePage: unknown
+Priority: optional
+
+
+Package: vte-locale-en-ca
+Version: 0.24.0-r1.6
+Depends: libvte9, virtual-locale-en-ca
+Provides: vte-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5670f068453f8c1318f4461af64340e5
+Size: 1776
+Filename: vte-locale-en-ca_0.24.0-r1.6_armv7a.ipk
+Description: en_CA translation for vte
+OE: vte
+HomePage: unknown
+Priority: optional
+
+
+Package: vte-locale-en-gb
+Version: 0.24.0-r1.6
+Depends: libvte9, virtual-locale-en-gb
+Provides: vte-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 5d3e99ebdc05a9210a25c6bf2e970d8e
+Size: 1776
+Filename: vte-locale-en-gb_0.24.0-r1.6_armv7a.ipk
+Description: en_GB translation for vte
+OE: vte
+HomePage: unknown
+Priority: optional
+
+
+Package: wget-locale-en-gb
+Version: 1.11.4-r8.0.6
+Depends: wget, virtual-locale-en-gb
+Provides: wget-locale, en-gb-translation
+Section: console/network
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3d2b6fe03119cdf185b6fd39de8b99c3
+Size: 4748
+Filename: wget-locale-en-gb_1.11.4-r8.0.6_armv7a.ipk
+Description: en_GB translation for wget
+OE: wget
+HomePage: unknown
+Priority: optional
+
+
+Package: xfce-mcs-manager-locale-en-gb
+Version: 4.4.2-r1.5
+Depends: xfce-mcs-manager, virtual-locale-en-gb
+Provides: xfce-mcs-manager-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: a0ef096970181fa29efd13ea304e3307
+Size: 1356
+Filename: xfce-mcs-manager-locale-en-gb_4.4.2-r1.5_armv7a.ipk
+Description: en_GB translation for xfce-mcs-manager
+OE: xfce-mcs-manager
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce-mcs-plugins-locale-en-gb
+Version: 4.4.2-r0.5
+Depends: xfce-mcs-plugins, virtual-locale-en-gb
+Provides: xfce-mcs-plugins-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 0a54ae8de97585003de4d8d596a67759
+Size: 4390
+Filename: xfce-mcs-plugins-locale-en-gb_4.4.2-r0.5_armv7a.ipk
+Description: en_GB translation for xfce-mcs-plugins
+OE: xfce-mcs-plugins
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce-terminal-locale-en-gb
+Version: 0.4.5-r0.5
+Depends: xfce-terminal, virtual-locale-en-gb
+Provides: xfce-terminal-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 3387222053dee7d8032bd387e2832586
+Size: 6916
+Filename: xfce-terminal-locale-en-gb_0.4.5-r0.5_armv7a.ipk
+Description: en_GB translation for xfce-terminal
+OE: xfce-terminal
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce-utils-locale-en-gb
+Version: 4.6.2-r0.5
+Depends: xfce-utils, virtual-locale-en-gb
+Provides: xfce-utils-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2eb3d588bf0fdeb812e7e639dccb9c1f
+Size: 1968
+Filename: xfce-utils-locale-en-gb_4.6.2-r0.5_armv7a.ipk
+Description: en_GB translation for xfce-utils
+OE: xfce-utils
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce4-appfinder-locale-en-gb
+Version: 4.6.2-r0.5
+Depends: xfce4-appfinder, virtual-locale-en-gb
+Provides: xfce4-appfinder-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4e17d7d7e628b4dfdc9ce348dcdc38b0
+Size: 1646
+Filename: xfce4-appfinder-locale-en-gb_4.6.2-r0.5_armv7a.ipk
+Description: en_GB translation for xfce4-appfinder
+OE: xfce4-appfinder
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce4-mixer-locale-en-gb
+Version: 4.4.2-r0.3
+Depends: xfce4-mixer, virtual-locale-en-gb
+Provides: xfce4-mixer-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d4be2a48346df1ac89941ede94983d80
+Size: 2918
+Filename: xfce4-mixer-locale-en-gb_4.4.2-r0.3_armv7a.ipk
+Description: en_GB translation for xfce4-mixer
+OE: xfce4-mixer
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce4-panel-locale-en-gb
+Version: 4.6.4-r0.6
+Depends: xfce4-panel, virtual-locale-en-gb
+Provides: xfce4-panel-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 4da4fab5b3debe333a87e059f20be936
+Size: 4538
+Filename: xfce4-panel-locale-en-gb_4.6.4-r0.6_armv7a.ipk
+Description: en_GB translation for xfce4-panel
+OE: xfce4-panel
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfce4-session-locale-en-gb
+Version: 4.6.2-r0.5
+Depends: xfce4-session, virtual-locale-en-gb
+Provides: xfce4-session-locale, en-gb-translation
+Section: x11
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: d8c8659902d0dec641b650fc9ca3e933
+Size: 3398
+Filename: xfce4-session-locale-en-gb_4.6.2-r0.5_armv7a.ipk
+Description: en_GB translation for xfce4-session
+OE: xfce4-session
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfdesktop-locale-en-gb
+Version: 4.6.2-r0.5
+Depends: xfdesktop, virtual-locale-en-gb
+Provides: xfdesktop-locale, en-gb-translation
+Section: x11/base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6d42df6126ff2a814218fbc1faceff1c
+Size: 6708
+Filename: xfdesktop-locale-en-gb_4.6.2-r0.5_armv7a.ipk
+Description: en_GB translation for xfdesktop
+OE: xfdesktop
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfprint-locale-en-gb
+Version: 4.6.1-r2.5
+Depends: xfprint, virtual-locale-en-gb
+Provides: xfprint-locale, en-gb-translation
+Section: x11/base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: eef69fd4e02f482af0a400c3c008a041
+Size: 3304
+Filename: xfprint-locale-en-gb_4.6.1-r2.5_armv7a.ipk
+Description: en_GB translation for xfprint
+OE: xfprint
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xfwm4-locale-en-gb
+Version: 4.6.2-r0.5
+Depends: xfwm4, virtual-locale-en-gb
+Provides: xfwm4-locale, en-gb-translation
+Section: x11/wm
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2fc2e6c625b35eecd125c6f44f0e44df
+Size: 5828
+Filename: xfwm4-locale-en-gb_4.6.2-r0.5_armv7a.ipk
+Description: en_GB translation for xfwm4
+OE: xfwm4
+HomePage: http://www.xfce.org
+Priority: optional
+
+
+Package: xkeyboard-config-locale-en-gb
+Version: 2.0+gitr0+547ae8589afb208d7b44ffe1e0ff7aba466c2ee3-r6.0.6
+Depends: xkeyboard-config, virtual-locale-en-gb
+Provides: xkeyboard-config-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: cd26ac08b263eb2a7a1acb7c872939a0
+Size: 7680
+Filename: xkeyboard-config-locale-en-gb_2.0+gitr0+547ae8589afb208d7b44ffe1e0ff7aba466c2ee3-r6.0.6_armv7a.ipk
+Description: en_GB translation for xkeyboard-config
+OE: xkeyboard-config
+HomePage: unknown
+Priority: optional
+
+
+Package: xmms-locale-en
+Version: 1.2.10-r6.6
+Depends: xmms, virtual-locale-en
+Provides: xmms-locale, en-translation
+Section: x11/multimedia
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 2289444edfd39e8b1ea48091a2b88264
+Size: 20856
+Filename: xmms-locale-en_1.2.10-r6.6_armv7a.ipk
+Description: en translation for xmms
+OE: xmms
+HomePage: http://www.xmms.org/
+Priority: optional
+
+
+Package: zenity-locale-en-ca
+Version: 2.28.0-r0.6
+Depends: zenity, virtual-locale-en-ca
+Provides: zenity-locale, en-ca-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 672b7e3153e015b07449c5dd7f32f3a0
+Size: 4300
+Filename: zenity-locale-en-ca_2.28.0-r0.6_armv7a.ipk
+Description: en_CA translation for zenity
+OE: zenity
+HomePage: unknown
+Priority: optional
+
+
+Package: zenity-locale-en-gb
+Version: 2.28.0-r0.6
+Depends: zenity, virtual-locale-en-gb
+Provides: zenity-locale, en-gb-translation
+Section: base
+Architecture: armv7a
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+MD5Sum: 6c02a96f421d32d5e838ca457e7be4bd
+Size: 4396
+Filename: zenity-locale-en-gb_2.28.0-r0.6_armv7a.ipk
+Description: en_GB translation for zenity
+OE: zenity
+HomePage: unknown
+Priority: optional
+
+

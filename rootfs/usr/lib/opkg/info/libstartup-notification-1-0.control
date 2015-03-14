@@ -1,0 +1,12 @@
+Package: libstartup-notification-1-0
+Version: 0.9-r0.3
+Description: Startup notification support
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: LGPL
+Architecture: armv7a
+OE: startup-notification
+Homepage: unknown
+Depends: libsm6 (>= 1.1.0), libuuid1 (>= 1.41.5), libice6 (>= 1.0.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Source: http://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.9.tar.gz

@@ -1,0 +1,12 @@
+Package: libpng12-0
+Version: 1.2.35-r0.3
+Description: PNG Library
+Section: libs
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: libpng
+Architecture: armv7a
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libz1 (>= 1.2.3), libc6 (>= 2.9)
+Source: http://downloads.sourceforge.net/libpng/libpng-1.2.35.tar.bz2 file://makefile_fix.patch;patch=1

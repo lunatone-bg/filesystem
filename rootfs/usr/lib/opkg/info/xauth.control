@@ -1,0 +1,12 @@
+Package: xauth
+Version: 1:1.0.3-r0.3
+Description: X authority file utility
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xauth
+Homepage: http://www.x.org/
+Depends: libxau6 (>= 1.0.4), libxext6 (>= 1.0.5), libxmuu1 (>= 1.0.4), libx11-6 (>= 1.2), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/app/xauth-1.0.3.tar.bz2

@@ -1,0 +1,12 @@
+Package: libxfixes3
+Version: 1:4.0.3-r0.3
+Description: X Fixes extension library.
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD-X
+Architecture: armv7a
+OE: libxfixes
+Homepage: http://www.x.org
+Depends: libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXfixes-4.0.3.tar.bz2

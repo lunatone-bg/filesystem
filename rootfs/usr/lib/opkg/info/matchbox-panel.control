@@ -1,0 +1,12 @@
+Package: matchbox-panel
+Version: 0.9.3-r5.3
+Description: Matchbox Window Manager Panel
+Section: x11/wm
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: beagleboard
+OE: matchbox-panel
+Homepage: unknown
+Depends: libmb1 (>= 1.9), libjpeg62 (>= 6b), libxsettings-client0 (>= 0.17), libxext6 (>= 1.0.5), libpng12-0 (>= 1.2.35), libxft2 (>= 2.1.13), libxrender1 (>= 0.9.4), libfontconfig1 (>= 2.6.0), libfreetype6 (>= 2.3.6), libx11-6 (>= 1.2), libstartup-notification-1-0 (>= 0.9), libc6 (>= 2.9), libapm1 (>= 3.2.2), libgcc1 (>= 4.3.3), libiw29 (>= 29)
+Source: http://projects.o-hand.com/matchbox/sources/matchbox-panel/0.9/matchbox-panel-0.9.3.tar.gz file://mb-applet-battery-repaint-093.patch;patch=1 file://mb-applet-system-monitor-crash.patch;patch=1 file://matchbox-panel-uninitialised-crash.patch;patch=1

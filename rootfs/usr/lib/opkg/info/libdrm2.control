@@ -1,0 +1,12 @@
+Package: libdrm2
+Version: 2.4.11-r1.3
+Description: Version 2.4.11-r1 of package libdrm
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: libdrm
+Homepage: unknown
+Depends: libc6 (>= 2.9)
+Source: http://dri.freedesktop.org/libdrm/libdrm-2.4.11.tar.bz2

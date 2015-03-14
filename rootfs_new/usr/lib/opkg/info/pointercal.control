@@ -1,0 +1,11 @@
+Package: pointercal
+Version: 0.0-r22.6
+Description: Touchscreen calibration data
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: omap3evm
+OE: pointercal
+Homepage: unknown
+Source: file://pointercal

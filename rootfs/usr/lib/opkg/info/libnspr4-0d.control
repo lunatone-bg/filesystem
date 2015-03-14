@@ -1,0 +1,22 @@
+Package: libnspr4-0d
+Source: nspr
+Version: 4.7.3-0ubuntu2
+Architecture: armel
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 336
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.3)
+Conflicts: libnspr4 (<< 2:4), libnspr4-dev (<< 4.7.1+1.9-0ubuntu2)
+Replaces: libnspr4 (<< 2:4), libnspr4-dev (<< 4.7.1+1.9-0ubuntu2)
+Section: libs
+Priority: optional
+Homepage: http://www.mozilla.org/projects/nspr/
+Description: NetScape Portable Runtime Library
+ This library provides platform independent non-GUI operating system
+ facilities including:
+  * threads,
+  * thread synchronisation,
+  * normal file I/O and network I/O,
+  * interval timing and calendar time,
+  * basic memory management (malloc and free),
+  * shared library linking.
+Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>

@@ -1,0 +1,13 @@
+Package: gcc-4.4-base
+Source: gcc-4.4
+Version: 4.4.3-1ubuntu1
+Architecture: armel
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 168
+Section: libs
+Priority: required
+Homepage: http://gcc.gnu.org/
+Description: The GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>

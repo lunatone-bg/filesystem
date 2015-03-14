@@ -1,0 +1,12 @@
+Package: tzdata
+Version: 2009o-r4.0.3
+Description: Timezone data
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: armv7a
+OE: tzdata
+Homepage: unknown
+Conflicts: timezones, timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab
+Source: ftp://elsie.nci.nih.gov/pub/tzdata2009o.tar.gz

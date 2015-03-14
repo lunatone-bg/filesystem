@@ -1,0 +1,3 @@
+/usr/lib/liblunatoneHID.so
+/usr/lib/liblunatoneHID.so.0.1
+/etc/udev/rules.d/75-usb-lunatone.rules

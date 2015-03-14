@@ -1,0 +1,13 @@
+Package: openssh-keygen
+Version: 5.2p1-r8.0.4
+Description: Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine. It provides secure encrypted communications between two untrusted hosts over an insecure network.  X11 connections and arbitrary TCP/IP ports can also be forwarded over the secure channel. It is intended as a replacement for rlogin, rsh and rcp, and can be used to provide applications with a secure communication channel.
+Section: console/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD
+Architecture: armv7a
+OE: openssh
+Homepage: http://www.openssh.org/
+Depends: libcrypto0.9.8 (>= 0.9.8j), libc6 (>= 2.9), libz1 (>= 1.2.3)
+Conflicts: ssh-keygen
+Source: ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-5.2p1.tar.gz file://sshd_config file://ssh_config file://init file://openssh-5.2-sftp-server-nolibcrypto.patch;patch=1

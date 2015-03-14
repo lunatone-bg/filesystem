@@ -1,0 +1,13 @@
+Package: xrdb
+Version: 1:1.0.8-r5.0.6
+Description: X server resource database utility
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: xrdb
+Architecture: armv7a
+OE: xrdb
+Homepage: http://www.x.org/
+Build: org.openembedded.dev/69ad115
+Depends: libxmuu1, libx11-6, libc6
+Source: http://xorg.freedesktop.org/releases/individual/app/xrdb-1.0.8.tar.bz2;name=archive

@@ -1,0 +1,12 @@
+Package: xdpyinfo
+Version: 1:1.2.0-r5.0.6
+Description: X display information utility
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: xdpyinfo
+Homepage: http://www.x.org/
+Depends: libxext6, libx11-6, libxtst6, libxxf86vm1, libxxf86dga1, libxxf86misc1, libxi6, libxrender1, libxcomposite1, libxinerama1, libdmx1, libc6
+Source: http://xorg.freedesktop.org/releases/individual/app/xdpyinfo-1.2.0.tar.bz2;name=archive file://disable-xkb.patch

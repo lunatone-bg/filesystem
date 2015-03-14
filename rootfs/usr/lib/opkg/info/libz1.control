@@ -1,0 +1,12 @@
+Package: libz1
+Version: 1.2.3-r5.3
+Description: Zlib Compression Library
+Section: libs
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: zlib
+Architecture: armv7a
+OE: zlib
+Homepage: http://www.gzip.org/zlib/
+Depends: libc6 (>= 2.9)
+Source: http://www.zlib.net/zlib-1.2.3.tar.bz2 file://visibility.patch;patch=1 file://autotools.patch;patch=1

@@ -1,0 +1,13 @@
+Package: xkbcomp
+Version: 1.2.1-r5.0.6
+Description: The X Keyboard Extension essentially replaces the core protocol definition of keyboard.
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xkbcomp
+Homepage: http://www.x.org/
+Build: org.openembedded.dev/17481d5
+Depends: libx11-6 (>= 1.4.1), libxkbfile1 (>= 1.0.7), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/app/xkbcomp-1.2.1.tar.bz2;name=archive

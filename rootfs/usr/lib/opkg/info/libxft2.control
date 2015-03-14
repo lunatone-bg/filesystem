@@ -1,0 +1,12 @@
+Package: libxft2
+Version: 1:2.1.14-r8.0.5
+Description: FreeType-based font drawing library for X
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libxft
+Homepage: http://www.x.org
+Depends: libfontconfig1, libexpat1, libfreetype6, libxrender1, libx11-6, libxau6, libxdmcp6, libc6
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXft-2.1.14.tar.bz2;name=archive file://autotools.patch

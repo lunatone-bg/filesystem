@@ -1,0 +1,13 @@
+Package: angstrom-feed-configs
+Version: 1.0-r14.6
+Description: Configuration files for online package repositories aka feeds
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: omap3evm
+OE: angstrom-feed-configs
+Homepage: unknown
+Build: 2011.03-maintenance/bdb967b
+Recommends: opkg
+Source: file:///OE/angstrom-2008/sources/openembedded/recipes/angstrom/angstrom-feed-configs.bb

@@ -1,0 +1,13 @@
+Package: libpam-meta
+Version: 1.1.1-r2.6
+Description: libpam meta package
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv2
+Architecture: armv7a
+OE: libpam
+Homepage: http://kernel.org/pub/linux/libs/pam
+Build: org.openembedded.dev/0170ab1
+Depends: pam-plugin-tally, pam-plugin-group, pam-plugin-nologin, pam-plugin-rhosts, pam-plugin-faildelay, pam-plugin-mkhomedir, pam-plugin-rootok, pam-plugin-env, pam-plugin-mail, pam-plugin-succeed-if, pam-plugin-xauth, pam-plugin-localuser, pam-plugin-motd, pam-plugin-issue, pam-plugin-debug, pam-plugin-limits, pam-plugin-loginuid, pam-plugin-namespace, pam-plugin-permit, pam-plugin-lastlog, pam-plugin-tally2, pam-plugin-wheel, pam-plugin-time, pam-plugin-keyinit, pam-plugin-filter, pam-plugin-warn, pam-plugin-unix, pam-plugin-access, pam-plugin-deny, pam-plugin-userdb, pam-plugin-umask, pam-plugin-pwhistory, pam-plugin-listfile, pam-plugin-shells, pam-plugin-securetty, pam-plugin-timestamp, pam-plugin-echo, pam-plugin-stress, pam-plugin-ftp, pam-plugin-exec
+Source: http://kernel.org/pub/linux/libs/pam/library/Linux-PAM-1.1.1.tar.bz2 file://pam-nodocs.patch file://define-HAVE_DBM.patch

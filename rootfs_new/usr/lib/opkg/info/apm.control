@@ -1,0 +1,12 @@
+Package: apm
+Version: 3.2.2-r13.6
+Description: Set of tools for managing notebook power consumption.
+Section: base
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: apmd
+Homepage: unknown
+Depends: libapm1, libc6
+Source: ftp://ftp.debian.org/debian/pool/main/a/apmd/apmd_3.2.2.orig.tar.gz file://debian.patch file://workaround.patch file://zaurus24.patch file://unlinux.patch file://libtool.patch file://init file://default file://apmd_proxy file://apmd_proxy.conf

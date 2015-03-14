@@ -1,0 +1,2 @@
+/usr/bin/ntpdate
+/etc/init.d/ntpdate

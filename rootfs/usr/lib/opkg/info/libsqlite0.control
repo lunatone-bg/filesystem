@@ -1,0 +1,12 @@
+Package: libsqlite0
+Version: 2.8.17-r4.3
+Description: An Embeddable SQL Database Engine
+Section: libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: PD
+Architecture: armv7a
+OE: sqlite
+Homepage: http://www.sqlite.org/
+Depends: libgcc1 (>= 4.3.3), libc6 (>= 2.9)
+Source: http://www.hwaci.com/sw/sqlite/sqlite-2.8.17.tar.gz file://mainmk_build_dynamic.patch;patch=1 file://mainmk_no_tcl.patch;patch=1 file://sqlite.pc

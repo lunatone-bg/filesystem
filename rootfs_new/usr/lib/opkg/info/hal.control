@@ -1,0 +1,14 @@
+Package: hal
+Version: 0.5.14-r11.2+gitr0763f4900a32ac01d4b259fe010ab8ebfc83ad0f.6
+Description: Hardware Abstraction Layer
+Section: unknown
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL LGPL AFL
+Architecture: armv7a
+OE: hal
+Homepage: http://freedesktop.org/Software/hal
+Build: org.openembedded.dev/00abeb9
+Depends: hal-info, udev-utils, libdbus-glib-1-2, libgobject-2.0-0, libglib-2.0-0, libdbus-1-3, libc6, libexpat1, libusb-0.1-4, libblkid1, libgcc1
+Recommends: eject
+Source: git://anongit.freedesktop.org/hal/;protocol=git file://0001-Add-touchscreen-option.patch file://20hal file://99_hal

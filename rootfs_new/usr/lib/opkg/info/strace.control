@@ -1,0 +1,13 @@
+Package: strace
+Version: 4.5.20-r1.6
+Description: strace is a system call tracing tool.
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD
+Architecture: armv7a
+OE: strace
+Homepage: unknown
+Build: org.openembedded.dev/c4d237d
+Depends: libc6
+Source: http://downloads.sourceforge.net/strace/strace-4.5.20.tar.bz2 file://mips-nolargefile.patch

@@ -1,0 +1,14 @@
+Package: libsqlite3-0
+Source: sqlite3
+Version: 3.6.22-1
+Architecture: armel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.hu>
+Installed-Size: 428
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0)
+Section: libs
+Priority: standard
+Description: SQLite 3 shared library
+ SQLite is a C library that implements an SQL database engine.
+ Programs that link with the SQLite library can have SQL database
+ access without running a separate RDBMS process.

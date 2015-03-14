@@ -1,0 +1,69 @@
+#!/bin/sh
+
+# Binaries (to support multiple paths)
+IFCONFIG="/sbin/ifconfig"
+
+# Your interface settings
+CAN_IF="can0"
+CAN_IF1="can1"
+#CAN_RESTART_MS="5000"
+#CAN_BITRATE=""
+#CAN_BITRATE=""
+# "On or "Off". On will echo
+#CAN_LOOPBACK="off" 
+#... please add your options
+
+#depmod $(uname -r)/socketcan
+#modprobe mcp251x
+
+setup_can_int()
+{
+        $IFCONFIG $1 up
+}
+
+#if [ "$CAN_probed" = "mcp251x spi2.0: probed" ]; then 
+if  [ -e /sys/class/net/can0 ] || [ -e /sys/class/net/can1 ] ;  then 
+
+modprobe can
+modprobe can-dev
+modprobe can-raw
+#modprobe mcp251x
+if [ -e /sys/class/net/can0 ]; then
+echo 0 > /sys/class/net/can0/can_echo
+echo  500000 > /sys/class/net/can0/can_bittiming/bitrate
+setup_can_int $CAN_IF
+fi
+if [ -e /sys/class/net/can1 ]; then
+echo 0 > /sys/class/net/can1/can_echo
+echo  500000 > /sys/class/net/can1/can_bittiming/bitrate
+setup_can_int $CAN_IF1
+fi
+
+
+#cansend can0 000#
+
+#
+# Set of commands to prepare can interface
+#
+#prepare_can_int()
+#{
+#ip link set $CAN_IF type can bitrate $CAN_BITRATE restart-ms $CAN_RESTART_MS loopback $CAN_LOOPBACK
+#}
+
+#
+# Set of commands to configure the can interface (There is no validation in
+# there... too lazy)
+#
+# $1 can interface
+#
+
+
+
+#echo "Preparing for can setup..."
+#prepare_can_int
+
+#echo "Setting up can interface..."
+
+
+fi
+exit 0

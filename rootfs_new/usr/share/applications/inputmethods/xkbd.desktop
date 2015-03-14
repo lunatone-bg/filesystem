@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ol' Good Keyboard
+Comment=xkbd the Virtual Keyboard
+Exec=xkbd
+Type=Application
+Icon=xkbd.png
+Categories=Panel;Utility;MB
+X-MB-INPUT-MECHANSIM=True

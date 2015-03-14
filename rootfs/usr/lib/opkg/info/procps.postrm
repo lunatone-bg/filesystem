@@ -1,0 +1,18 @@
+	update-alternatives --remove top top.procps
+	update-alternatives --remove ps ps.procps
+	update-alternatives --remove uptime uptime.procps
+	update-alternatives --remove kill kill.procps
+	update-alternatives --remove free free.procps
+	update-alternatives --remove sysctl sysctl.procps
+	update-alternatives --remove pkill pkill.procps
+	update-alternatives --remove pgrep pgrep.procps
+if test "x$D" != "x"; then
+	OPT="-r $D"
+else
+	OPT=""
+fi
+if test "$1" = "remove" -o "$1" = "purge"; then
+	if ! test -e "/etc/init.d/procps.sh"; then
+		update-rc.d $OPT procps.sh remove
+	fi
+fi

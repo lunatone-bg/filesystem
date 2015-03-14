@@ -1,0 +1,9 @@
+/usr/share/lintian/overrides/libnspr4-0d
+/usr/lib/libnspr4.so
+/usr/lib/libnspr4.so.0d
+/usr/share/doc/libnspr4-0d/changelog.Debian.gz
+/usr/lib/libplc4.so
+/usr/share/doc/libnspr4-0d/copyright
+/usr/lib/libplc4.so.0d
+/usr/lib/libplds4.so.0d
+/usr/lib/libplds4.so

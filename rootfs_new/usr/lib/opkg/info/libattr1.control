@@ -1,0 +1,12 @@
+Package: libattr1
+Version: 2.4.44-r4.6
+Description: Commands for Manipulating Filesystem Extended Attributes
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv2
+Architecture: armv7a
+OE: attr
+Homepage: unknown
+Depends: libc6
+Source: http://mirror.its.uidaho.edu/pub/savannah/attr/attr-2.4.44.src.tar.gz

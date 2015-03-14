@@ -1,0 +1,12 @@
+Package: gpe-dm
+Version: 0.52-r0.6
+Description: GPE Display Manager
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-dm
+Homepage: unknown
+Depends: xserver-common, update-rc.d, libglib-2.0-0, libc6
+Source: http://gpe.linuxtogo.org/download/source/gpe-dm-0.52.tar.bz2

@@ -1,0 +1,7 @@
+	update-alternatives --install /usr/bin/bunzip2 bunzip2 bunzip2.bzip2 100
+	update-alternatives --install /usr/bin/bzcat bzcat bzcat.bzip2 100
+if [ x"$D" = "x" ]; then
+	if [ -e /etc/ld.so.conf ] ; then
+		[ -x /sbin/ldconfig ] && /sbin/ldconfig
+	fi
+fi

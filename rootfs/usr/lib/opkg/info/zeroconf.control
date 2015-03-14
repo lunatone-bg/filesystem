@@ -1,0 +1,12 @@
+Package: zeroconf
+Version: 0.9-r2.4
+Description: IPv4 link-local address allocator
+Section: net
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: zeroconf
+Homepage: http://www.progsoc.org/~wildfire/zeroconf/
+Depends: libc6 (>= 2.9)
+Source: http://www.progsoc.org/~wildfire/zeroconf/download/zeroconf-0.9.tar.gz file://zeroconf-default file://zeroconf-ldflags.patch;patch=1 file://zeroconf-limits.h.patch;patch=1 file://debian-zeroconf

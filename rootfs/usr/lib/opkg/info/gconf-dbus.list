@@ -1,0 +1,10 @@
+/usr/lib/libgconf-2.so.4
+/etc/gconf/2/path
+/usr/lib/GConf-dbus/2/libgconfbackend-xml.so
+/usr/lib/GConf-dbus/2/libgconfbackend-oldxml.so
+/etc/X11/Xsession.d/69gconfd-dbus
+/usr/bin/gconf-merge-tree
+/usr/lib/libgconf-2.so.4.1.0
+/usr/libexec/gconfd-2
+/usr/bin/gconftool-2
+/usr/share/dbus-1/services/gconf.service

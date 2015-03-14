@@ -1,0 +1,5 @@
+/usr/share/lintian/overrides/libpython2.6
+/usr/lib/python2.6/config/libpython2.6.so
+/usr/lib/libpython2.6.so.1
+/usr/share/doc/libpython2.6
+/usr/lib/libpython2.6.so.1.0

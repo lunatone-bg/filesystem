@@ -1,0 +1,12 @@
+Package: xinput
+Version: 1.5.3-r5.0.9
+Description: a utility to configure and test XInput devices
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xinput
+Homepage: http://www.x.org/
+Depends: libx11-6, libxext6, libxi6, libc6
+Source: http://xorg.freedesktop.org/releases/individual/app/xinput-1.5.3.tar.bz2;name=archive

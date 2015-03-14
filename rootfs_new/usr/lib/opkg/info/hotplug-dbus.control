@@ -1,0 +1,12 @@
+Package: hotplug-dbus
+Version: 0.9-r2.6
+Description: D-BUS glue for hotplug system
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: hotplug-dbus
+Homepage: unknown
+Depends: hotplug
+Source: http://gpe.linuxtogo.org/download/source/hotplug-dbus-0.9.tar.gz

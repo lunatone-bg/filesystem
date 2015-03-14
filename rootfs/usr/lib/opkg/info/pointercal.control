@@ -1,0 +1,11 @@
+Package: pointercal
+Version: 0.0-r18.4
+Description: Touchscreen calibration data
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: beagleboard
+OE: pointercal
+Homepage: unknown
+Source: file://pointercal

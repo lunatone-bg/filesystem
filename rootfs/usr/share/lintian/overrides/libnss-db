@@ -1,0 +1,2 @@
+non-dev-pkg-with-shlib-symlink usr/lib/libnss_db-2.2.3.so usr/lib/libnss_db.so
+no-shlibs-control-file usr/lib/libnss_db-2.2.3.so

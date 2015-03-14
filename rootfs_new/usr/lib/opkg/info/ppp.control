@@ -1,0 +1,12 @@
+Package: ppp
+Version: 2.4.3-r9.6
+Description: Point-to-Point Protocol (PPP) daemon
+Section: console/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: BSD GPLv2
+Architecture: armv7a
+OE: ppp
+Homepage: http://samba.org/ppp/
+Depends: libc6
+Source: http://ppp.samba.org/ftp/ppp/ppp-2.4.3.tar.gz file://ppp-2.4.3-mppe-mppc-1.1.patch file://makefile.patch file://cifdefroute.patch file://pppd-resolv-varrun.patch file://plugins-fix-CC.patch file://pppoatm-makefile.patch file://enable-ipv6.patch file://makefile-remove-hard-usr-reference.patch file://ldflags.patch file://pon file://poff file://init file://ip-up file://ip-down file://08setupdns file://92removedns

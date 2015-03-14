@@ -1,0 +1,12 @@
+Package: libxtst6
+Version: 1:1.0.3-r1.3
+Description: X Test Extension: client side library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libxtst
+Homepage: http://www.x.org
+Depends: libxext6 (>= 1.0.5), libx11-6 (>= 1.2), libxdmcp6 (>= 1.0.2), libc6 (>= 2.9), libxau6 (>= 1.0.4)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXtst-1.0.3.tar.bz2

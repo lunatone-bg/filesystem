@@ -1,0 +1,13 @@
+Package: task-boot
+Version: 1.0-r53.6
+Description: Basic task to get a device booting
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: omap3evm
+OE: task-boot
+Homepage: unknown
+Depends: base-files, base-passwd, busybox, modutils-initscripts, netbase, opkg
+Recommends: kernel
+Source: file:///OE/org.openembedded.dev/recipes/tasks/task-boot.bb

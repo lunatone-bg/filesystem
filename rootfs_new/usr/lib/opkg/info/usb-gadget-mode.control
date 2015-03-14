@@ -1,0 +1,11 @@
+Package: usb-gadget-mode
+Version: 0.0.2-r8.6
+Description: Manage the default USB gadget mode
+Section: console/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: omap3evm
+OE: usb-gadget-mode
+Homepage: unknown
+Source: file://usb-gadget.conf file://usb-gadget file://usb-gadget.init

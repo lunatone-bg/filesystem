@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Link
+Name=Temperature
+Name[cs]=Teplota
+Name[eo]=Temperaturo
+Name[hu]=Hőmérséklet
+Name[fr]=Température
+Name[tr]=Sıcaklık
+Name[pt]=Temperatura
+Icon=e-module-temperature
+Comment=Temperature monitor.
+Comment[cs]=Měřič teploty.
+Comment[eo]=Elrigardi temperaturon.
+Comment[hu]=Egy hőmérséklet monitorozó modul.
+Comment[it]=Monitor per le temperature.
+Comment[fr]=Moniteur de température.
+Comment[tr]=Sıcaklık izleyici.
+Comment[pt]=Monitorizador de temperatura
+X-Enlightenment-ModuleType=system

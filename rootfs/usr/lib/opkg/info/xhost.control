@@ -1,0 +1,12 @@
+Package: xhost
+Version: 1:1.0.2-r0.3
+Description: Server access control program for X
+Section: x11/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: xhost
+Homepage: http://www.x.org/
+Depends: libxmuu1 (>= 1.0.4), libx11-6 (>= 1.2), libxau6 (>= 1.0.4), libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/app/xhost-1.0.2.tar.bz2

@@ -1,0 +1,13 @@
+Package: xserver-xorg-conf
+Version: 0.1-r42.6
+Description: Machine specific xorg.conf files
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: omap3evm
+OE: xserver-xorg-conf
+Homepage: unknown
+Build: 2011.03-maintenance/faa51c0
+Depends: xf86-video-omapfb
+Source: file://xorg.conf

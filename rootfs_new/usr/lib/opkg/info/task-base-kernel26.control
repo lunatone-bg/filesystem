@@ -1,0 +1,14 @@
+Package: task-base-kernel26
+Version: 1.0-r93.6
+Description: Merge machine and distro options to create a basic machine task/package
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: omap3evm
+OE: task-base
+Homepage: unknown
+Build: 2011.03-maintenance/bdb967b
+Depends: sysfsutils, module-init-tools
+Recommends: kernel-module-nls-utf8, kernel-module-input, kernel-module-uinput, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-rtc-sa1100, kernel-module-unix
+Source: file:///OE/angstrom-2008/sources/openembedded/recipes/tasks/task-base.bb

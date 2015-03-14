@@ -1,0 +1,12 @@
+Package: portmap
+Version: 6.0-r4.5
+Description: RPC program number mapper.
+Section: console/network
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: portmap
+Homepage: unknown
+Depends: update-rc.d, libc6 (>= 2.9)
+Source: http://www.sourcefiles.org/Networking/Tools/Miscellanenous/portmap-6.0.tgz file://destdir-no-strip.patch;patch=1 file://no-tcpd-support.patch;patch=1 file://no-libwrap.patch;patch=1;pnum=0 file://portmap.init

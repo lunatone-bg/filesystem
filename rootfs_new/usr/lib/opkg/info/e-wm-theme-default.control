@@ -1,0 +1,12 @@
+Package: e-wm-theme-default
+Version: 0.16.999.060+svnr56372-r18.6
+Description: The Enlightenment Window Manager Version 17
+Section: e/apps
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: all
+OE: e-wm
+Homepage: http://www.enlightenment.org
+Build: org.openembedded.dev/1888f71
+Source: svn://svn.enlightenment.org/svn/e/trunk;module=e;proto=http file://enlightenment_start.oe file://applications.menu

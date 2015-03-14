@@ -1,0 +1,11 @@
+Package: hal-info
+Version: 20090414-r0.6
+Description: Hardware Abstraction Layer device information
+Section: unknown
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL AFL
+Architecture: all
+OE: hal-info
+Homepage: http://hal.freedesktop.org/
+Source: http://hal.freedesktop.org/releases/hal-info-20090414.tar.gz

@@ -1,0 +1,14 @@
+Package: gpe-conf
+Version: 0.2.8-r0.3
+Description: Configuration applets for GPE
+Section: gpe
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-conf
+Homepage: unknown
+Depends: xst, gpe-confd, xset, ntpdate, gpe-icons, tzdata, xrandr, libgpewidget1 (>= 0.117), gtk+ (>= 2.16.0), libatk-1.0-0 (>= 1.20.0), libgio-2.0-0 (>= 2.20.0), pango (>= 1.24.2), libcairo2 (>= 1.8.0), libfreetype6 (>= 2.3.6), libfontconfig1 (>= 2.6.0), libgobject-2.0-0 (>= 2.20.0), libgmodule-2.0-0 (>= 2.20.0), libglib-2.0-0 (>= 2.20.0), libxrandr2 (>= 1.2.3), libxsettings-client0 (>= 0.17), libx11-6 (>= 1.2), libesd0 (>= 0.2.36), libaudiofile0 (>= 0.2.6), libc6 (>= 2.9), libgcc1 (>= 4.3.3)
+Provides: bl
+Conflicts: bl
+Source: http://gpe.linuxtogo.org/download/source/gpe-conf-0.2.8.tar.bz2

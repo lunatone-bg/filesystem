@@ -1,0 +1,12 @@
+/usr/share/pixmaps/gpe-logout.png
+/etc/gpe/xsettings.default
+/usr/share/applications/gpe-logout.desktop
+/etc/X11/Xsession.d/98standard-apps
+/usr/bin/gpe-auto-bluetooth
+/etc/gpe/xsettings-default.d/disable-composite
+/etc/matchbox/session
+/usr/share/pixmaps/gpe-logout-menu.png
+/etc/gpe/gpe.mbdock
+/etc/X11/Xsession.d/99xWindowManager
+/usr/bin/gpe-logout.sh.matchbox
+/etc/gpe/xsettings-default.d/toolbar

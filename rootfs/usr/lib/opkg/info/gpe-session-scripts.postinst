@@ -1,0 +1,1 @@
+	update-alternatives --install /usr/bin/gpe-logout.sh gpe-logout.sh /usr/bin/gpe-logout.sh.matchbox 10

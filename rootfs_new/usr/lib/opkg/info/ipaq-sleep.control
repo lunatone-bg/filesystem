@@ -1,0 +1,12 @@
+Package: ipaq-sleep
+Version: 0.9-r8.6
+Description: Automatic sleep/suspend control daemon
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: ipaq-sleep
+Homepage: unknown
+Depends: apm, libx11-6, libxext6, libapm1, libxss1, libc6
+Source: http://gpe.linuxtogo.org/download/source/ipaq-sleep-0.9.tar.gz file://init-script-busybox.patch file://install-fix.patch file://unbreak.patch

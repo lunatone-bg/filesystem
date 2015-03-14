@@ -1,0 +1,18 @@
+Package: libpython2.6
+Source: python2.6
+Version: 2.6.5-1ubuntu6
+Architecture: armel
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2008
+Depends: python2.6 (= 2.6.5-1ubuntu6), libc6 (>= 2.4), libssl0.9.8 (>= 0.9.8k-1), zlib1g (>= 1:1.2.0)
+Replaces: python2.6 (<< 2.6)
+Section: libs
+Priority: optional
+Description: Shared Python runtime library (version 2.6)
+ Version 2.6 of the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+Original-Maintainer: Matthias Klose <doko@debian.org>

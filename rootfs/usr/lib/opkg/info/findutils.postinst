@@ -1,0 +1,1 @@
+for i in find xargs; do update-alternatives --install /usr/bin/$i $i $i.findutils 100; done

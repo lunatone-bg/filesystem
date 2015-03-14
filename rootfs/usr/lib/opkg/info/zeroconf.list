@@ -1,0 +1,3 @@
+/etc/network/if-up.d/zeroconf
+/usr/sbin/zeroconf
+/etc/default/zeroconf

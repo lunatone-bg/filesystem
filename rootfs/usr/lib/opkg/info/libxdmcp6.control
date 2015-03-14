@@ -1,0 +1,12 @@
+Package: libxdmcp6
+Version: 1:1.0.2-r1.3
+Description: X Display Manager Control Protocol library
+Section: x11/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: libxdmcp
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.9)
+Source: http://xorg.freedesktop.org/releases/individual/lib/libXdmcp-1.0.2.tar.bz2

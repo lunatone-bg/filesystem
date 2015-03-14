@@ -1,0 +1,9 @@
+/lib/modules/2.6.32/socketcan/can-raw.ko: /lib/modules/2.6.32/socketcan/can.ko
+/lib/modules/2.6.32/socketcan/can-bcm.ko: /lib/modules/2.6.32/socketcan/can.ko
+/lib/modules/2.6.32/socketcan/mcp251x.ko: /lib/modules/2.6.32/socketcan/can-dev.ko
+/lib/modules/2.6.32/socketcan/can-isotp.ko: /lib/modules/2.6.32/socketcan/can.ko
+/lib/modules/2.6.32/socketcan/can.ko:
+/lib/modules/2.6.32/socketcan/can-gw.ko: /lib/modules/2.6.32/socketcan/can.ko
+/lib/modules/2.6.32/socketcan/vcan.ko:
+/lib/modules/2.6.32/socketcan/can-dev.ko:
+/lib/modules/2.6.32/socketcan/slcan.ko:

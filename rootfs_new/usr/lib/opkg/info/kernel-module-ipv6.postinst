@@ -1,0 +1,11 @@
+#!/bin/sh
+if [ -n "$D" ]; then
+	arm-angstrom-linux-gnueabi-depmod-2.6 -A -b $D -F /OE/angstrom-2008/build/tmp-angstrom_2008_1/sysroots/omap3evm-angstrom-linux-gnueabi/kernel/System.map-2.6.32 2.6.32
+else
+	depmod -a 2.6.32
+	update-modules || true
+fi
+
+if [ x"$D" = "x" ]; then
+	modprobe ipv6 || true
+fi

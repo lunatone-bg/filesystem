@@ -1,0 +1,13 @@
+Package: dbus-x11
+Version: 1.2.24-r20.1.6
+Description: A message bus system for inter-process communication
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv2+ AFLv2.1
+Architecture: armv7a
+OE: dbus
+Homepage: http://dbus.freedesktop.org
+Build: org.openembedded.dev/00abeb9
+Depends: dbus, libsm6, libuuid1, libice6, libx11-6, libxcb1, libpthread-stubs0, libxau6, libxdmcp6, libc6
+Source: http://dbus.freedesktop.org/releases/dbus/dbus-1.2.24.tar.gz;name=dbus file://tmpdir.patch file://fix-install-daemon.patch file://0001-Make-the-default-DBus-reply-timeout-configurable.patch file://dbus-1.init file://reuseaddr01.patch file://reuseaddr02.patch

@@ -1,0 +1,12 @@
+Package: gpe-theme-clearlooks
+Version: 0.3-r1.6
+Description: GTK+ clearlooks theme adjusted for GPE
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: gpe-theme-clearlooks
+Homepage: unknown
+Depends: gtk-engine-clearlooks
+Source: http://dominion.thruhere.net/koen/pda/files/gpe-theme-clearlooks-0.3.tar.gz

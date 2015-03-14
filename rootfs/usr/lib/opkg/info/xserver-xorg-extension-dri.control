@@ -1,0 +1,12 @@
+Package: xserver-xorg-extension-dri
+Version: 2:1.7.4-r18.2.6
+Description: the X.Org X server
+Section: x11/base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: armv7a
+OE: xserver-xorg
+Homepage: http://www.x.org
+Depends: libdrm2, libc6
+Source: http://xorg.freedesktop.org/releases/individual/xserver/xorg-server-1.7.4.tar.bz2;name=archive file://sysroot_fix.patch file://dolt-fix.patch file://randr-support.patch file://hack-fbdev-ignore-return-mode.patch file://hack-assume-pixman-supports-overlapped-blt.patch

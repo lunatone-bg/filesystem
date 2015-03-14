@@ -1,0 +1,13 @@
+Package: xkeyboard-config
+Version: 2.0+gitr0+547ae8589afb208d7b44ffe1e0ff7aba466c2ee3-r6.0.6
+Description: Common X11 Keyboard layouts
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a
+OE: xkeyboard-config
+Homepage: unknown
+Build: org.openembedded.dev/78be426
+Depends: xkbcomp
+Source: git://anongit.freedesktop.org/xkeyboard-config;protocol=git;branch=master

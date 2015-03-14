@@ -1,0 +1,14 @@
+Package: edje
+Version: 2:1.0.0-r0.0.6
+Description: Edje is the Enlightenment graphical design & layout library
+Section: e/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: armv7a
+OE: edje
+Homepage: http://www.enlightenment.org
+Build: org.openembedded.dev/1888f71
+Depends: ecore-file, ecore-con, libcurl4, embryo, ecore-imf-evas, ecore-imf, ecore, libglib-2.0-0, evas, libfribidi0, libeet1, libgnutls26, libgcrypt11, libgpg-error0, libjpeg8, libfontconfig1, libfreetype6, libz1, libexpat1, libc6, eina
+Replaces: libedje-ver-pre-svn-00-0, libedje-ver-pre-svn-01-0
+Source: http://download.enlightenment.org/releases/edje-1.0.0.tar.gz

@@ -1,0 +1,77 @@
+#!/bin/sh
+
+#MACHINE=`awk 'BEGIN { FS=": " } /Hardware/ { print $2 } ' </proc/cpuinfo`
+export DISPLAY=:0.0
+# since kdrive 1.4 there is no default keymap in server
+xmodmap - </etc/X11/default.xmodmap
+keyboard_layout=$(fw_printenv keyboard)
+echo "testing keyboard..."
+
+if [ "$keyboard_layout" = "keyboard=us" ]; then
+		if [ -f /etc/X11/default.xmodmap ]; then
+		echo "us keyboard /n"
+		xmodmap - </etc/X11/default.xmodmap
+		fi
+	fi
+if [ "$keyboard_layout" = "keyboard=de" ]; then
+		if [ -f /etc/X11/xmodmap.de ]; then
+		echo "de keyboard /n"
+		xmodmap - </etc/X11/xmodmap.de
+		fi
+	fi	
+if [ "$keyboard_layout" = "keyboard=bg" ]; then
+		if [ -f /etc/X11/xmodmap.bg ]; then
+		echo "bg keyboard /n"
+		xmodmap - </etc/X11/xmodmap.bg
+		fi
+	fi
+if [ "$keyboard_layout" = "keyboard=ru" ]; then
+		if [ -f /etc/X11/xmodmap.ru ]; then
+		echo "ru keyboard /n"
+		xmodmap - </etc/X11/xmodmap.ru
+		fi
+	fi	
+if [ "$keyboard_layout" = "keyboard=fr" ]; then
+		if [ -f /etc/X11/xmodmap.fr ]; then
+		echo "fr keyboard /n"
+		xmodmap - </etc/X11/xmodmap.fr
+		fi
+	fi
+if [ "$keyboard_layout" = "keyboard=be" ]; then
+		if [ -f /etc/X11/xmodmap.be ]; then
+		echo "be keyboard /n"
+		xmodmap - </etc/X11/xmodmap.be
+		fi
+	fi	
+if [ "$keyboard_layout" = "keyboard=cz" ]; then
+		if [ -f /etc/X11/xmodmap.cz ]; then
+		echo "cz keyboard /n"
+		xmodmap - </etc/X11/xmodmap.cz
+		fi
+	fi	
+		
+#case $MACHINE in
+#	"SHARP Shepherd" | "SHARP Husky" | "SHARP Corgi")
+#		xmodmap - < /etc/X11/shepherd.xmodmap
+#		;;
+#	"SHARP Akita" | "SHARP Borzoi" | "SHARP Spitz")
+#		xmodmap - < /etc/X11/slcXXXX.xmodmap
+#		;;				
+#	"SHARP Poodle")
+#		xmodmap - < /etc/X11/poodle.xmodmap
+#		;;
+#       "Sharp-Collie")
+#                xmodmap - < /etc/X11/collie.xmodmap
+#                ;;
+#	"HP iPAQ h6300")
+#		xmodmap - < /etc/X11/h6300.xmodmap
+#		;;
+#	"TI-OSK")
+#		xmodmap - < /etc/X11/omap5912osk.xmodmap
+#		;;
+#	# All the rest of keyboardless PDA machines use common buttonmap
+#	"Simpad" | "HP iPAQ"* | "Asus MyPal"*)
+#		xmodmap - < /etc/X11/keyboardless.xmodmap
+#		;;
+#esac
+

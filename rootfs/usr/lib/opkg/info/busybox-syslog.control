@@ -1,0 +1,13 @@
+Package: busybox-syslog
+Version: 1.13.2-r22.1.3
+Description: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+Section: base
+Priority: required
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: busybox
+Homepage: http://www.busybox.net
+Depends: busybox
+Recommends: libgcc1
+Source: http://www.busybox.net/downloads/busybox-1.13.2.tar.gz file://busybox-1.13.2-awk.patch;patch=1 file://busybox-1.13.2-depmod.patch;patch=1 file://busybox-1.13.2-init.patch;patch=1 file://busybox-1.13.2-killall.patch;patch=1 file://busybox-1.13.2-mdev.patch;patch=1 file://busybox-1.13.2-modprobe.patch;patch=1 file://busybox-1.13.2-printf.patch;patch=1 file://busybox-1.13.2-syslogd.patch;patch=1 file://busybox-1.13.2-tar.patch;patch=1 file://busybox-1.13.2-top24.patch;patch=1 file://busybox-1.13.2-unzip.patch;patch=1 file://busybox-1.13.2-wget.patch;patch=1 file://udhcpscript.patch;patch=1 file://udhcpc-fix-nfsroot.patch;patch=1 file://B921600.patch;patch=1 file://get_header_tar.patch;patch=1 file://busybox-appletlib-dependency.patch;patch=1 file://find-touchscreen.sh file://busybox-cron file://busybox-httpd file://busybox-udhcpd file://default.script file://simple.script file://hwclock.sh file://mount.busybox file://mountall file://syslog file://syslog.conf file://umount.busybox file://defconfig file://mdev file://mdev.conf

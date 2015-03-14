@@ -1,0 +1,35 @@
+#!/bin/sh
+
+if [ -z "`which chkhinge 2>/dev/null`" ]; then
+   # not a clamshell zaurus or we have kernel 2.6
+   # no rotation status check available
+   CHCK=true
+else
+   CHCK=chkhinge
+fi
+
+module_id() {
+    # Get model name
+    echo `grep "^Hardware" /proc/cpuinfo | sed -e "s/.*: *//"`
+}
+
+$CHCK -e
+if [ $? = 12 ]; then
+   case `module_id` in
+   	*Spitz | *Akita | *Borzoi)
+   		DIRECTION="normal" ;;
+        *)
+                DIRECTION="right" ;;
+   esac
+else
+   case `module_id` in
+   	*Spitz | *Akita | *Borzoi)
+		# Xfbdev needs to settle
+		sleep 2
+   		DIRECTION="right" ;;
+        *)
+                DIRECTION="normal" ;;
+   esac
+fi
+
+xrandr -o $DIRECTION

@@ -1,0 +1,12 @@
+Package: psplash-support
+Version: 0.0+svnr422-r34.6
+Description: Userspace framebuffer boot logo based on usplash.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv2+
+Architecture: armv7a
+OE: psplash-angstrom
+Homepage: http://projects.o-hand.com/psplash
+Depends: libc6
+Source: svn://svn.o-hand.com/repos/misc/trunk;module=psplash;proto=http file://psplash-18bpp.patch file://logo-math.patch file://psplash-poky-img.h file://psplash-bar-img.h file://psplash-default file://splashfuncs file://psplash-init

@@ -1,0 +1,1 @@
+console=ttyS2,115200n8 omapfb.vrfb=y vram=5M omapfb.rotate=2 noinitrd root=/dev/nfs rw nfsroot=192.168.10.21://var/lib/tftpboot/rootfs/test/test2/f7/chromium-arm/rootfs ip=192.168.10.182:192.168.10.21:192.168.10.1:255.255.255.0::eth0:off ethaddr=f8:dc:7a:00:04:70

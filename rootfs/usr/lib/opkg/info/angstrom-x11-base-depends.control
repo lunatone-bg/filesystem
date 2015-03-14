@@ -1,0 +1,12 @@
+Package: angstrom-x11-base-depends
+Version: 1.0-r43.3
+Description: Task packages for the Angstrom distribution
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: unknown
+Architecture: beagleboard
+OE: angstrom-x11-base-depends
+Homepage: unknown
+Depends: xserver-xorg, xf86-input-evdev, xf86-input-mouse, xf86-video-omapfb, xf86-input-keyboard, dbus-x11, ttf-dejavu-sans, ttf-dejavu-sans-mono
+Source: file:///OE/org.openembedded.dev/recipes/angstrom/angstrom-x11-base-depends.bb

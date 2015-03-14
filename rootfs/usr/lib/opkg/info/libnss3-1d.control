@@ -1,0 +1,18 @@
+Package: libnss3-1d
+Source: nss
+Version: 3.12.6-0ubuntu2
+Architecture: armel
+Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
+Installed-Size: 2088
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.4.0), libnspr4-0d (>= 4.7.3-0ubuntu1~), libsqlite3-0 (>= 3.6.22), zlib1g (>= 1:1.1.4)
+Conflicts: libnss3, libnss3-dev (<< 3.12.0.3)
+Replaces: libnss3, libnss3-0d (<< 3.12.0~1.9b1), libnss3-dev (<< 3.12.0.3)
+Section: libs
+Priority: optional
+Homepage: http://www.mozilla.org/projects/security/pki/nss/
+Description: Network Security Service libraries
+ This is a set of libraries designed to support cross-platform development
+ of security-enabled client and server applications. It can support SSLv2
+ and  v4, TLS, PKCS #5, #7, #11, #12, S/MIME, X.509 v3 certificates and
+ other security standards.
+Original-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>

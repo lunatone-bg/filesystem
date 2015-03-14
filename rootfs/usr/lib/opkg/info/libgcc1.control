@@ -1,0 +1,15 @@
+Package: libgcc1
+Source: gcc-4.4 (4.4.3-1ubuntu1)
+Version: 1:4.4.3-1ubuntu1
+Architecture: armel
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 76
+Depends: gcc-4.4-base (= 4.4.3-1ubuntu1), libc6 (>= 2.4)
+Section: libs
+Priority: required
+Homepage: http://gcc.gnu.org/
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>

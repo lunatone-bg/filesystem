@@ -1,0 +1,12 @@
+Package: strace
+Version: 4.5.14-r9.5
+Description: strace is a system call tracing tool.
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPL
+Architecture: armv7a
+OE: strace
+Homepage: unknown
+Depends: libc6 (>= 2.9)
+Source: http://downloads.sourceforge.net/strace/strace-4.5.14.tar.bz2 file://glibc-2.5.patch;patch=1 file://arm-eabi.patch;patch=1 file://sh-arch-update.patch;patch=1 file://sh-syscall-update.patch;patch=1 file://strace-fix-arm-bad-syscall.patch;patch=1 file://strace-undef-syscall.patch;patch=1 file://strace-arm-no-cachectl.patch;patch=1 file://strace-dont-include-linux-dirent-h.patch;patch=1 file://mips-sigcontext.patch;patch=1

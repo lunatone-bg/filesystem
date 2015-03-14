@@ -1,0 +1,13 @@
+Package: libefreet-trash1
+Version: 2:1.0.0-r0.1.6
+Description: The Enlightenment freedesktop.org library
+Section: e/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: armv7a
+OE: efreet
+Homepage: http://www.enlightenment.org
+Build: <unknown>/8c6a371
+Depends: libefreet1 (>= 1.0.0), libeet1 (>= 1.4.0), libjpeg8 (>= 8b), ecore-file (>= 1.0.0), ecore-con (>= 1.0.0), ecore (>= 1.0.0), libglib-2.0-0 (>= 2.24.1), libcurl4 (>= 7.21.2), libgnutls26 (>= 2.10.4), libz1 (>= 1.2.3), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), eina (>= 1.0.0), libc6 (>= 2.9)
+Source: http://download.enlightenment.org/releases/efreet-1.0.0.tar.gz file://changeset_trunk_r57435.patch

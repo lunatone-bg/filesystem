@@ -1,0 +1,14 @@
+Package: evas-engine-fb
+Version: 2:1.0.0-r1.0.6
+Description: Evas module fb
+Section: e/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: armv7a
+OE: evas
+Homepage: http://www.enlightenment.org
+Build: org.openembedded.dev/1fca8dc
+Depends: evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Replaces: liblibevas-ver-pre-svn-00-engine-fb, libevas-ver-pre-svn-00-engine-fb
+Source: http://download.enlightenment.org/releases/evas-1.0.0.tar.gz

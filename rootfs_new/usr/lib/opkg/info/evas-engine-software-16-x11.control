@@ -1,0 +1,13 @@
+Package: evas-engine-software-16-x11
+Version: 2:1.0.0-r1.0.6
+Description: Evas module software-16-x11
+Section: e/libs
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT BSD
+Architecture: armv7a
+OE: evas
+Homepage: http://www.enlightenment.org
+Build: org.openembedded.dev/1fca8dc
+Depends: libxrender1 (>= 0.9.6), libxext6 (>= 1.2.0), libx11-6 (>= 1.4.1), libxcb1 (>= 1.6), libpthread-stubs0 (>= 0.2), libxau6 (>= 1.0.6), libxdmcp6 (>= 1.1.0), evas (>= 1.0.0), libfribidi0 (>= 0.19.2), libeet1 (>= 1.4.0), libgnutls26 (>= 2.10.4), libgcrypt11 (>= 1.4.1), libgpg-error0 (>= 1.4), libjpeg8 (>= 8b), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.4.3), libz1 (>= 1.2.3), libexpat1 (>= 2.0.1), libc6 (>= 2.9), eina (>= 1.0.0)
+Source: http://download.enlightenment.org/releases/evas-1.0.0.tar.gz

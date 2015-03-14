@@ -1,0 +1,11 @@
+Package: xorg-minimal-fonts
+Version: 1.0-r1.3
+Description: Version 1.0-r1 of package xorg-minimal-fonts
+Section: x11/fonts
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT-X
+Architecture: all
+OE: xorg-minimal-fonts
+Homepage: http://www.x.org
+Source: file://misc
